@@ -1,0 +1,103 @@
+{
+  "pilot": {
+    "rows": 49,
+    "unique_pairs": 48,
+    "reference_counts": {
+      "different": 29,
+      "unclear": 11,
+      "same": 4,
+      "revised": 4
+    },
+    "metrics": [
+      {
+        "method": "always_different",
+        "scored": 37,
+        "abstentions": 0,
+        "macro_f1": 0.29292929292929293,
+        "correct": 29,
+        "f1_same": 0.0,
+        "f1_revised": 0.0,
+        "f1_different": 0.8787878787878788
+      },
+      {
+        "method": "rule",
+        "scored": 37,
+        "abstentions": 15,
+        "macro_f1": 0.5496031746031745,
+        "correct": 22,
+        "f1_same": 0.8571428571428571,
+        "f1_revised": 0.0,
+        "f1_different": 0.7916666666666666
+      },
+      {
+        "method": "cross_encoder",
+        "scored": 37,
+        "abstentions": 3,
+        "macro_f1": 0.5707602339181287,
+        "correct": 30,
+        "f1_same": 0.8,
+        "f1_revised": 0.0,
+        "f1_different": 0.9122807017543859
+      }
+    ],
+    "reference_revisions": 4,
+    "correct_revision_labels": 0,
+    "both_spans_overlap": 0,
+    "mean_evidence_f1": 0.0
+  },
+  "test": {
+    "rows": 39,
+    "unique_pairs": 38,
+    "reference_counts": {
+      "different": 25,
+      "same": 7,
+      "revised": 3,
+      "unclear": 3
+    },
+    "metrics": [
+      {
+        "method": "always_different",
+        "scored": 35,
+        "abstentions": 0,
+        "macro_f1": 0.2777777777777778,
+        "correct": 25,
+        "f1_same": 0.0,
+        "f1_revised": 0.0,
+        "f1_different": 0.8333333333333334
+      },
+      {
+        "method": "rule",
+        "scored": 35,
+        "abstentions": 13,
+        "macro_f1": 0.4727272727272727,
+        "correct": 21,
+        "f1_same": 0.6,
+        "f1_revised": 0.0,
+        "f1_different": 0.8181818181818182
+      },
+      {
+        "method": "cross_encoder",
+        "scored": 35,
+        "abstentions": 0,
+        "macro_f1": 0.7255765199161426,
+        "correct": 31,
+        "f1_same": 0.8333333333333334,
+        "f1_revised": 0.4,
+        "f1_different": 0.9433962264150944
+      }
+    ],
+    "reference_revisions": 3,
+    "correct_revision_labels": 1,
+    "both_spans_overlap": 1,
+    "mean_evidence_f1": 0.07037037037037037
+  },
+  "retrieval": {
+    "queries": 11,
+    "known_match": 7,
+    "passed_detector": 5,
+    "bm25_hits": 3,
+    "dense_hits": 4,
+    "fusion_hits": 4,
+    "selected_correct": 2
+  }
+}

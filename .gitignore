@@ -1,0 +1,14 @@
+.venv/
+.venv314/
+.cache/
+__pycache__/
+*.py[cod]
+data/raw/
+data/processed/
+*.joblib
+*.npz
+*.safetensors
+*.bin
+.DS_Store
+.ipynb_checkpoints/
+.ruff_cache/

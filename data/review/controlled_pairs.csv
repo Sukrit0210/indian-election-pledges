@@ -1,0 +1,17 @@
+pair_id,category,reference,earlier_text,later_text
+control-01,number_format,same,We will pay ₹2500 a month to eligible apprentices.,"We will pay ₹2,500 a month to eligible apprentices."
+control-02,number_format,same,We shall offer a 15 percent rebate on solar pumps.,We will offer a 15% rebate on solar pumps.
+control-03,paraphrase,same,We will waive the licence fee for street vendors.,The licence fee for street vendors will be waived.
+control-04,legal_citation,same,We will enforce the Street Vendors Act.,We will enforce the Street Vendors Act of 2014.
+control-05,beneficiaries,revised,We will offer free bus travel to secondary school students.,We will offer free bus travel to secondary school and vocational students.
+control-06,eligibility,revised,We will reserve the grant for households earning under ₹2 lakh per year.,We will reserve the grant for households earning under ₹3 lakh per year.
+control-07,instrument,revised,We will fund a voluntary register of water quality tests.,We will require a statutory register of water quality tests.
+control-08,deadline,revised,We will complete the drainage upgrades within two years.,We will complete the drainage upgrades within four years.
+control-09,scope,revised,We will install one public cooling centre in every district capital.,We will install one public cooling centre in every municipality.
+control-10,amount,revised,We will fund community libraries with ₹8 lakh per district.,We will fund community libraries with ₹12 lakh per district.
+control-11,unrelated_budget,different,We will spend ₹10 crore on drinking water systems.,We will spend ₹15 crore on district hospitals.
+control-12,unrelated_benefit,different,We will pay a maintenance allowance to apprentices.,We will offer free legal advice to apprentices.
+control-13,attribution,different,We will extend the rural electricity subsidy.,The previous government promised to extend the rural electricity subsidy.
+control-14,achievement,different,We will open five new village health centres.,We opened five village health centres during our last term.
+control-15,distinct_programmes,different,We will train teachers to use science laboratories.,We will equip schools with science laboratories.
+control-16,paraphrase,same,We will publish the procurement register once a year.,An annual procurement register will be made public.

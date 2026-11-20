@@ -1,0 +1,1681 @@
+﻿party,target_year,forecast_origin,model,topic,forecast_share,observed_share
+BJP,2024,2019,persistence,101 - Foreign Special Relationships: Positive,0.0035778175313059034,0.0030864197530864196
+BJP,2024,2019,persistence,102 - Foreign Special Relationships: Negative,0.0,0.0
+BJP,2024,2019,persistence,103 - Anti-Imperialism,0.0,0.0
+BJP,2024,2019,persistence,104 - Military: Positive,0.025044722719141325,0.023148148148148147
+BJP,2024,2019,persistence,105 - Military: Negative,0.0,0.0
+BJP,2024,2019,persistence,106 - Peace,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,persistence,107 - Internationalism: Positive,0.03935599284436494,0.023148148148148147
+BJP,2024,2019,persistence,108 - European Community/Union: Positive,0.0,0.0
+BJP,2024,2019,persistence,109 - Internationalism: Negative,0.0,0.0
+BJP,2024,2019,persistence,110 - European Community/Union: Negative,0.0,0.0
+BJP,2024,2019,persistence,201 - Freedom and Human Rights,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,persistence,202 - Democracy,0.016100178890876567,0.013888888888888888
+BJP,2024,2019,persistence,203 - Constitutionalism: Positive,0.0017889087656529517,0.0015432098765432098
+BJP,2024,2019,persistence,204 - Constitutionalism: Negative,0.0,0.0
+BJP,2024,2019,persistence,301 - Federalism,0.017889087656529516,0.010802469135802469
+BJP,2024,2019,persistence,302 - Centralisation,0.0,0.0
+BJP,2024,2019,persistence,303 - Governmental and Administrative Efficiency,0.04293381037567084,0.043209876543209874
+BJP,2024,2019,persistence,304 - Political Corruption,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,persistence,305 - Political Authority,0.016100178890876567,0.018518518518518517
+BJP,2024,2019,persistence,401 - Free Market Economy,0.005366726296958855,0.004629629629629629
+BJP,2024,2019,persistence,402 - Incentives,0.05008944543828265,0.040123456790123455
+BJP,2024,2019,persistence,403 - Market Regulation,0.01967799642218247,0.007716049382716049
+BJP,2024,2019,persistence,404 - Economic Planning,0.0,0.0
+BJP,2024,2019,persistence,405 - Corporatism/ Mixed Economy,0.0,0.0
+BJP,2024,2019,persistence,406 - Protectionism: Positive,0.0017889087656529517,0.0030864197530864196
+BJP,2024,2019,persistence,407 - Protectionism: Negative,0.0017889087656529517,0.004629629629629629
+BJP,2024,2019,persistence,408 - Economic Goals,0.0,0.0
+BJP,2024,2019,persistence,409 - Keynesian Demand Management,0.0,0.0
+BJP,2024,2019,persistence,410 - Economic Growth: Positive,0.03220035778175313,0.038580246913580245
+BJP,2024,2019,persistence,411 - Technology and Infrastructure,0.1520572450805009,0.19753086419753085
+BJP,2024,2019,persistence,412 - Controlled Economy,0.0,0.0015432098765432098
+BJP,2024,2019,persistence,413 - Nationalisation,0.0,0.0
+BJP,2024,2019,persistence,414 - Economic Orthodoxy,0.0035778175313059034,0.0
+BJP,2024,2019,persistence,415 - Marxist Analysis: Positive,0.0,0.0
+BJP,2024,2019,persistence,416 - Anti-Growth Economy: Positive,0.01073345259391771,0.038580246913580245
+BJP,2024,2019,persistence,501 - Environmental Protection: Positive,0.05008944543828265,0.05864197530864197
+BJP,2024,2019,persistence,502 - Culture: Positive,0.03398926654740608,0.041666666666666664
+BJP,2024,2019,persistence,503 - Equality: Positive,0.059033989266547404,0.037037037037037035
+BJP,2024,2019,persistence,504 - Welfare State Expansion,0.08407871198568873,0.10648148148148148
+BJP,2024,2019,persistence,505 - Welfare State Limitation,0.0,0.0
+BJP,2024,2019,persistence,506 - Education Expansion,0.08050089445438283,0.046296296296296294
+BJP,2024,2019,persistence,507 - Education Limitation,0.0,0.0
+BJP,2024,2019,persistence,601 - National Way of Life: Positive,0.014311270125223614,0.027777777777777776
+BJP,2024,2019,persistence,602 - National Way of Life: Negative,0.0,0.0015432098765432098
+BJP,2024,2019,persistence,603 - Traditional Morality: Positive,0.005366726296958855,0.0
+BJP,2024,2019,persistence,604 - Traditional Morality: Negative,0.0,0.0
+BJP,2024,2019,persistence,605 - Law and Order: Positive,0.03935599284436494,0.030864197530864196
+BJP,2024,2019,persistence,606 - Civic Mindedness: Positive,0.005366726296958855,0.006172839506172839
+BJP,2024,2019,persistence,607 - Multiculturalism: Positive,0.03220035778175313,0.029320987654320986
+BJP,2024,2019,persistence,608 - Multiculturalism: Negative,0.0017889087656529517,0.0
+BJP,2024,2019,persistence,701 - Labour Groups: Positive,0.01073345259391771,0.015432098765432098
+BJP,2024,2019,persistence,702 - Labour Groups: Negative,0.0,0.0
+BJP,2024,2019,persistence,703 - Agriculture and Farmers: Positive,0.1001788908765653,0.09104938271604938
+BJP,2024,2019,persistence,704 - Middle Class and Professional Groups,0.007155635062611807,0.004629629629629629
+BJP,2024,2019,persistence,705 - Underprivileged Minority Groups,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,persistence,706 - Non-economic Demographic Groups,0.02146690518783542,0.023148148148148147
+BJP,2024,2019,half_trend,101 - Foreign Special Relationships: Positive,0.004684534565894499,0.0030864197530864196
+BJP,2024,2019,half_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+BJP,2024,2019,half_trend,103 - Anti-Imperialism,0.0,0.0
+BJP,2024,2019,half_trend,104 - Military: Positive,0.025177528763291955,0.023148148148148147
+BJP,2024,2019,half_trend,105 - Military: Negative,0.0,0.0
+BJP,2024,2019,half_trend,106 - Peace,0.0053190523323919615,0.0015432098765432098
+BJP,2024,2019,half_trend,107 - Internationalism: Positive,0.04708825585935726,0.023148148148148147
+BJP,2024,2019,half_trend,108 - European Community/Union: Positive,0.0,0.0
+BJP,2024,2019,half_trend,109 - Internationalism: Negative,0.0,0.0
+BJP,2024,2019,half_trend,110 - European Community/Union: Negative,0.0,0.0
+BJP,2024,2019,half_trend,201 - Freedom and Human Rights,0.0015119457334071902,0.0015432098765432098
+BJP,2024,2019,half_trend,202 - Democracy,0.01187989793231205,0.013888888888888888
+BJP,2024,2019,half_trend,203 - Constitutionalism: Positive,0.001390490633201057,0.0015432098765432098
+BJP,2024,2019,half_trend,204 - Constitutionalism: Negative,0.0,0.0
+BJP,2024,2019,half_trend,301 - Federalism,0.012001353032518182,0.010802469135802469
+BJP,2024,2019,half_trend,302 - Centralisation,0.0,0.0
+BJP,2024,2019,half_trend,303 - Governmental and Administrative Efficiency,0.015605277734896424,0.043209876543209874
+BJP,2024,2019,half_trend,304 - Political Corruption,0.0034154990328995757,0.0015432098765432098
+BJP,2024,2019,half_trend,305 - Political Authority,0.009976344632819666,0.018518518518518517
+BJP,2024,2019,half_trend,401 - Free Market Economy,0.0060750251990955555,0.004629629629629629
+BJP,2024,2019,half_trend,402 - Incentives,0.060507341790543304,0.040123456790123455
+BJP,2024,2019,half_trend,403 - Market Regulation,0.020371539097191322,0.007716049382716049
+BJP,2024,2019,half_trend,404 - Economic Planning,0.0,0.0
+BJP,2024,2019,half_trend,405 - Corporatism/ Mixed Economy,0.0,0.0
+BJP,2024,2019,half_trend,406 - Protectionism: Positive,0.001390490633201057,0.0030864197530864196
+BJP,2024,2019,half_trend,407 - Protectionism: Negative,0.0007559728667035951,0.004629629629629629
+BJP,2024,2019,half_trend,408 - Economic Goals,0.0,0.0
+BJP,2024,2019,half_trend,409 - Keynesian Demand Management,0.0,0.0
+BJP,2024,2019,half_trend,410 - Economic Growth: Positive,0.028835937996603802,0.038580246913580245
+BJP,2024,2019,half_trend,411 - Technology and Infrastructure,0.1467450033144756,0.19753086419753085
+BJP,2024,2019,half_trend,412 - Controlled Economy,0.0,0.0015432098765432098
+BJP,2024,2019,half_trend,413 - Nationalisation,0.0,0.0
+BJP,2024,2019,half_trend,414 - Economic Orthodoxy,0.002146463499904652,0.0
+BJP,2024,2019,half_trend,415 - Marxist Analysis: Positive,0.0,0.0
+BJP,2024,2019,half_trend,416 - Anti-Growth Economy: Positive,0.009611979332201264,0.038580246913580245
+BJP,2024,2019,half_trend,501 - Environmental Protection: Positive,0.052258610826076295,0.05864197530864197
+BJP,2024,2019,half_trend,502 - Culture: Positive,0.041013230660261704,0.041666666666666664
+BJP,2024,2019,half_trend,503 - Equality: Positive,0.06619075942355365,0.037037037037037035
+BJP,2024,2019,half_trend,504 - Welfare State Expansion,0.08883021712085575,0.10648148148148148
+BJP,2024,2019,half_trend,505 - Welfare State Limitation,0.0,0.0
+BJP,2024,2019,half_trend,506 - Education Expansion,0.0885873069204435,0.046296296296296294
+BJP,2024,2019,half_trend,507 - Education Limitation,0.0,0.0
+BJP,2024,2019,half_trend,601 - National Way of Life: Positive,0.004778747400633836,0.027777777777777776
+BJP,2024,2019,half_trend,602 - National Way of Life: Negative,0.0,0.0015432098765432098
+BJP,2024,2019,half_trend,603 - Traditional Morality: Positive,0.004805989666100632,0.0
+BJP,2024,2019,half_trend,604 - Traditional Morality: Negative,0.0,0.0
+BJP,2024,2019,half_trend,605 - Law and Order: Positive,0.03249434722991564,0.030864197530864196
+BJP,2024,2019,half_trend,606 - Civic Mindedness: Positive,0.0029024363666082464,0.006172839506172839
+BJP,2024,2019,half_trend,607 - Multiculturalism: Positive,0.036450151194573344,0.029320987654320986
+BJP,2024,2019,half_trend,608 - Multiculturalism: Negative,0.0026595261661959808,0.0
+BJP,2024,2019,half_trend,701 - Labour Groups: Positive,0.010246497098698725,0.015432098765432098
+BJP,2024,2019,half_trend,702 - Labour Groups: Negative,0.0,0.0
+BJP,2024,2019,half_trend,703 - Agriculture and Farmers: Positive,0.12164920134758406,0.09104938271604938
+BJP,2024,2019,half_trend,704 - Middle Class and Professional Groups,0.010003586898286461,0.004629629629629629
+BJP,2024,2019,half_trend,705 - Underprivileged Minority Groups,0.0015119457334071902,0.0015432098765432098
+BJP,2024,2019,half_trend,706 - Non-economic Demographic Groups,0.02112751196389491,0.023148148148148147
+BJP,2024,2019,tuned_trend,101 - Foreign Special Relationships: Positive,0.0035778175313059034,0.0030864197530864196
+BJP,2024,2019,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,103 - Anti-Imperialism,0.0,0.0
+BJP,2024,2019,tuned_trend,104 - Military: Positive,0.025044722719141325,0.023148148148148147
+BJP,2024,2019,tuned_trend,105 - Military: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,106 - Peace,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,tuned_trend,107 - Internationalism: Positive,0.03935599284436494,0.023148148148148147
+BJP,2024,2019,tuned_trend,108 - European Community/Union: Positive,0.0,0.0
+BJP,2024,2019,tuned_trend,109 - Internationalism: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,110 - European Community/Union: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,201 - Freedom and Human Rights,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,tuned_trend,202 - Democracy,0.016100178890876567,0.013888888888888888
+BJP,2024,2019,tuned_trend,203 - Constitutionalism: Positive,0.0017889087656529517,0.0015432098765432098
+BJP,2024,2019,tuned_trend,204 - Constitutionalism: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,301 - Federalism,0.017889087656529516,0.010802469135802469
+BJP,2024,2019,tuned_trend,302 - Centralisation,0.0,0.0
+BJP,2024,2019,tuned_trend,303 - Governmental and Administrative Efficiency,0.04293381037567084,0.043209876543209874
+BJP,2024,2019,tuned_trend,304 - Political Corruption,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,tuned_trend,305 - Political Authority,0.016100178890876567,0.018518518518518517
+BJP,2024,2019,tuned_trend,401 - Free Market Economy,0.005366726296958855,0.004629629629629629
+BJP,2024,2019,tuned_trend,402 - Incentives,0.05008944543828265,0.040123456790123455
+BJP,2024,2019,tuned_trend,403 - Market Regulation,0.01967799642218247,0.007716049382716049
+BJP,2024,2019,tuned_trend,404 - Economic Planning,0.0,0.0
+BJP,2024,2019,tuned_trend,405 - Corporatism/ Mixed Economy,0.0,0.0
+BJP,2024,2019,tuned_trend,406 - Protectionism: Positive,0.0017889087656529517,0.0030864197530864196
+BJP,2024,2019,tuned_trend,407 - Protectionism: Negative,0.0017889087656529517,0.004629629629629629
+BJP,2024,2019,tuned_trend,408 - Economic Goals,0.0,0.0
+BJP,2024,2019,tuned_trend,409 - Keynesian Demand Management,0.0,0.0
+BJP,2024,2019,tuned_trend,410 - Economic Growth: Positive,0.03220035778175313,0.038580246913580245
+BJP,2024,2019,tuned_trend,411 - Technology and Infrastructure,0.1520572450805009,0.19753086419753085
+BJP,2024,2019,tuned_trend,412 - Controlled Economy,0.0,0.0015432098765432098
+BJP,2024,2019,tuned_trend,413 - Nationalisation,0.0,0.0
+BJP,2024,2019,tuned_trend,414 - Economic Orthodoxy,0.0035778175313059034,0.0
+BJP,2024,2019,tuned_trend,415 - Marxist Analysis: Positive,0.0,0.0
+BJP,2024,2019,tuned_trend,416 - Anti-Growth Economy: Positive,0.01073345259391771,0.038580246913580245
+BJP,2024,2019,tuned_trend,501 - Environmental Protection: Positive,0.05008944543828265,0.05864197530864197
+BJP,2024,2019,tuned_trend,502 - Culture: Positive,0.03398926654740608,0.041666666666666664
+BJP,2024,2019,tuned_trend,503 - Equality: Positive,0.059033989266547404,0.037037037037037035
+BJP,2024,2019,tuned_trend,504 - Welfare State Expansion,0.08407871198568873,0.10648148148148148
+BJP,2024,2019,tuned_trend,505 - Welfare State Limitation,0.0,0.0
+BJP,2024,2019,tuned_trend,506 - Education Expansion,0.08050089445438283,0.046296296296296294
+BJP,2024,2019,tuned_trend,507 - Education Limitation,0.0,0.0
+BJP,2024,2019,tuned_trend,601 - National Way of Life: Positive,0.014311270125223614,0.027777777777777776
+BJP,2024,2019,tuned_trend,602 - National Way of Life: Negative,0.0,0.0015432098765432098
+BJP,2024,2019,tuned_trend,603 - Traditional Morality: Positive,0.005366726296958855,0.0
+BJP,2024,2019,tuned_trend,604 - Traditional Morality: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,605 - Law and Order: Positive,0.03935599284436494,0.030864197530864196
+BJP,2024,2019,tuned_trend,606 - Civic Mindedness: Positive,0.005366726296958855,0.006172839506172839
+BJP,2024,2019,tuned_trend,607 - Multiculturalism: Positive,0.03220035778175313,0.029320987654320986
+BJP,2024,2019,tuned_trend,608 - Multiculturalism: Negative,0.0017889087656529517,0.0
+BJP,2024,2019,tuned_trend,701 - Labour Groups: Positive,0.01073345259391771,0.015432098765432098
+BJP,2024,2019,tuned_trend,702 - Labour Groups: Negative,0.0,0.0
+BJP,2024,2019,tuned_trend,703 - Agriculture and Farmers: Positive,0.1001788908765653,0.09104938271604938
+BJP,2024,2019,tuned_trend,704 - Middle Class and Professional Groups,0.007155635062611807,0.004629629629629629
+BJP,2024,2019,tuned_trend,705 - Underprivileged Minority Groups,0.0035778175313059034,0.0015432098765432098
+BJP,2024,2019,tuned_trend,706 - Non-economic Demographic Groups,0.02146690518783542,0.023148148148148147
+BJP,2029,2024,persistence,101 - Foreign Special Relationships: Positive,0.0030864197530864196,
+BJP,2029,2024,persistence,102 - Foreign Special Relationships: Negative,0.0,
+BJP,2029,2024,persistence,103 - Anti-Imperialism,0.0,
+BJP,2029,2024,persistence,104 - Military: Positive,0.023148148148148147,
+BJP,2029,2024,persistence,105 - Military: Negative,0.0,
+BJP,2029,2024,persistence,106 - Peace,0.0015432098765432098,
+BJP,2029,2024,persistence,107 - Internationalism: Positive,0.023148148148148147,
+BJP,2029,2024,persistence,108 - European Community/Union: Positive,0.0,
+BJP,2029,2024,persistence,109 - Internationalism: Negative,0.0,
+BJP,2029,2024,persistence,110 - European Community/Union: Negative,0.0,
+BJP,2029,2024,persistence,201 - Freedom and Human Rights,0.0015432098765432098,
+BJP,2029,2024,persistence,202 - Democracy,0.013888888888888888,
+BJP,2029,2024,persistence,203 - Constitutionalism: Positive,0.0015432098765432098,
+BJP,2029,2024,persistence,204 - Constitutionalism: Negative,0.0,
+BJP,2029,2024,persistence,301 - Federalism,0.010802469135802469,
+BJP,2029,2024,persistence,302 - Centralisation,0.0,
+BJP,2029,2024,persistence,303 - Governmental and Administrative Efficiency,0.043209876543209874,
+BJP,2029,2024,persistence,304 - Political Corruption,0.0015432098765432098,
+BJP,2029,2024,persistence,305 - Political Authority,0.018518518518518517,
+BJP,2029,2024,persistence,401 - Free Market Economy,0.004629629629629629,
+BJP,2029,2024,persistence,402 - Incentives,0.040123456790123455,
+BJP,2029,2024,persistence,403 - Market Regulation,0.007716049382716049,
+BJP,2029,2024,persistence,404 - Economic Planning,0.0,
+BJP,2029,2024,persistence,405 - Corporatism/ Mixed Economy,0.0,
+BJP,2029,2024,persistence,406 - Protectionism: Positive,0.0030864197530864196,
+BJP,2029,2024,persistence,407 - Protectionism: Negative,0.004629629629629629,
+BJP,2029,2024,persistence,408 - Economic Goals,0.0,
+BJP,2029,2024,persistence,409 - Keynesian Demand Management,0.0,
+BJP,2029,2024,persistence,410 - Economic Growth: Positive,0.038580246913580245,
+BJP,2029,2024,persistence,411 - Technology and Infrastructure,0.19753086419753085,
+BJP,2029,2024,persistence,412 - Controlled Economy,0.0015432098765432098,
+BJP,2029,2024,persistence,413 - Nationalisation,0.0,
+BJP,2029,2024,persistence,414 - Economic Orthodoxy,0.0,
+BJP,2029,2024,persistence,415 - Marxist Analysis: Positive,0.0,
+BJP,2029,2024,persistence,416 - Anti-Growth Economy: Positive,0.038580246913580245,
+BJP,2029,2024,persistence,501 - Environmental Protection: Positive,0.05864197530864197,
+BJP,2029,2024,persistence,502 - Culture: Positive,0.041666666666666664,
+BJP,2029,2024,persistence,503 - Equality: Positive,0.037037037037037035,
+BJP,2029,2024,persistence,504 - Welfare State Expansion,0.10648148148148148,
+BJP,2029,2024,persistence,505 - Welfare State Limitation,0.0,
+BJP,2029,2024,persistence,506 - Education Expansion,0.046296296296296294,
+BJP,2029,2024,persistence,507 - Education Limitation,0.0,
+BJP,2029,2024,persistence,601 - National Way of Life: Positive,0.027777777777777776,
+BJP,2029,2024,persistence,602 - National Way of Life: Negative,0.0015432098765432098,
+BJP,2029,2024,persistence,603 - Traditional Morality: Positive,0.0,
+BJP,2029,2024,persistence,604 - Traditional Morality: Negative,0.0,
+BJP,2029,2024,persistence,605 - Law and Order: Positive,0.030864197530864196,
+BJP,2029,2024,persistence,606 - Civic Mindedness: Positive,0.006172839506172839,
+BJP,2029,2024,persistence,607 - Multiculturalism: Positive,0.029320987654320986,
+BJP,2029,2024,persistence,608 - Multiculturalism: Negative,0.0,
+BJP,2029,2024,persistence,701 - Labour Groups: Positive,0.015432098765432098,
+BJP,2029,2024,persistence,702 - Labour Groups: Negative,0.0,
+BJP,2029,2024,persistence,703 - Agriculture and Farmers: Positive,0.09104938271604938,
+BJP,2029,2024,persistence,704 - Middle Class and Professional Groups,0.004629629629629629,
+BJP,2029,2024,persistence,705 - Underprivileged Minority Groups,0.0015432098765432098,
+BJP,2029,2024,persistence,706 - Non-economic Demographic Groups,0.023148148148148147,
+BJP,2029,2024,half_trend,101 - Foreign Special Relationships: Positive,0.002825556873599578,
+BJP,2029,2024,half_trend,102 - Foreign Special Relationships: Negative,0.0,
+BJP,2029,2024,half_trend,103 - Anti-Imperialism,0.0,
+BJP,2029,2024,half_trend,104 - Military: Positive,0.022081356267299325,
+BJP,2029,2024,half_trend,105 - Military: Negative,0.0,
+BJP,2029,2024,half_trend,106 - Peace,0.0005230987214972979,
+BJP,2029,2024,half_trend,107 - Internationalism: Positive,0.014963918544879398,
+BJP,2029,2024,half_trend,108 - European Community/Union: Positive,0.0,
+BJP,2029,2024,half_trend,109 - Internationalism: Negative,0.0,
+BJP,2029,2024,half_trend,110 - European Community/Union: Negative,0.0,
+BJP,2029,2024,half_trend,201 - Freedom and Human Rights,0.0005230987214972979,
+BJP,2029,2024,half_trend,202 - Democracy,0.012715005931198101,
+BJP,2029,2024,half_trend,203 - Constitutionalism: Positive,0.001412778436799789,
+BJP,2029,2024,half_trend,204 - Constitutionalism: Negative,0.0,
+BJP,2029,2024,half_trend,301 - Federalism,0.0072204099116910505,
+BJP,2029,2024,half_trend,302 - Centralisation,0.0,
+BJP,2029,2024,half_trend,303 - Governmental and Administrative Efficiency,0.04311651509160406,
+BJP,2029,2024,half_trend,304 - Political Corruption,0.0005230987214972979,
+BJP,2029,2024,half_trend,305 - Political Authority,0.019622380387504943,
+BJP,2029,2024,half_trend,401 - Free Market Economy,0.004238335310399367,
+BJP,2029,2024,half_trend,402 - Incentives,0.03495287992618953,
+BJP,2029,2024,half_trend,403 - Market Regulation,0.0017258138921839982,
+BJP,2029,2024,half_trend,404 - Economic Planning,0.0,
+BJP,2029,2024,half_trend,405 - Corporatism/ Mixed Economy,0.0,
+BJP,2029,2024,half_trend,406 - Protectionism: Positive,0.0037152365889020697,
+BJP,2029,2024,half_trend,407 - Protectionism: Negative,0.0060176947410043495,
+BJP,2029,2024,half_trend,408 - Economic Goals,0.0,
+BJP,2029,2024,half_trend,409 - Keynesian Demand Management,0.0,
+BJP,2029,2024,half_trend,410 - Economic Growth: Positive,0.04154721892711217,
+BJP,2029,2024,half_trend,411 - Technology and Infrastructure,0.21909186766838012,
+BJP,2029,2024,half_trend,412 - Controlled Economy,0.0023024581521022803,
+BJP,2029,2024,half_trend,413 - Nationalisation,0.0,
+BJP,2029,2024,half_trend,414 - Economic Orthodoxy,0.0,
+BJP,2029,2024,half_trend,415 - Marxist Analysis: Positive,0.0,
+BJP,2029,2024,half_trend,416 - Anti-Growth Economy: Positive,0.05222337551074206,
+BJP,2029,2024,half_trend,501 - Environmental Protection: Positive,0.0625823777514169,
+BJP,2029,2024,half_trend,502 - Culture: Positive,0.04526245551601424,
+BJP,2029,2024,half_trend,503 - Equality: Positive,0.025899565045472518,
+BJP,2029,2024,half_trend,504 - Welfare State Expansion,0.11705466587584026,
+BJP,2029,2024,half_trend,505 - Welfare State Limitation,0.0,
+BJP,2029,2024,half_trend,506 - Education Expansion,0.029038157374456305,
+BJP,2029,2024,half_trend,507 - Education Limitation,0.0,
+BJP,2029,2024,half_trend,601 - National Way of Life: Positive,0.034326809015421116,
+BJP,2029,2024,half_trend,602 - National Way of Life: Negative,0.0023024581521022803,
+BJP,2029,2024,half_trend,603 - Traditional Morality: Positive,0.0,
+BJP,2029,2024,half_trend,604 - Traditional Morality: Negative,0.0,
+BJP,2029,2024,half_trend,605 - Law and Order: Positive,0.0264762093053908,
+BJP,2029,2024,half_trend,606 - Civic Mindedness: Positive,0.006540793462501648,
+BJP,2029,2024,half_trend,607 - Multiculturalism: Positive,0.02773247001449848,
+BJP,2029,2024,half_trend,608 - Multiculturalism: Negative,0.0,
+BJP,2029,2024,half_trend,701 - Labour Groups: Positive,0.017686503229207857,
+BJP,2029,2024,half_trend,702 - Labour Groups: Negative,0.0,
+BJP,2029,2024,half_trend,703 - Agriculture and Farmers: Positive,0.08602296691709505,
+BJP,2029,2024,half_trend,704 - Middle Class and Professional Groups,0.003348655595096876,
+BJP,2029,2024,half_trend,705 - Underprivileged Minority Groups,0.0005230987214972979,
+BJP,2029,2024,half_trend,706 - Non-economic Demographic Groups,0.023860715697904312,
+BJP,2029,2024,tuned_trend,101 - Foreign Special Relationships: Positive,0.0030864197530864196,
+BJP,2029,2024,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,
+BJP,2029,2024,tuned_trend,103 - Anti-Imperialism,0.0,
+BJP,2029,2024,tuned_trend,104 - Military: Positive,0.023148148148148147,
+BJP,2029,2024,tuned_trend,105 - Military: Negative,0.0,
+BJP,2029,2024,tuned_trend,106 - Peace,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,107 - Internationalism: Positive,0.023148148148148147,
+BJP,2029,2024,tuned_trend,108 - European Community/Union: Positive,0.0,
+BJP,2029,2024,tuned_trend,109 - Internationalism: Negative,0.0,
+BJP,2029,2024,tuned_trend,110 - European Community/Union: Negative,0.0,
+BJP,2029,2024,tuned_trend,201 - Freedom and Human Rights,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,202 - Democracy,0.013888888888888888,
+BJP,2029,2024,tuned_trend,203 - Constitutionalism: Positive,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,204 - Constitutionalism: Negative,0.0,
+BJP,2029,2024,tuned_trend,301 - Federalism,0.010802469135802469,
+BJP,2029,2024,tuned_trend,302 - Centralisation,0.0,
+BJP,2029,2024,tuned_trend,303 - Governmental and Administrative Efficiency,0.043209876543209874,
+BJP,2029,2024,tuned_trend,304 - Political Corruption,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,305 - Political Authority,0.018518518518518517,
+BJP,2029,2024,tuned_trend,401 - Free Market Economy,0.004629629629629629,
+BJP,2029,2024,tuned_trend,402 - Incentives,0.040123456790123455,
+BJP,2029,2024,tuned_trend,403 - Market Regulation,0.007716049382716049,
+BJP,2029,2024,tuned_trend,404 - Economic Planning,0.0,
+BJP,2029,2024,tuned_trend,405 - Corporatism/ Mixed Economy,0.0,
+BJP,2029,2024,tuned_trend,406 - Protectionism: Positive,0.0030864197530864196,
+BJP,2029,2024,tuned_trend,407 - Protectionism: Negative,0.004629629629629629,
+BJP,2029,2024,tuned_trend,408 - Economic Goals,0.0,
+BJP,2029,2024,tuned_trend,409 - Keynesian Demand Management,0.0,
+BJP,2029,2024,tuned_trend,410 - Economic Growth: Positive,0.038580246913580245,
+BJP,2029,2024,tuned_trend,411 - Technology and Infrastructure,0.19753086419753085,
+BJP,2029,2024,tuned_trend,412 - Controlled Economy,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,413 - Nationalisation,0.0,
+BJP,2029,2024,tuned_trend,414 - Economic Orthodoxy,0.0,
+BJP,2029,2024,tuned_trend,415 - Marxist Analysis: Positive,0.0,
+BJP,2029,2024,tuned_trend,416 - Anti-Growth Economy: Positive,0.038580246913580245,
+BJP,2029,2024,tuned_trend,501 - Environmental Protection: Positive,0.05864197530864197,
+BJP,2029,2024,tuned_trend,502 - Culture: Positive,0.041666666666666664,
+BJP,2029,2024,tuned_trend,503 - Equality: Positive,0.037037037037037035,
+BJP,2029,2024,tuned_trend,504 - Welfare State Expansion,0.10648148148148148,
+BJP,2029,2024,tuned_trend,505 - Welfare State Limitation,0.0,
+BJP,2029,2024,tuned_trend,506 - Education Expansion,0.046296296296296294,
+BJP,2029,2024,tuned_trend,507 - Education Limitation,0.0,
+BJP,2029,2024,tuned_trend,601 - National Way of Life: Positive,0.027777777777777776,
+BJP,2029,2024,tuned_trend,602 - National Way of Life: Negative,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,603 - Traditional Morality: Positive,0.0,
+BJP,2029,2024,tuned_trend,604 - Traditional Morality: Negative,0.0,
+BJP,2029,2024,tuned_trend,605 - Law and Order: Positive,0.030864197530864196,
+BJP,2029,2024,tuned_trend,606 - Civic Mindedness: Positive,0.006172839506172839,
+BJP,2029,2024,tuned_trend,607 - Multiculturalism: Positive,0.029320987654320986,
+BJP,2029,2024,tuned_trend,608 - Multiculturalism: Negative,0.0,
+BJP,2029,2024,tuned_trend,701 - Labour Groups: Positive,0.015432098765432098,
+BJP,2029,2024,tuned_trend,702 - Labour Groups: Negative,0.0,
+BJP,2029,2024,tuned_trend,703 - Agriculture and Farmers: Positive,0.09104938271604938,
+BJP,2029,2024,tuned_trend,704 - Middle Class and Professional Groups,0.004629629629629629,
+BJP,2029,2024,tuned_trend,705 - Underprivileged Minority Groups,0.0015432098765432098,
+BJP,2029,2024,tuned_trend,706 - Non-economic Demographic Groups,0.023148148148148147,
+CPIM,2024,2019,persistence,101 - Foreign Special Relationships: Positive,0.003278688524590164,0.005917159763313609
+CPIM,2024,2019,persistence,102 - Foreign Special Relationships: Negative,0.0,0.0019723865877712033
+CPIM,2024,2019,persistence,103 - Anti-Imperialism,0.0,0.0
+CPIM,2024,2019,persistence,104 - Military: Positive,0.009836065573770493,0.005917159763313609
+CPIM,2024,2019,persistence,105 - Military: Negative,0.014754098360655738,0.009861932938856016
+CPIM,2024,2019,persistence,106 - Peace,0.001639344262295082,0.0019723865877712033
+CPIM,2024,2019,persistence,107 - Internationalism: Positive,0.009836065573770493,0.0019723865877712033
+CPIM,2024,2019,persistence,108 - European Community/Union: Positive,0.0,0.0
+CPIM,2024,2019,persistence,109 - Internationalism: Negative,0.001639344262295082,0.005917159763313609
+CPIM,2024,2019,persistence,110 - European Community/Union: Negative,0.001639344262295082,0.0
+CPIM,2024,2019,persistence,201 - Freedom and Human Rights,0.04590163934426229,0.045364891518737675
+CPIM,2024,2019,persistence,202 - Democracy,0.03934426229508197,0.05917159763313609
+CPIM,2024,2019,persistence,203 - Constitutionalism: Positive,0.009836065573770493,0.007889546351084813
+CPIM,2024,2019,persistence,204 - Constitutionalism: Negative,0.006557377049180328,0.009861932938856016
+CPIM,2024,2019,persistence,301 - Federalism,0.03934426229508197,0.04142011834319527
+CPIM,2024,2019,persistence,302 - Centralisation,0.0,0.0
+CPIM,2024,2019,persistence,303 - Governmental and Administrative Efficiency,0.040983606557377046,0.03155818540433925
+CPIM,2024,2019,persistence,304 - Political Corruption,0.021311475409836064,0.023668639053254437
+CPIM,2024,2019,persistence,305 - Political Authority,0.00819672131147541,0.021696252465483234
+CPIM,2024,2019,persistence,401 - Free Market Economy,0.004918032786885246,0.007889546351084813
+CPIM,2024,2019,persistence,402 - Incentives,0.014754098360655738,0.013806706114398421
+CPIM,2024,2019,persistence,403 - Market Regulation,0.060655737704918035,0.05325443786982249
+CPIM,2024,2019,persistence,404 - Economic Planning,0.0,0.0
+CPIM,2024,2019,persistence,405 - Corporatism/ Mixed Economy,0.001639344262295082,0.0039447731755424065
+CPIM,2024,2019,persistence,406 - Protectionism: Positive,0.021311475409836064,0.027613412228796843
+CPIM,2024,2019,persistence,407 - Protectionism: Negative,0.003278688524590164,0.0019723865877712033
+CPIM,2024,2019,persistence,408 - Economic Goals,0.0,0.0019723865877712033
+CPIM,2024,2019,persistence,409 - Keynesian Demand Management,0.001639344262295082,0.0019723865877712033
+CPIM,2024,2019,persistence,410 - Economic Growth: Positive,0.00819672131147541,0.007889546351084813
+CPIM,2024,2019,persistence,411 - Technology and Infrastructure,0.04590163934426229,0.04142011834319527
+CPIM,2024,2019,persistence,412 - Controlled Economy,0.014754098360655738,0.013806706114398421
+CPIM,2024,2019,persistence,413 - Nationalisation,0.04918032786885246,0.03747534516765286
+CPIM,2024,2019,persistence,414 - Economic Orthodoxy,0.004918032786885246,0.005917159763313609
+CPIM,2024,2019,persistence,415 - Marxist Analysis: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,persistence,416 - Anti-Growth Economy: Positive,0.004918032786885246,0.0
+CPIM,2024,2019,persistence,501 - Environmental Protection: Positive,0.03934426229508197,0.03155818540433925
+CPIM,2024,2019,persistence,502 - Culture: Positive,0.006557377049180328,0.007889546351084813
+CPIM,2024,2019,persistence,503 - Equality: Positive,0.07704918032786885,0.08678500986193294
+CPIM,2024,2019,persistence,504 - Welfare State Expansion,0.10163934426229508,0.08481262327416174
+CPIM,2024,2019,persistence,505 - Welfare State Limitation,0.003278688524590164,0.0
+CPIM,2024,2019,persistence,506 - Education Expansion,0.03934426229508197,0.055226824457593686
+CPIM,2024,2019,persistence,507 - Education Limitation,0.0,0.0
+CPIM,2024,2019,persistence,601 - National Way of Life: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,persistence,602 - National Way of Life: Negative,0.001639344262295082,0.0
+CPIM,2024,2019,persistence,603 - Traditional Morality: Positive,0.001639344262295082,0.005917159763313609
+CPIM,2024,2019,persistence,604 - Traditional Morality: Negative,0.011475409836065573,0.011834319526627219
+CPIM,2024,2019,persistence,605 - Law and Order: Positive,0.04918032786885246,0.03944773175542406
+CPIM,2024,2019,persistence,606 - Civic Mindedness: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,persistence,607 - Multiculturalism: Positive,0.03278688524590164,0.03353057199211045
+CPIM,2024,2019,persistence,608 - Multiculturalism: Negative,0.0,0.0
+CPIM,2024,2019,persistence,701 - Labour Groups: Positive,0.040983606557377046,0.04930966469428008
+CPIM,2024,2019,persistence,702 - Labour Groups: Negative,0.0,0.0
+CPIM,2024,2019,persistence,703 - Agriculture and Farmers: Positive,0.07049180327868852,0.08284023668639054
+CPIM,2024,2019,persistence,704 - Middle Class and Professional Groups,0.0,0.0
+CPIM,2024,2019,persistence,705 - Underprivileged Minority Groups,0.018032786885245903,0.0039447731755424065
+CPIM,2024,2019,persistence,706 - Non-economic Demographic Groups,0.01639344262295082,0.007889546351084813
+CPIM,2024,2019,half_trend,101 - Foreign Special Relationships: Positive,0.0009973075881406428,0.005917159763313609
+CPIM,2024,2019,half_trend,102 - Foreign Special Relationships: Negative,0.0,0.0019723865877712033
+CPIM,2024,2019,half_trend,103 - Anti-Imperialism,0.0,0.0
+CPIM,2024,2019,half_trend,104 - Military: Positive,0.011738278449553123,0.005917159763313609
+CPIM,2024,2019,half_trend,105 - Military: Negative,0.016149691726807823,0.009861932938856016
+CPIM,2024,2019,half_trend,106 - Peace,0.001470471092418232,0.0019723865877712033
+CPIM,2024,2019,half_trend,107 - Internationalism: Positive,0.010766461151205213,0.0019723865877712033
+CPIM,2024,2019,half_trend,108 - European Community/Union: Positive,0.0,0.0
+CPIM,2024,2019,half_trend,109 - Internationalism: Negative,0.0004986537940703214,0.005917159763313609
+CPIM,2024,2019,half_trend,110 - European Community/Union: Negative,0.001470471092418232,0.0
+CPIM,2024,2019,half_trend,201 - Freedom and Human Rights,0.05380681546623333,0.045364891518737675
+CPIM,2024,2019,half_trend,202 - Democracy,0.04306584460482085,0.05917159763313609
+CPIM,2024,2019,half_trend,203 - Constitutionalism: Positive,0.014653730344596855,0.007889546351084813
+CPIM,2024,2019,half_trend,204 - Constitutionalism: Negative,0.0029664324746291964,0.009861932938856016
+CPIM,2024,2019,half_trend,301 - Federalism,0.04209402730647294,0.04142011834319527
+CPIM,2024,2019,half_trend,302 - Centralisation,0.0,0.0
+CPIM,2024,2019,half_trend,303 - Governmental and Administrative Efficiency,0.03870541190715162,0.03155818540433925
+CPIM,2024,2019,half_trend,304 - Political Corruption,0.023975210693176565,0.023668639053254437
+CPIM,2024,2019,half_trend,305 - Political Authority,0.0015214516720036973,0.021696252465483234
+CPIM,2024,2019,half_trend,401 - Free Market Economy,0.0053832305756026065,0.007889546351084813
+CPIM,2024,2019,half_trend,402 - Incentives,0.015177874428459909,0.013806706114398421
+CPIM,2024,2019,half_trend,403 - Market Regulation,0.06218196880625787,0.05325443786982249
+CPIM,2024,2019,half_trend,404 - Economic Planning,0.0,0.0
+CPIM,2024,2019,half_trend,405 - Corporatism/ Mixed Economy,0.002442288390766142,0.0039447731755424065
+CPIM,2024,2019,half_trend,406 - Protectionism: Positive,0.015228855008045371,0.027613412228796843
+CPIM,2024,2019,half_trend,407 - Protectionism: Negative,0.003912759483184374,0.0019723865877712033
+CPIM,2024,2019,half_trend,408 - Economic Goals,0.0,0.0019723865877712033
+CPIM,2024,2019,half_trend,409 - Keynesian Demand Management,0.002442288390766142,0.0019723865877712033
+CPIM,2024,2019,half_trend,410 - Economic Growth: Positive,0.00735235546209116,0.007889546351084813
+CPIM,2024,2019,half_trend,411 - Technology and Infrastructure,0.043116825184406314,0.04142011834319527
+CPIM,2024,2019,half_trend,412 - Controlled Economy,0.014206057130111999,0.013806706114398421
+CPIM,2024,2019,half_trend,413 - Nationalisation,0.05674775765106979,0.03747534516765286
+CPIM,2024,2019,half_trend,414 - Economic Orthodoxy,0.001495961382210965,0.005917159763313609
+CPIM,2024,2019,half_trend,415 - Marxist Analysis: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,half_trend,416 - Anti-Growth Economy: Positive,0.004411413277254696,0.0
+CPIM,2024,2019,half_trend,501 - Environmental Protection: Positive,0.04015039270977712,0.03155818540433925
+CPIM,2024,2019,half_trend,502 - Culture: Positive,0.007825518966368747,0.007889546351084813
+CPIM,2024,2019,half_trend,503 - Equality: Positive,0.08466121811722348,0.08678500986193294
+CPIM,2024,2019,half_trend,504 - Welfare State Expansion,0.08922557313323455,0.08481262327416174
+CPIM,2024,2019,half_trend,505 - Welfare State Limitation,0.004884576781532284,0.0
+CPIM,2024,2019,half_trend,506 - Education Expansion,0.04306584460482085,0.055226824457593686
+CPIM,2024,2019,half_trend,507 - Education Limitation,0.0,0.0
+CPIM,2024,2019,half_trend,601 - National Way of Life: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,half_trend,602 - National Way of Life: Negative,0.002442288390766142,0.0
+CPIM,2024,2019,half_trend,603 - Traditional Morality: Positive,0.001470471092418232,0.005917159763313609
+CPIM,2024,2019,half_trend,604 - Traditional Morality: Negative,0.015152384138667176,0.011834319526627219
+CPIM,2024,2019,half_trend,605 - Law and Order: Positive,0.04217049817585113,0.03944773175542406
+CPIM,2024,2019,half_trend,606 - Civic Mindedness: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,half_trend,607 - Multiculturalism: Positive,0.03232487374340837,0.03353057199211045
+CPIM,2024,2019,half_trend,608 - Multiculturalism: Negative,0.0,0.0
+CPIM,2024,2019,half_trend,701 - Labour Groups: Positive,0.04064904650384744,0.04930966469428008
+CPIM,2024,2019,half_trend,702 - Labour Groups: Negative,0.0,0.0
+CPIM,2024,2019,half_trend,703 - Agriculture and Farmers: Positive,0.06225843967563605,0.08284023668639054
+CPIM,2024,2019,half_trend,704 - Middle Class and Professional Groups,0.0,0.0
+CPIM,2024,2019,half_trend,705 - Underprivileged Minority Groups,0.020062451209992196,0.0039447731755424065
+CPIM,2024,2019,half_trend,706 - Non-economic Demographic Groups,0.01567652822253023,0.007889546351084813
+CPIM,2024,2019,tuned_trend,101 - Foreign Special Relationships: Positive,0.003278688524590164,0.005917159763313609
+CPIM,2024,2019,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,103 - Anti-Imperialism,0.0,0.0
+CPIM,2024,2019,tuned_trend,104 - Military: Positive,0.009836065573770493,0.005917159763313609
+CPIM,2024,2019,tuned_trend,105 - Military: Negative,0.014754098360655738,0.009861932938856016
+CPIM,2024,2019,tuned_trend,106 - Peace,0.001639344262295082,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,107 - Internationalism: Positive,0.009836065573770493,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,108 - European Community/Union: Positive,0.0,0.0
+CPIM,2024,2019,tuned_trend,109 - Internationalism: Negative,0.001639344262295082,0.005917159763313609
+CPIM,2024,2019,tuned_trend,110 - European Community/Union: Negative,0.001639344262295082,0.0
+CPIM,2024,2019,tuned_trend,201 - Freedom and Human Rights,0.04590163934426229,0.045364891518737675
+CPIM,2024,2019,tuned_trend,202 - Democracy,0.03934426229508197,0.05917159763313609
+CPIM,2024,2019,tuned_trend,203 - Constitutionalism: Positive,0.009836065573770493,0.007889546351084813
+CPIM,2024,2019,tuned_trend,204 - Constitutionalism: Negative,0.006557377049180328,0.009861932938856016
+CPIM,2024,2019,tuned_trend,301 - Federalism,0.03934426229508197,0.04142011834319527
+CPIM,2024,2019,tuned_trend,302 - Centralisation,0.0,0.0
+CPIM,2024,2019,tuned_trend,303 - Governmental and Administrative Efficiency,0.040983606557377046,0.03155818540433925
+CPIM,2024,2019,tuned_trend,304 - Political Corruption,0.021311475409836064,0.023668639053254437
+CPIM,2024,2019,tuned_trend,305 - Political Authority,0.00819672131147541,0.021696252465483234
+CPIM,2024,2019,tuned_trend,401 - Free Market Economy,0.004918032786885246,0.007889546351084813
+CPIM,2024,2019,tuned_trend,402 - Incentives,0.014754098360655738,0.013806706114398421
+CPIM,2024,2019,tuned_trend,403 - Market Regulation,0.060655737704918035,0.05325443786982249
+CPIM,2024,2019,tuned_trend,404 - Economic Planning,0.0,0.0
+CPIM,2024,2019,tuned_trend,405 - Corporatism/ Mixed Economy,0.001639344262295082,0.0039447731755424065
+CPIM,2024,2019,tuned_trend,406 - Protectionism: Positive,0.021311475409836064,0.027613412228796843
+CPIM,2024,2019,tuned_trend,407 - Protectionism: Negative,0.003278688524590164,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,408 - Economic Goals,0.0,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,409 - Keynesian Demand Management,0.001639344262295082,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,410 - Economic Growth: Positive,0.00819672131147541,0.007889546351084813
+CPIM,2024,2019,tuned_trend,411 - Technology and Infrastructure,0.04590163934426229,0.04142011834319527
+CPIM,2024,2019,tuned_trend,412 - Controlled Economy,0.014754098360655738,0.013806706114398421
+CPIM,2024,2019,tuned_trend,413 - Nationalisation,0.04918032786885246,0.03747534516765286
+CPIM,2024,2019,tuned_trend,414 - Economic Orthodoxy,0.004918032786885246,0.005917159763313609
+CPIM,2024,2019,tuned_trend,415 - Marxist Analysis: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,416 - Anti-Growth Economy: Positive,0.004918032786885246,0.0
+CPIM,2024,2019,tuned_trend,501 - Environmental Protection: Positive,0.03934426229508197,0.03155818540433925
+CPIM,2024,2019,tuned_trend,502 - Culture: Positive,0.006557377049180328,0.007889546351084813
+CPIM,2024,2019,tuned_trend,503 - Equality: Positive,0.07704918032786885,0.08678500986193294
+CPIM,2024,2019,tuned_trend,504 - Welfare State Expansion,0.10163934426229508,0.08481262327416174
+CPIM,2024,2019,tuned_trend,505 - Welfare State Limitation,0.003278688524590164,0.0
+CPIM,2024,2019,tuned_trend,506 - Education Expansion,0.03934426229508197,0.055226824457593686
+CPIM,2024,2019,tuned_trend,507 - Education Limitation,0.0,0.0
+CPIM,2024,2019,tuned_trend,601 - National Way of Life: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,602 - National Way of Life: Negative,0.001639344262295082,0.0
+CPIM,2024,2019,tuned_trend,603 - Traditional Morality: Positive,0.001639344262295082,0.005917159763313609
+CPIM,2024,2019,tuned_trend,604 - Traditional Morality: Negative,0.011475409836065573,0.011834319526627219
+CPIM,2024,2019,tuned_trend,605 - Law and Order: Positive,0.04918032786885246,0.03944773175542406
+CPIM,2024,2019,tuned_trend,606 - Civic Mindedness: Positive,0.0,0.0019723865877712033
+CPIM,2024,2019,tuned_trend,607 - Multiculturalism: Positive,0.03278688524590164,0.03353057199211045
+CPIM,2024,2019,tuned_trend,608 - Multiculturalism: Negative,0.0,0.0
+CPIM,2024,2019,tuned_trend,701 - Labour Groups: Positive,0.040983606557377046,0.04930966469428008
+CPIM,2024,2019,tuned_trend,702 - Labour Groups: Negative,0.0,0.0
+CPIM,2024,2019,tuned_trend,703 - Agriculture and Farmers: Positive,0.07049180327868852,0.08284023668639054
+CPIM,2024,2019,tuned_trend,704 - Middle Class and Professional Groups,0.0,0.0
+CPIM,2024,2019,tuned_trend,705 - Underprivileged Minority Groups,0.018032786885245903,0.0039447731755424065
+CPIM,2024,2019,tuned_trend,706 - Non-economic Demographic Groups,0.01639344262295082,0.007889546351084813
+CPIM,2029,2024,persistence,101 - Foreign Special Relationships: Positive,0.005917159763313609,
+CPIM,2029,2024,persistence,102 - Foreign Special Relationships: Negative,0.0019723865877712033,
+CPIM,2029,2024,persistence,103 - Anti-Imperialism,0.0,
+CPIM,2029,2024,persistence,104 - Military: Positive,0.005917159763313609,
+CPIM,2029,2024,persistence,105 - Military: Negative,0.009861932938856016,
+CPIM,2029,2024,persistence,106 - Peace,0.0019723865877712033,
+CPIM,2029,2024,persistence,107 - Internationalism: Positive,0.0019723865877712033,
+CPIM,2029,2024,persistence,108 - European Community/Union: Positive,0.0,
+CPIM,2029,2024,persistence,109 - Internationalism: Negative,0.005917159763313609,
+CPIM,2029,2024,persistence,110 - European Community/Union: Negative,0.0,
+CPIM,2029,2024,persistence,201 - Freedom and Human Rights,0.045364891518737675,
+CPIM,2029,2024,persistence,202 - Democracy,0.05917159763313609,
+CPIM,2029,2024,persistence,203 - Constitutionalism: Positive,0.007889546351084813,
+CPIM,2029,2024,persistence,204 - Constitutionalism: Negative,0.009861932938856016,
+CPIM,2029,2024,persistence,301 - Federalism,0.04142011834319527,
+CPIM,2029,2024,persistence,302 - Centralisation,0.0,
+CPIM,2029,2024,persistence,303 - Governmental and Administrative Efficiency,0.03155818540433925,
+CPIM,2029,2024,persistence,304 - Political Corruption,0.023668639053254437,
+CPIM,2029,2024,persistence,305 - Political Authority,0.021696252465483234,
+CPIM,2029,2024,persistence,401 - Free Market Economy,0.007889546351084813,
+CPIM,2029,2024,persistence,402 - Incentives,0.013806706114398421,
+CPIM,2029,2024,persistence,403 - Market Regulation,0.05325443786982249,
+CPIM,2029,2024,persistence,404 - Economic Planning,0.0,
+CPIM,2029,2024,persistence,405 - Corporatism/ Mixed Economy,0.0039447731755424065,
+CPIM,2029,2024,persistence,406 - Protectionism: Positive,0.027613412228796843,
+CPIM,2029,2024,persistence,407 - Protectionism: Negative,0.0019723865877712033,
+CPIM,2029,2024,persistence,408 - Economic Goals,0.0019723865877712033,
+CPIM,2029,2024,persistence,409 - Keynesian Demand Management,0.0019723865877712033,
+CPIM,2029,2024,persistence,410 - Economic Growth: Positive,0.007889546351084813,
+CPIM,2029,2024,persistence,411 - Technology and Infrastructure,0.04142011834319527,
+CPIM,2029,2024,persistence,412 - Controlled Economy,0.013806706114398421,
+CPIM,2029,2024,persistence,413 - Nationalisation,0.03747534516765286,
+CPIM,2029,2024,persistence,414 - Economic Orthodoxy,0.005917159763313609,
+CPIM,2029,2024,persistence,415 - Marxist Analysis: Positive,0.0019723865877712033,
+CPIM,2029,2024,persistence,416 - Anti-Growth Economy: Positive,0.0,
+CPIM,2029,2024,persistence,501 - Environmental Protection: Positive,0.03155818540433925,
+CPIM,2029,2024,persistence,502 - Culture: Positive,0.007889546351084813,
+CPIM,2029,2024,persistence,503 - Equality: Positive,0.08678500986193294,
+CPIM,2029,2024,persistence,504 - Welfare State Expansion,0.08481262327416174,
+CPIM,2029,2024,persistence,505 - Welfare State Limitation,0.0,
+CPIM,2029,2024,persistence,506 - Education Expansion,0.055226824457593686,
+CPIM,2029,2024,persistence,507 - Education Limitation,0.0,
+CPIM,2029,2024,persistence,601 - National Way of Life: Positive,0.0019723865877712033,
+CPIM,2029,2024,persistence,602 - National Way of Life: Negative,0.0,
+CPIM,2029,2024,persistence,603 - Traditional Morality: Positive,0.005917159763313609,
+CPIM,2029,2024,persistence,604 - Traditional Morality: Negative,0.011834319526627219,
+CPIM,2029,2024,persistence,605 - Law and Order: Positive,0.03944773175542406,
+CPIM,2029,2024,persistence,606 - Civic Mindedness: Positive,0.0019723865877712033,
+CPIM,2029,2024,persistence,607 - Multiculturalism: Positive,0.03353057199211045,
+CPIM,2029,2024,persistence,608 - Multiculturalism: Negative,0.0,
+CPIM,2029,2024,persistence,701 - Labour Groups: Positive,0.04930966469428008,
+CPIM,2029,2024,persistence,702 - Labour Groups: Negative,0.0,
+CPIM,2029,2024,persistence,703 - Agriculture and Farmers: Positive,0.08284023668639054,
+CPIM,2029,2024,persistence,704 - Middle Class and Professional Groups,0.0,
+CPIM,2029,2024,persistence,705 - Underprivileged Minority Groups,0.0039447731755424065,
+CPIM,2029,2024,persistence,706 - Non-economic Demographic Groups,0.007889546351084813,
+CPIM,2029,2024,half_trend,101 - Foreign Special Relationships: Positive,0.007159102904906768,
+CPIM,2029,2024,half_trend,102 - Foreign Special Relationships: Negative,0.0029269790697004886,
+CPIM,2029,2024,half_trend,103 - Anti-Imperialism,0.0,
+CPIM,2029,2024,half_trend,104 - Military: Positive,0.003915434296517374,
+CPIM,2029,2024,half_trend,105 - Military: Negative,0.007336640979626306,
+CPIM,2029,2024,half_trend,106 - Peace,0.00211606191760314,
+CPIM,2029,2024,half_trend,107 - Internationalism: Positive,0.0,
+CPIM,2029,2024,half_trend,108 - European Community/Union: Positive,0.0,
+CPIM,2029,2024,half_trend,109 - Internationalism: Negative,0.007970020057004116,
+CPIM,2029,2024,half_trend,110 - European Community/Union: Negative,0.0,
+CPIM,2029,2024,half_trend,201 - Freedom and Human Rights,0.04461483834438548,
+CPIM,2029,2024,half_trend,202 - Democracy,0.06834736044067828,
+CPIM,2029,2024,half_trend,203 - Constitutionalism: Positive,0.006842413366217863,
+CPIM,2029,2024,half_trend,204 - Constitutionalism: Negative,0.011391226740113048,
+CPIM,2029,2024,half_trend,301 - Federalism,0.0420045488133739,
+CPIM,2029,2024,half_trend,302 - Centralisation,0.0,
+CPIM,2029,2024,half_trend,303 - Governmental and Administrative Efficiency,0.026558736312774108,
+CPIM,2029,2024,half_trend,304 - Political Corruption,0.024581825859140333,
+CPIM,2029,2024,half_trend,305 - Political Authority,0.028142184006218627,
+CPIM,2029,2024,half_trend,401 - Free Market Economy,0.00927516482250991,
+CPIM,2029,2024,half_trend,402 - Incentives,0.013190599119027282,
+CPIM,2029,2024,half_trend,403 - Market Regulation,0.04902450025431129,
+CPIM,2029,2024,half_trend,404 - Economic Planning,0.0,
+CPIM,2029,2024,half_trend,405 - Corporatism/ Mixed Economy,0.005043040987303629,
+CPIM,2029,2024,half_trend,406 - Protectionism: Positive,0.030435783998541306,
+CPIM,2029,2024,half_trend,407 - Protectionism: Negative,0.0013051447655057916,
+CPIM,2029,2024,half_trend,408 - Economic Goals,0.0029269790697004886,
+CPIM,2029,2024,half_trend,409 - Keynesian Demand Management,0.00211606191760314,
+CPIM,2029,2024,half_trend,410 - Economic Growth: Positive,0.007653330518315212,
+CPIM,2029,2024,half_trend,411 - Technology and Infrastructure,0.038760880204984506,
+CPIM,2029,2024,half_trend,412 - Controlled Economy,0.013190599119027282,
+CPIM,2029,2024,half_trend,413 - Nationalisation,0.03128508776138882,
+CPIM,2029,2024,half_trend,414 - Economic Orthodoxy,0.006348185752809419,
+CPIM,2029,2024,half_trend,415 - Marxist Analysis: Positive,0.0029269790697004886,
+CPIM,2029,2024,half_trend,416 - Anti-Growth Economy: Positive,0.0,
+CPIM,2029,2024,half_trend,501 - Environmental Protection: Positive,0.02736965346487145,
+CPIM,2029,2024,half_trend,502 - Culture: Positive,0.00846424767041256,
+CPIM,2029,2024,half_trend,503 - Equality: Positive,0.09067397291824612,
+CPIM,2029,2024,half_trend,504 - Welfare State Expansion,0.0755832365670854,
+CPIM,2029,2024,half_trend,505 - Welfare State Limitation,0.0,
+CPIM,2029,2024,half_trend,506 - Education Expansion,0.06249340230127731,
+CPIM,2029,2024,half_trend,507 - Education Limitation,0.0,
+CPIM,2029,2024,half_trend,601 - National Way of Life: Positive,0.0029269790697004886,
+CPIM,2029,2024,half_trend,602 - National Way of Life: Negative,0.0,
+CPIM,2029,2024,half_trend,603 - Traditional Morality: Positive,0.007970020057004116,
+CPIM,2029,2024,half_trend,604 - Traditional Morality: Negative,0.01188545435352149,
+CPIM,2029,2024,half_trend,605 - Law and Order: Positive,0.034212066831089315,
+CPIM,2029,2024,half_trend,606 - Civic Mindedness: Positive,0.0029269790697004886,
+CPIM,2029,2024,half_trend,607 - Multiculturalism: Positive,0.03354030114296133,
+CPIM,2029,2024,half_trend,608 - Multiculturalism: Negative,0.0,
+CPIM,2029,2024,half_trend,701 - Labour Groups: Positive,0.05290154794007851,
+CPIM,2029,2024,half_trend,702 - Labour Groups: Negative,0.0,
+CPIM,2029,2024,half_trend,703 - Agriculture and Farmers: Positive,0.08806368338723455,
+CPIM,2029,2024,half_trend,704 - Middle Class and Professional Groups,0.0,
+CPIM,2029,2024,half_trend,705 - Underprivileged Minority Groups,0.0,
+CPIM,2029,2024,half_trend,706 - Non-economic Demographic Groups,0.0035987447578284693,
+CPIM,2029,2024,tuned_trend,101 - Foreign Special Relationships: Positive,0.005917159763313609,
+CPIM,2029,2024,tuned_trend,102 - Foreign Special Relationships: Negative,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,103 - Anti-Imperialism,0.0,
+CPIM,2029,2024,tuned_trend,104 - Military: Positive,0.005917159763313609,
+CPIM,2029,2024,tuned_trend,105 - Military: Negative,0.009861932938856016,
+CPIM,2029,2024,tuned_trend,106 - Peace,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,107 - Internationalism: Positive,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,108 - European Community/Union: Positive,0.0,
+CPIM,2029,2024,tuned_trend,109 - Internationalism: Negative,0.005917159763313609,
+CPIM,2029,2024,tuned_trend,110 - European Community/Union: Negative,0.0,
+CPIM,2029,2024,tuned_trend,201 - Freedom and Human Rights,0.045364891518737675,
+CPIM,2029,2024,tuned_trend,202 - Democracy,0.05917159763313609,
+CPIM,2029,2024,tuned_trend,203 - Constitutionalism: Positive,0.007889546351084813,
+CPIM,2029,2024,tuned_trend,204 - Constitutionalism: Negative,0.009861932938856016,
+CPIM,2029,2024,tuned_trend,301 - Federalism,0.04142011834319527,
+CPIM,2029,2024,tuned_trend,302 - Centralisation,0.0,
+CPIM,2029,2024,tuned_trend,303 - Governmental and Administrative Efficiency,0.03155818540433925,
+CPIM,2029,2024,tuned_trend,304 - Political Corruption,0.023668639053254437,
+CPIM,2029,2024,tuned_trend,305 - Political Authority,0.021696252465483234,
+CPIM,2029,2024,tuned_trend,401 - Free Market Economy,0.007889546351084813,
+CPIM,2029,2024,tuned_trend,402 - Incentives,0.013806706114398421,
+CPIM,2029,2024,tuned_trend,403 - Market Regulation,0.05325443786982249,
+CPIM,2029,2024,tuned_trend,404 - Economic Planning,0.0,
+CPIM,2029,2024,tuned_trend,405 - Corporatism/ Mixed Economy,0.0039447731755424065,
+CPIM,2029,2024,tuned_trend,406 - Protectionism: Positive,0.027613412228796843,
+CPIM,2029,2024,tuned_trend,407 - Protectionism: Negative,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,408 - Economic Goals,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,409 - Keynesian Demand Management,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,410 - Economic Growth: Positive,0.007889546351084813,
+CPIM,2029,2024,tuned_trend,411 - Technology and Infrastructure,0.04142011834319527,
+CPIM,2029,2024,tuned_trend,412 - Controlled Economy,0.013806706114398421,
+CPIM,2029,2024,tuned_trend,413 - Nationalisation,0.03747534516765286,
+CPIM,2029,2024,tuned_trend,414 - Economic Orthodoxy,0.005917159763313609,
+CPIM,2029,2024,tuned_trend,415 - Marxist Analysis: Positive,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,416 - Anti-Growth Economy: Positive,0.0,
+CPIM,2029,2024,tuned_trend,501 - Environmental Protection: Positive,0.03155818540433925,
+CPIM,2029,2024,tuned_trend,502 - Culture: Positive,0.007889546351084813,
+CPIM,2029,2024,tuned_trend,503 - Equality: Positive,0.08678500986193294,
+CPIM,2029,2024,tuned_trend,504 - Welfare State Expansion,0.08481262327416174,
+CPIM,2029,2024,tuned_trend,505 - Welfare State Limitation,0.0,
+CPIM,2029,2024,tuned_trend,506 - Education Expansion,0.055226824457593686,
+CPIM,2029,2024,tuned_trend,507 - Education Limitation,0.0,
+CPIM,2029,2024,tuned_trend,601 - National Way of Life: Positive,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,602 - National Way of Life: Negative,0.0,
+CPIM,2029,2024,tuned_trend,603 - Traditional Morality: Positive,0.005917159763313609,
+CPIM,2029,2024,tuned_trend,604 - Traditional Morality: Negative,0.011834319526627219,
+CPIM,2029,2024,tuned_trend,605 - Law and Order: Positive,0.03944773175542406,
+CPIM,2029,2024,tuned_trend,606 - Civic Mindedness: Positive,0.0019723865877712033,
+CPIM,2029,2024,tuned_trend,607 - Multiculturalism: Positive,0.03353057199211045,
+CPIM,2029,2024,tuned_trend,608 - Multiculturalism: Negative,0.0,
+CPIM,2029,2024,tuned_trend,701 - Labour Groups: Positive,0.04930966469428008,
+CPIM,2029,2024,tuned_trend,702 - Labour Groups: Negative,0.0,
+CPIM,2029,2024,tuned_trend,703 - Agriculture and Farmers: Positive,0.08284023668639054,
+CPIM,2029,2024,tuned_trend,704 - Middle Class and Professional Groups,0.0,
+CPIM,2029,2024,tuned_trend,705 - Underprivileged Minority Groups,0.0039447731755424065,
+CPIM,2029,2024,tuned_trend,706 - Non-economic Demographic Groups,0.007889546351084813,
+DMK,2024,2019,persistence,101 - Foreign Special Relationships: Positive,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,persistence,102 - Foreign Special Relationships: Negative,0.0,0.0
+DMK,2024,2019,persistence,103 - Anti-Imperialism,0.0,0.0
+DMK,2024,2019,persistence,104 - Military: Positive,0.014164305949008499,0.007425742574257425
+DMK,2024,2019,persistence,105 - Military: Negative,0.0084985835694051,0.0
+DMK,2024,2019,persistence,106 - Peace,0.0,0.0049504950495049506
+DMK,2024,2019,persistence,107 - Internationalism: Positive,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,persistence,108 - European Community/Union: Positive,0.0,0.0
+DMK,2024,2019,persistence,109 - Internationalism: Negative,0.0028328611898017,0.0
+DMK,2024,2019,persistence,110 - European Community/Union: Negative,0.0,0.0
+DMK,2024,2019,persistence,201 - Freedom and Human Rights,0.014164305949008499,0.012376237623762377
+DMK,2024,2019,persistence,202 - Democracy,0.019830028328611898,0.009900990099009901
+DMK,2024,2019,persistence,203 - Constitutionalism: Positive,0.0,0.01485148514851485
+DMK,2024,2019,persistence,204 - Constitutionalism: Negative,0.0169971671388102,0.0024752475247524753
+DMK,2024,2019,persistence,301 - Federalism,0.0453257790368272,0.0594059405940594
+DMK,2024,2019,persistence,302 - Centralisation,0.0,0.0
+DMK,2024,2019,persistence,303 - Governmental and Administrative Efficiency,0.0113314447592068,0.019801980198019802
+DMK,2024,2019,persistence,304 - Political Corruption,0.014164305949008499,0.0024752475247524753
+DMK,2024,2019,persistence,305 - Political Authority,0.019830028328611898,0.03217821782178218
+DMK,2024,2019,persistence,401 - Free Market Economy,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,persistence,402 - Incentives,0.019830028328611898,0.022277227722772276
+DMK,2024,2019,persistence,403 - Market Regulation,0.0226628895184136,0.007425742574257425
+DMK,2024,2019,persistence,404 - Economic Planning,0.0028328611898017,0.0
+DMK,2024,2019,persistence,405 - Corporatism/ Mixed Economy,0.0,0.0024752475247524753
+DMK,2024,2019,persistence,406 - Protectionism: Positive,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,persistence,407 - Protectionism: Negative,0.0,0.0
+DMK,2024,2019,persistence,408 - Economic Goals,0.0,0.0
+DMK,2024,2019,persistence,409 - Keynesian Demand Management,0.0,0.0
+DMK,2024,2019,persistence,410 - Economic Growth: Positive,0.025495750708215296,0.017326732673267328
+DMK,2024,2019,persistence,411 - Technology and Infrastructure,0.11898016997167139,0.31435643564356436
+DMK,2024,2019,persistence,412 - Controlled Economy,0.019830028328611898,0.012376237623762377
+DMK,2024,2019,persistence,413 - Nationalisation,0.0084985835694051,0.0049504950495049506
+DMK,2024,2019,persistence,414 - Economic Orthodoxy,0.014164305949008499,0.0
+DMK,2024,2019,persistence,415 - Marxist Analysis: Positive,0.0,0.0
+DMK,2024,2019,persistence,416 - Anti-Growth Economy: Positive,0.0028328611898017,0.009900990099009901
+DMK,2024,2019,persistence,501 - Environmental Protection: Positive,0.0453257790368272,0.03217821782178218
+DMK,2024,2019,persistence,502 - Culture: Positive,0.0056657223796034,0.009900990099009901
+DMK,2024,2019,persistence,503 - Equality: Positive,0.06515580736543909,0.03712871287128713
+DMK,2024,2019,persistence,504 - Welfare State Expansion,0.0821529745042493,0.07673267326732673
+DMK,2024,2019,persistence,505 - Welfare State Limitation,0.0,0.0024752475247524753
+DMK,2024,2019,persistence,506 - Education Expansion,0.06232294617563739,0.034653465346534656
+DMK,2024,2019,persistence,507 - Education Limitation,0.0,0.0
+DMK,2024,2019,persistence,601 - National Way of Life: Positive,0.0056657223796034,0.0024752475247524753
+DMK,2024,2019,persistence,602 - National Way of Life: Negative,0.0,0.0049504950495049506
+DMK,2024,2019,persistence,603 - Traditional Morality: Positive,0.0169971671388102,0.009900990099009901
+DMK,2024,2019,persistence,604 - Traditional Morality: Negative,0.0,0.0024752475247524753
+DMK,2024,2019,persistence,605 - Law and Order: Positive,0.039660056657223795,0.009900990099009901
+DMK,2024,2019,persistence,606 - Civic Mindedness: Positive,0.0,0.0024752475247524753
+DMK,2024,2019,persistence,607 - Multiculturalism: Positive,0.05099150141643059,0.04455445544554455
+DMK,2024,2019,persistence,608 - Multiculturalism: Negative,0.0,0.0
+DMK,2024,2019,persistence,701 - Labour Groups: Positive,0.0453257790368272,0.019801980198019802
+DMK,2024,2019,persistence,702 - Labour Groups: Negative,0.0028328611898017,0.0
+DMK,2024,2019,persistence,703 - Agriculture and Farmers: Positive,0.11331444759206799,0.1311881188118812
+DMK,2024,2019,persistence,704 - Middle Class and Professional Groups,0.0,0.0
+DMK,2024,2019,persistence,705 - Underprivileged Minority Groups,0.019830028328611898,0.009900990099009901
+DMK,2024,2019,persistence,706 - Non-economic Demographic Groups,0.031161473087818695,0.0024752475247524753
+DMK,2024,2019,half_trend,101 - Foreign Special Relationships: Positive,0.0021083389258755546,0.0024752475247524753
+DMK,2024,2019,half_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+DMK,2024,2019,half_trend,103 - Anti-Imperialism,0.0,0.0
+DMK,2024,2019,half_trend,104 - Military: Positive,0.010541694629377773,0.007425742574257425
+DMK,2024,2019,half_trend,105 - Military: Negative,0.012614399657914586,0.0
+DMK,2024,2019,half_trend,106 - Peace,0.0,0.0049504950495049506
+DMK,2024,2019,half_trend,107 - Internationalism: Positive,0.0021083389258755546,0.0024752475247524753
+DMK,2024,2019,half_trend,108 - European Community/Union: Positive,0.0,0.0
+DMK,2024,2019,half_trend,109 - Internationalism: Negative,0.004204799885971528,0.0
+DMK,2024,2019,half_trend,110 - European Community/Union: Negative,0.0,0.0
+DMK,2024,2019,half_trend,201 - Freedom and Human Rights,0.010541694629377773,0.012376237623762377
+DMK,2024,2019,half_trend,202 - Democracy,0.023144216321512777,0.009900990099009901
+DMK,2024,2019,half_trend,203 - Constitutionalism: Positive,0.0,0.01485148514851485
+DMK,2024,2019,half_trend,204 - Constitutionalism: Negative,0.021035877395637226,0.0024752475247524753
+DMK,2024,2019,half_trend,301 - Federalism,0.046312188574584724,0.0594059405940594
+DMK,2024,2019,half_trend,302 - Centralisation,0.0,0.0
+DMK,2024,2019,half_trend,303 - Governmental and Administrative Efficiency,0.010529816663598193,0.019801980198019802
+DMK,2024,2019,half_trend,304 - Political Corruption,0.02102399942985764,0.0024752475247524753
+DMK,2024,2019,half_trend,305 - Political Authority,0.018951294401320828,0.03217821782178218
+DMK,2024,2019,half_trend,401 - Free Market Economy,0.004204799885971528,0.0024752475247524753
+DMK,2024,2019,half_trend,402 - Incentives,0.02524067728160875,0.022277227722772276
+DMK,2024,2019,half_trend,403 - Market Regulation,0.027349016207484304,0.007425742574257425
+DMK,2024,2019,half_trend,404 - Economic Planning,0.004204799885971528,0.0
+DMK,2024,2019,half_trend,405 - Corporatism/ Mixed Economy,0.0,0.0024752475247524753
+DMK,2024,2019,half_trend,406 - Protectionism: Positive,1.1877965779580588e-05,0.0024752475247524753
+DMK,2024,2019,half_trend,407 - Protectionism: Negative,0.0,0.0
+DMK,2024,2019,half_trend,408 - Economic Goals,0.0,0.0
+DMK,2024,2019,half_trend,409 - Keynesian Demand Management,0.0,0.0
+DMK,2024,2019,half_trend,410 - Economic Growth: Positive,0.03365027705355181,0.017326732673267328
+DMK,2024,2019,half_trend,411 - Technology and Infrastructure,0.09903253968725316,0.31435643564356436
+DMK,2024,2019,half_trend,412 - Controlled Economy,0.02524067728160875,0.012376237623762377
+DMK,2024,2019,half_trend,413 - Nationalisation,0.008421477737722638,0.0049504950495049506
+DMK,2024,2019,half_trend,414 - Economic Orthodoxy,0.02102399942985764,0.0
+DMK,2024,2019,half_trend,415 - Marxist Analysis: Positive,0.0,0.0
+DMK,2024,2019,half_trend,416 - Anti-Growth Economy: Positive,0.0,0.009900990099009901
+DMK,2024,2019,half_trend,501 - Environmental Protection: Positive,0.05679449337506459,0.03217821782178218
+DMK,2024,2019,half_trend,502 - Culture: Positive,0.004216677851751109,0.009900990099009901
+DMK,2024,2019,half_trend,503 - Equality: Positive,0.06107056105571359,0.03712871287128713
+DMK,2024,2019,half_trend,504 - Welfare State Expansion,0.07791351653115888,0.07673267326732673
+DMK,2024,2019,half_trend,505 - Welfare State Limitation,0.0,0.0024752475247524753
+DMK,2024,2019,half_trend,506 - Education Expansion,0.06734806597022193,0.034653465346534656
+DMK,2024,2019,half_trend,507 - Education Limitation,0.0,0.0
+DMK,2024,2019,half_trend,601 - National Way of Life: Positive,0.008409599771943057,0.0024752475247524753
+DMK,2024,2019,half_trend,602 - National Way of Life: Negative,0.0,0.0049504950495049506
+DMK,2024,2019,half_trend,603 - Traditional Morality: Positive,0.016842955475445277,0.009900990099009901
+DMK,2024,2019,half_trend,604 - Traditional Morality: Negative,0.0,0.0024752475247524753
+DMK,2024,2019,half_trend,605 - Law and Order: Positive,0.054674276483409445,0.009900990099009901
+DMK,2024,2019,half_trend,606 - Civic Mindedness: Positive,0.0,0.0024752475247524753
+DMK,2024,2019,half_trend,607 - Multiculturalism: Positive,0.04214302258595193,0.04455445544554455
+DMK,2024,2019,half_trend,608 - Multiculturalism: Negative,0.0,0.0
+DMK,2024,2019,half_trend,701 - Labour Groups: Positive,0.04840864953468069,0.019801980198019802
+DMK,2024,2019,half_trend,702 - Labour Groups: Negative,0.004204799885971528,0.0
+DMK,2024,2019,half_trend,703 - Agriculture and Farmers: Positive,0.07804417415473426,0.1311881188118812
+DMK,2024,2019,half_trend,704 - Middle Class and Professional Groups,0.0,0.0
+DMK,2024,2019,half_trend,705 - Underprivileged Minority Groups,0.018951294401320828,0.009900990099009901
+DMK,2024,2019,half_trend,706 - Non-economic Demographic Groups,0.029481111064919015,0.0024752475247524753
+DMK,2024,2019,tuned_trend,101 - Foreign Special Relationships: Positive,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+DMK,2024,2019,tuned_trend,103 - Anti-Imperialism,0.0,0.0
+DMK,2024,2019,tuned_trend,104 - Military: Positive,0.014164305949008499,0.007425742574257425
+DMK,2024,2019,tuned_trend,105 - Military: Negative,0.0084985835694051,0.0
+DMK,2024,2019,tuned_trend,106 - Peace,0.0,0.0049504950495049506
+DMK,2024,2019,tuned_trend,107 - Internationalism: Positive,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,tuned_trend,108 - European Community/Union: Positive,0.0,0.0
+DMK,2024,2019,tuned_trend,109 - Internationalism: Negative,0.0028328611898017,0.0
+DMK,2024,2019,tuned_trend,110 - European Community/Union: Negative,0.0,0.0
+DMK,2024,2019,tuned_trend,201 - Freedom and Human Rights,0.014164305949008499,0.012376237623762377
+DMK,2024,2019,tuned_trend,202 - Democracy,0.019830028328611898,0.009900990099009901
+DMK,2024,2019,tuned_trend,203 - Constitutionalism: Positive,0.0,0.01485148514851485
+DMK,2024,2019,tuned_trend,204 - Constitutionalism: Negative,0.0169971671388102,0.0024752475247524753
+DMK,2024,2019,tuned_trend,301 - Federalism,0.0453257790368272,0.0594059405940594
+DMK,2024,2019,tuned_trend,302 - Centralisation,0.0,0.0
+DMK,2024,2019,tuned_trend,303 - Governmental and Administrative Efficiency,0.0113314447592068,0.019801980198019802
+DMK,2024,2019,tuned_trend,304 - Political Corruption,0.014164305949008499,0.0024752475247524753
+DMK,2024,2019,tuned_trend,305 - Political Authority,0.019830028328611898,0.03217821782178218
+DMK,2024,2019,tuned_trend,401 - Free Market Economy,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,tuned_trend,402 - Incentives,0.019830028328611898,0.022277227722772276
+DMK,2024,2019,tuned_trend,403 - Market Regulation,0.0226628895184136,0.007425742574257425
+DMK,2024,2019,tuned_trend,404 - Economic Planning,0.0028328611898017,0.0
+DMK,2024,2019,tuned_trend,405 - Corporatism/ Mixed Economy,0.0,0.0024752475247524753
+DMK,2024,2019,tuned_trend,406 - Protectionism: Positive,0.0028328611898017,0.0024752475247524753
+DMK,2024,2019,tuned_trend,407 - Protectionism: Negative,0.0,0.0
+DMK,2024,2019,tuned_trend,408 - Economic Goals,0.0,0.0
+DMK,2024,2019,tuned_trend,409 - Keynesian Demand Management,0.0,0.0
+DMK,2024,2019,tuned_trend,410 - Economic Growth: Positive,0.025495750708215296,0.017326732673267328
+DMK,2024,2019,tuned_trend,411 - Technology and Infrastructure,0.11898016997167139,0.31435643564356436
+DMK,2024,2019,tuned_trend,412 - Controlled Economy,0.019830028328611898,0.012376237623762377
+DMK,2024,2019,tuned_trend,413 - Nationalisation,0.0084985835694051,0.0049504950495049506
+DMK,2024,2019,tuned_trend,414 - Economic Orthodoxy,0.014164305949008499,0.0
+DMK,2024,2019,tuned_trend,415 - Marxist Analysis: Positive,0.0,0.0
+DMK,2024,2019,tuned_trend,416 - Anti-Growth Economy: Positive,0.0028328611898017,0.009900990099009901
+DMK,2024,2019,tuned_trend,501 - Environmental Protection: Positive,0.0453257790368272,0.03217821782178218
+DMK,2024,2019,tuned_trend,502 - Culture: Positive,0.0056657223796034,0.009900990099009901
+DMK,2024,2019,tuned_trend,503 - Equality: Positive,0.06515580736543909,0.03712871287128713
+DMK,2024,2019,tuned_trend,504 - Welfare State Expansion,0.0821529745042493,0.07673267326732673
+DMK,2024,2019,tuned_trend,505 - Welfare State Limitation,0.0,0.0024752475247524753
+DMK,2024,2019,tuned_trend,506 - Education Expansion,0.06232294617563739,0.034653465346534656
+DMK,2024,2019,tuned_trend,507 - Education Limitation,0.0,0.0
+DMK,2024,2019,tuned_trend,601 - National Way of Life: Positive,0.0056657223796034,0.0024752475247524753
+DMK,2024,2019,tuned_trend,602 - National Way of Life: Negative,0.0,0.0049504950495049506
+DMK,2024,2019,tuned_trend,603 - Traditional Morality: Positive,0.0169971671388102,0.009900990099009901
+DMK,2024,2019,tuned_trend,604 - Traditional Morality: Negative,0.0,0.0024752475247524753
+DMK,2024,2019,tuned_trend,605 - Law and Order: Positive,0.039660056657223795,0.009900990099009901
+DMK,2024,2019,tuned_trend,606 - Civic Mindedness: Positive,0.0,0.0024752475247524753
+DMK,2024,2019,tuned_trend,607 - Multiculturalism: Positive,0.05099150141643059,0.04455445544554455
+DMK,2024,2019,tuned_trend,608 - Multiculturalism: Negative,0.0,0.0
+DMK,2024,2019,tuned_trend,701 - Labour Groups: Positive,0.0453257790368272,0.019801980198019802
+DMK,2024,2019,tuned_trend,702 - Labour Groups: Negative,0.0028328611898017,0.0
+DMK,2024,2019,tuned_trend,703 - Agriculture and Farmers: Positive,0.11331444759206799,0.1311881188118812
+DMK,2024,2019,tuned_trend,704 - Middle Class and Professional Groups,0.0,0.0
+DMK,2024,2019,tuned_trend,705 - Underprivileged Minority Groups,0.019830028328611898,0.009900990099009901
+DMK,2024,2019,tuned_trend,706 - Non-economic Demographic Groups,0.031161473087818695,0.0024752475247524753
+DMK,2029,2024,persistence,101 - Foreign Special Relationships: Positive,0.0024752475247524753,
+DMK,2029,2024,persistence,102 - Foreign Special Relationships: Negative,0.0,
+DMK,2029,2024,persistence,103 - Anti-Imperialism,0.0,
+DMK,2029,2024,persistence,104 - Military: Positive,0.007425742574257425,
+DMK,2029,2024,persistence,105 - Military: Negative,0.0,
+DMK,2029,2024,persistence,106 - Peace,0.0049504950495049506,
+DMK,2029,2024,persistence,107 - Internationalism: Positive,0.0024752475247524753,
+DMK,2029,2024,persistence,108 - European Community/Union: Positive,0.0,
+DMK,2029,2024,persistence,109 - Internationalism: Negative,0.0,
+DMK,2029,2024,persistence,110 - European Community/Union: Negative,0.0,
+DMK,2029,2024,persistence,201 - Freedom and Human Rights,0.012376237623762377,
+DMK,2029,2024,persistence,202 - Democracy,0.009900990099009901,
+DMK,2029,2024,persistence,203 - Constitutionalism: Positive,0.01485148514851485,
+DMK,2029,2024,persistence,204 - Constitutionalism: Negative,0.0024752475247524753,
+DMK,2029,2024,persistence,301 - Federalism,0.0594059405940594,
+DMK,2029,2024,persistence,302 - Centralisation,0.0,
+DMK,2029,2024,persistence,303 - Governmental and Administrative Efficiency,0.019801980198019802,
+DMK,2029,2024,persistence,304 - Political Corruption,0.0024752475247524753,
+DMK,2029,2024,persistence,305 - Political Authority,0.03217821782178218,
+DMK,2029,2024,persistence,401 - Free Market Economy,0.0024752475247524753,
+DMK,2029,2024,persistence,402 - Incentives,0.022277227722772276,
+DMK,2029,2024,persistence,403 - Market Regulation,0.007425742574257425,
+DMK,2029,2024,persistence,404 - Economic Planning,0.0,
+DMK,2029,2024,persistence,405 - Corporatism/ Mixed Economy,0.0024752475247524753,
+DMK,2029,2024,persistence,406 - Protectionism: Positive,0.0024752475247524753,
+DMK,2029,2024,persistence,407 - Protectionism: Negative,0.0,
+DMK,2029,2024,persistence,408 - Economic Goals,0.0,
+DMK,2029,2024,persistence,409 - Keynesian Demand Management,0.0,
+DMK,2029,2024,persistence,410 - Economic Growth: Positive,0.017326732673267328,
+DMK,2029,2024,persistence,411 - Technology and Infrastructure,0.31435643564356436,
+DMK,2029,2024,persistence,412 - Controlled Economy,0.012376237623762377,
+DMK,2029,2024,persistence,413 - Nationalisation,0.0049504950495049506,
+DMK,2029,2024,persistence,414 - Economic Orthodoxy,0.0,
+DMK,2029,2024,persistence,415 - Marxist Analysis: Positive,0.0,
+DMK,2029,2024,persistence,416 - Anti-Growth Economy: Positive,0.009900990099009901,
+DMK,2029,2024,persistence,501 - Environmental Protection: Positive,0.03217821782178218,
+DMK,2029,2024,persistence,502 - Culture: Positive,0.009900990099009901,
+DMK,2029,2024,persistence,503 - Equality: Positive,0.03712871287128713,
+DMK,2029,2024,persistence,504 - Welfare State Expansion,0.07673267326732673,
+DMK,2029,2024,persistence,505 - Welfare State Limitation,0.0024752475247524753,
+DMK,2029,2024,persistence,506 - Education Expansion,0.034653465346534656,
+DMK,2029,2024,persistence,507 - Education Limitation,0.0,
+DMK,2029,2024,persistence,601 - National Way of Life: Positive,0.0024752475247524753,
+DMK,2029,2024,persistence,602 - National Way of Life: Negative,0.0049504950495049506,
+DMK,2029,2024,persistence,603 - Traditional Morality: Positive,0.009900990099009901,
+DMK,2029,2024,persistence,604 - Traditional Morality: Negative,0.0024752475247524753,
+DMK,2029,2024,persistence,605 - Law and Order: Positive,0.009900990099009901,
+DMK,2029,2024,persistence,606 - Civic Mindedness: Positive,0.0024752475247524753,
+DMK,2029,2024,persistence,607 - Multiculturalism: Positive,0.04455445544554455,
+DMK,2029,2024,persistence,608 - Multiculturalism: Negative,0.0,
+DMK,2029,2024,persistence,701 - Labour Groups: Positive,0.019801980198019802,
+DMK,2029,2024,persistence,702 - Labour Groups: Negative,0.0,
+DMK,2029,2024,persistence,703 - Agriculture and Farmers: Positive,0.1311881188118812,
+DMK,2029,2024,persistence,704 - Middle Class and Professional Groups,0.0,
+DMK,2029,2024,persistence,705 - Underprivileged Minority Groups,0.009900990099009901,
+DMK,2029,2024,persistence,706 - Non-economic Demographic Groups,0.0024752475247524753,
+DMK,2029,2024,half_trend,101 - Foreign Special Relationships: Positive,0.0022064718683258437,
+DMK,2029,2024,half_trend,102 - Foreign Special Relationships: Negative,0.0,
+DMK,2029,2024,half_trend,103 - Anti-Imperialism,0.0,
+DMK,2029,2024,half_trend,104 - Military: Positive,0.0038975388574854974,
+DMK,2029,2024,half_trend,105 - Military: Negative,0.0,
+DMK,2029,2024,half_trend,106 - Peace,0.007134820484143721,
+DMK,2029,2024,half_trend,107 - Internationalism: Positive,0.0022064718683258437,
+DMK,2029,2024,half_trend,108 - European Community/Union: Positive,0.0,
+DMK,2029,2024,half_trend,109 - Internationalism: Negative,0.0,
+DMK,2029,2024,half_trend,110 - European Community/Union: Negative,0.0,
+DMK,2029,2024,half_trend,201 - Freedom and Human Rights,0.01103235934162922,
+DMK,2029,2024,half_trend,202 - Democracy,0.004743072352065326,
+DMK,2029,2024,half_trend,203 - Constitutionalism: Positive,0.02140446145243116,
+DMK,2029,2024,half_trend,204 - Constitutionalism: Negative,0.0,
+DMK,2029,2024,half_trend,301 - Federalism,0.06384283182978838,
+DMK,2029,2024,half_trend,302 - Centralisation,0.0,
+DMK,2029,2024,half_trend,303 - Governmental and Administrative Efficiency,0.023095528441590817,
+DMK,2029,2024,half_trend,304 - Political Corruption,0.0,
+DMK,2029,2024,half_trend,305 - Political Authority,0.03684976453071207,
+DMK,2029,2024,half_trend,401 - Free Market Economy,0.0022064718683258437,
+DMK,2029,2024,half_trend,402 - Incentives,0.022580123562424628,
+DMK,2029,2024,half_trend,403 - Market Regulation,0.0,
+DMK,2029,2024,half_trend,404 - Economic Planning,0.0,
+DMK,2029,2024,half_trend,405 - Corporatism/ Mixed Economy,0.0035674102420718604,
+DMK,2029,2024,half_trend,406 - Protectionism: Positive,0.0022064718683258437,
+DMK,2029,2024,half_trend,407 - Protectionism: Negative,0.0,
+DMK,2029,2024,half_trend,408 - Economic Goals,0.0,
+DMK,2029,2024,half_trend,409 - Keynesian Demand Management,0.0,
+DMK,2029,2024,half_trend,410 - Economic Growth: Positive,0.012723426330788877,
+DMK,2029,2024,half_trend,411 - Technology and Infrastructure,0.3959016890457936,
+DMK,2029,2024,half_trend,412 - Controlled Economy,0.008310482594137187,
+DMK,2029,2024,half_trend,413 - Nationalisation,0.003052005362905671,
+DMK,2029,2024,half_trend,414 - Economic Orthodoxy,0.0,
+DMK,2029,2024,half_trend,415 - Marxist Analysis: Positive,0.0,
+DMK,2029,2024,half_trend,416 - Anti-Growth Economy: Positive,0.012908702594541426,
+DMK,2029,2024,half_trend,501 - Environmental Protection: Positive,0.02460131916699792,
+DMK,2029,2024,half_trend,502 - Culture: Positive,0.011547764220795408,
+DMK,2029,2024,half_trend,503 - Equality: Positive,0.022209571034919523,
+DMK,2029,2024,half_trend,504 - Welfare State Expansion,0.07112250466559318,
+DMK,2029,2024,half_trend,505 - Welfare State Limitation,0.0035674102420718604,
+DMK,2029,2024,half_trend,506 - Education Expansion,0.020003099166593687,
+DMK,2029,2024,half_trend,507 - Education Limitation,0.0,
+DMK,2029,2024,half_trend,601 - National Way of Life: Positive,0.0008455334945798271,
+DMK,2029,2024,half_trend,602 - National Way of Life: Negative,0.007134820484143721,
+DMK,2029,2024,half_trend,603 - Traditional Morality: Positive,0.006104010725811342,
+DMK,2029,2024,half_trend,604 - Traditional Morality: Negative,0.0035674102420718604,
+DMK,2029,2024,half_trend,605 - Law and Order: Positive,0.0,
+DMK,2029,2024,half_trend,606 - Civic Mindedness: Positive,0.0035674102420718604,
+DMK,2029,2024,half_trend,607 - Multiculturalism: Positive,0.039716493629865186,
+DMK,2029,2024,half_trend,608 - Multiculturalism: Negative,0.0,
+DMK,2029,2024,half_trend,701 - Labour Groups: Positive,0.0067642679566386164,
+DMK,2029,2024,half_trend,702 - Labour Groups: Negative,0.0,
+DMK,2029,2024,half_trend,703 - Agriculture and Farmers: Positive,0.13463520787996794,
+DMK,2029,2024,half_trend,704 - Middle Class and Professional Groups,0.0,
+DMK,2029,2024,half_trend,705 - Underprivileged Minority Groups,0.004743072352065326,
+DMK,2029,2024,half_trend,706 - Non-economic Demographic Groups,0.0,
+DMK,2029,2024,tuned_trend,101 - Foreign Special Relationships: Positive,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,
+DMK,2029,2024,tuned_trend,103 - Anti-Imperialism,0.0,
+DMK,2029,2024,tuned_trend,104 - Military: Positive,0.007425742574257425,
+DMK,2029,2024,tuned_trend,105 - Military: Negative,0.0,
+DMK,2029,2024,tuned_trend,106 - Peace,0.0049504950495049506,
+DMK,2029,2024,tuned_trend,107 - Internationalism: Positive,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,108 - European Community/Union: Positive,0.0,
+DMK,2029,2024,tuned_trend,109 - Internationalism: Negative,0.0,
+DMK,2029,2024,tuned_trend,110 - European Community/Union: Negative,0.0,
+DMK,2029,2024,tuned_trend,201 - Freedom and Human Rights,0.012376237623762377,
+DMK,2029,2024,tuned_trend,202 - Democracy,0.009900990099009901,
+DMK,2029,2024,tuned_trend,203 - Constitutionalism: Positive,0.01485148514851485,
+DMK,2029,2024,tuned_trend,204 - Constitutionalism: Negative,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,301 - Federalism,0.0594059405940594,
+DMK,2029,2024,tuned_trend,302 - Centralisation,0.0,
+DMK,2029,2024,tuned_trend,303 - Governmental and Administrative Efficiency,0.019801980198019802,
+DMK,2029,2024,tuned_trend,304 - Political Corruption,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,305 - Political Authority,0.03217821782178218,
+DMK,2029,2024,tuned_trend,401 - Free Market Economy,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,402 - Incentives,0.022277227722772276,
+DMK,2029,2024,tuned_trend,403 - Market Regulation,0.007425742574257425,
+DMK,2029,2024,tuned_trend,404 - Economic Planning,0.0,
+DMK,2029,2024,tuned_trend,405 - Corporatism/ Mixed Economy,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,406 - Protectionism: Positive,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,407 - Protectionism: Negative,0.0,
+DMK,2029,2024,tuned_trend,408 - Economic Goals,0.0,
+DMK,2029,2024,tuned_trend,409 - Keynesian Demand Management,0.0,
+DMK,2029,2024,tuned_trend,410 - Economic Growth: Positive,0.017326732673267328,
+DMK,2029,2024,tuned_trend,411 - Technology and Infrastructure,0.31435643564356436,
+DMK,2029,2024,tuned_trend,412 - Controlled Economy,0.012376237623762377,
+DMK,2029,2024,tuned_trend,413 - Nationalisation,0.0049504950495049506,
+DMK,2029,2024,tuned_trend,414 - Economic Orthodoxy,0.0,
+DMK,2029,2024,tuned_trend,415 - Marxist Analysis: Positive,0.0,
+DMK,2029,2024,tuned_trend,416 - Anti-Growth Economy: Positive,0.009900990099009901,
+DMK,2029,2024,tuned_trend,501 - Environmental Protection: Positive,0.03217821782178218,
+DMK,2029,2024,tuned_trend,502 - Culture: Positive,0.009900990099009901,
+DMK,2029,2024,tuned_trend,503 - Equality: Positive,0.03712871287128713,
+DMK,2029,2024,tuned_trend,504 - Welfare State Expansion,0.07673267326732673,
+DMK,2029,2024,tuned_trend,505 - Welfare State Limitation,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,506 - Education Expansion,0.034653465346534656,
+DMK,2029,2024,tuned_trend,507 - Education Limitation,0.0,
+DMK,2029,2024,tuned_trend,601 - National Way of Life: Positive,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,602 - National Way of Life: Negative,0.0049504950495049506,
+DMK,2029,2024,tuned_trend,603 - Traditional Morality: Positive,0.009900990099009901,
+DMK,2029,2024,tuned_trend,604 - Traditional Morality: Negative,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,605 - Law and Order: Positive,0.009900990099009901,
+DMK,2029,2024,tuned_trend,606 - Civic Mindedness: Positive,0.0024752475247524753,
+DMK,2029,2024,tuned_trend,607 - Multiculturalism: Positive,0.04455445544554455,
+DMK,2029,2024,tuned_trend,608 - Multiculturalism: Negative,0.0,
+DMK,2029,2024,tuned_trend,701 - Labour Groups: Positive,0.019801980198019802,
+DMK,2029,2024,tuned_trend,702 - Labour Groups: Negative,0.0,
+DMK,2029,2024,tuned_trend,703 - Agriculture and Farmers: Positive,0.1311881188118812,
+DMK,2029,2024,tuned_trend,704 - Middle Class and Professional Groups,0.0,
+DMK,2029,2024,tuned_trend,705 - Underprivileged Minority Groups,0.009900990099009901,
+DMK,2029,2024,tuned_trend,706 - Non-economic Demographic Groups,0.0024752475247524753,
+INC,2024,2019,persistence,101 - Foreign Special Relationships: Positive,0.004555808656036446,0.005747126436781609
+INC,2024,2019,persistence,102 - Foreign Special Relationships: Negative,0.0,0.0
+INC,2024,2019,persistence,103 - Anti-Imperialism,0.0,0.0
+INC,2024,2019,persistence,104 - Military: Positive,0.022779043280182234,0.022988505747126436
+INC,2024,2019,persistence,105 - Military: Negative,0.002277904328018223,0.0
+INC,2024,2019,persistence,106 - Peace,0.0,0.0038314176245210726
+INC,2024,2019,persistence,107 - Internationalism: Positive,0.01366742596810934,0.013409961685823755
+INC,2024,2019,persistence,108 - European Community/Union: Positive,0.0,0.0
+INC,2024,2019,persistence,109 - Internationalism: Negative,0.0,0.0
+INC,2024,2019,persistence,110 - European Community/Union: Negative,0.0,0.0
+INC,2024,2019,persistence,201 - Freedom and Human Rights,0.0387243735763098,0.05555555555555555
+INC,2024,2019,persistence,202 - Democracy,0.03986332574031891,0.040229885057471264
+INC,2024,2019,persistence,203 - Constitutionalism: Positive,0.00683371298405467,0.009578544061302681
+INC,2024,2019,persistence,204 - Constitutionalism: Negative,0.003416856492027335,0.009578544061302681
+INC,2024,2019,persistence,301 - Federalism,0.04100227790432802,0.05555555555555555
+INC,2024,2019,persistence,302 - Centralisation,0.0,0.0
+INC,2024,2019,persistence,303 - Governmental and Administrative Efficiency,0.06378132118451026,0.034482758620689655
+INC,2024,2019,persistence,304 - Political Corruption,0.0056947608200455585,0.009578544061302681
+INC,2024,2019,persistence,305 - Political Authority,0.03416856492027335,0.007662835249042145
+INC,2024,2019,persistence,401 - Free Market Economy,0.017084282460136675,0.01532567049808429
+INC,2024,2019,persistence,402 - Incentives,0.04441913439635535,0.028735632183908046
+INC,2024,2019,persistence,403 - Market Regulation,0.0193621867881549,0.03065134099616858
+INC,2024,2019,persistence,404 - Economic Planning,0.002277904328018223,0.0038314176245210726
+INC,2024,2019,persistence,405 - Corporatism/ Mixed Economy,0.0,0.0019157088122605363
+INC,2024,2019,persistence,406 - Protectionism: Positive,0.002277904328018223,0.0019157088122605363
+INC,2024,2019,persistence,407 - Protectionism: Negative,0.009111617312072893,0.011494252873563218
+INC,2024,2019,persistence,408 - Economic Goals,0.0011389521640091116,0.0
+INC,2024,2019,persistence,409 - Keynesian Demand Management,0.0011389521640091116,0.0
+INC,2024,2019,persistence,410 - Economic Growth: Positive,0.02164009111617312,0.022988505747126436
+INC,2024,2019,persistence,411 - Technology and Infrastructure,0.07289293849658314,0.06130268199233716
+INC,2024,2019,persistence,412 - Controlled Economy,0.002277904328018223,0.0
+INC,2024,2019,persistence,413 - Nationalisation,0.002277904328018223,0.0
+INC,2024,2019,persistence,414 - Economic Orthodoxy,0.015945330296127564,0.0038314176245210726
+INC,2024,2019,persistence,415 - Marxist Analysis: Positive,0.0,0.0
+INC,2024,2019,persistence,416 - Anti-Growth Economy: Positive,0.003416856492027335,0.011494252873563218
+INC,2024,2019,persistence,501 - Environmental Protection: Positive,0.05239179954441914,0.05363984674329502
+INC,2024,2019,persistence,502 - Culture: Positive,0.030751708428246014,0.04597701149425287
+INC,2024,2019,persistence,503 - Equality: Positive,0.07289293849658314,0.08812260536398467
+INC,2024,2019,persistence,504 - Welfare State Expansion,0.08428246013667426,0.07088122605363985
+INC,2024,2019,persistence,505 - Welfare State Limitation,0.0,0.0019157088122605363
+INC,2024,2019,persistence,506 - Education Expansion,0.05239179954441914,0.06321839080459771
+INC,2024,2019,persistence,507 - Education Limitation,0.0011389521640091116,0.0019157088122605363
+INC,2024,2019,persistence,601 - National Way of Life: Positive,0.00683371298405467,0.0019157088122605363
+INC,2024,2019,persistence,602 - National Way of Life: Negative,0.002277904328018223,0.0
+INC,2024,2019,persistence,603 - Traditional Morality: Positive,0.0,0.0
+INC,2024,2019,persistence,604 - Traditional Morality: Negative,0.0011389521640091116,0.0019157088122605363
+INC,2024,2019,persistence,605 - Law and Order: Positive,0.06492027334851937,0.04789272030651341
+INC,2024,2019,persistence,606 - Civic Mindedness: Positive,0.010250569476082005,0.0038314176245210726
+INC,2024,2019,persistence,607 - Multiculturalism: Positive,0.02733485193621868,0.02681992337164751
+INC,2024,2019,persistence,608 - Multiculturalism: Negative,0.0,0.0
+INC,2024,2019,persistence,701 - Labour Groups: Positive,0.023917995444191344,0.04980842911877394
+INC,2024,2019,persistence,702 - Labour Groups: Negative,0.0,0.0
+INC,2024,2019,persistence,703 - Agriculture and Farmers: Positive,0.05353075170842825,0.05938697318007663
+INC,2024,2019,persistence,704 - Middle Class and Professional Groups,0.0,0.0
+INC,2024,2019,persistence,705 - Underprivileged Minority Groups,0.0056947608200455585,0.005747126436781609
+INC,2024,2019,persistence,706 - Non-economic Demographic Groups,0.018223234624145785,0.01532567049808429
+INC,2024,2019,half_trend,101 - Foreign Special Relationships: Positive,0.00326211058554885,0.005747126436781609
+INC,2024,2019,half_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+INC,2024,2019,half_trend,103 - Anti-Imperialism,0.0,0.0
+INC,2024,2019,half_trend,104 - Military: Positive,0.02075796456456396,0.022988505747126436
+INC,2024,2019,half_trend,105 - Military: Negative,0.0034100199475023073,0.0
+INC,2024,2019,half_trend,106 - Peace,0.0,0.0038314176245210726
+INC,2024,2019,half_trend,107 - Internationalism: Positive,0.012454778738738374,0.013409961685823755
+INC,2024,2019,half_trend,108 - European Community/Union: Positive,0.0,0.0
+INC,2024,2019,half_trend,109 - Internationalism: Negative,0.0,0.0
+INC,2024,2019,half_trend,110 - European Community/Union: Negative,0.0,0.0
+INC,2024,2019,half_trend,201 - Freedom and Human Rights,0.05174396281599164,0.05555555555555555
+INC,2024,2019,half_trend,202 - Democracy,0.041885702534011554,0.040229885057471264
+INC,2024,2019,half_trend,203 - Constitutionalism: Positive,0.007561612860415098,0.009578544061302681
+INC,2024,2019,half_trend,204 - Constitutionalism: Negative,0.0042255475938895205,0.009578544061302681
+INC,2024,2019,half_trend,301 - Federalism,0.049817088799310294,0.05555555555555555
+INC,2024,2019,half_trend,302 - Centralisation,0.0,0.0
+INC,2024,2019,half_trend,303 - Governmental and Administrative Efficiency,0.06256971241759879,0.034482758620689655
+INC,2024,2019,half_trend,304 - Political Corruption,0.0014091912498442407,0.009578544061302681
+INC,2024,2019,half_trend,305 - Political Authority,0.0422554759388952,0.007662835249042145
+INC,2024,2019,half_trend,401 - Free Market Economy,0.02023825564208366,0.01532567049808429
+INC,2024,2019,half_trend,402 - Incentives,0.04692677777428828,0.028735632183908046
+INC,2024,2019,half_trend,403 - Market Regulation,0.01742189929803838,0.03065134099616858
+INC,2024,2019,half_trend,404 - Economic Planning,0.0034100199475023073,0.0038314176245210726
+INC,2024,2019,half_trend,405 - Corporatism/ Mixed Economy,0.0,0.0019157088122605363
+INC,2024,2019,half_trend,406 - Protectionism: Positive,0.002520537620138366,0.0019157088122605363
+INC,2024,2019,half_trend,407 - Protectionism: Negative,0.010082150480553463,0.011494252873563218
+INC,2024,2019,half_trend,408 - Economic Goals,0.0017050099737511537,0.0
+INC,2024,2019,half_trend,409 - Keynesian Demand Management,0.0017050099737511537,0.0
+INC,2024,2019,half_trend,410 - Economic Growth: Positive,0.0190529545908128,0.022988505747126436
+INC,2024,2019,half_trend,411 - Technology and Infrastructure,0.05842014566032918,0.06130268199233716
+INC,2024,2019,half_trend,412 - Controlled Economy,0.002520537620138366,0.0
+INC,2024,2019,half_trend,413 - Nationalisation,0.002520537620138366,0.0
+INC,2024,2019,half_trend,414 - Economic Orthodoxy,0.019422727995696446,0.0038314176245210726
+INC,2024,2019,half_trend,415 - Marxist Analysis: Positive,0.0,0.0
+INC,2024,2019,half_trend,416 - Anti-Growth Economy: Positive,0.0,0.011494252873563218
+INC,2024,2019,half_trend,501 - Environmental Protection: Positive,0.054414435953726664,0.05363984674329502
+INC,2024,2019,half_trend,502 - Culture: Positive,0.040698375327097504,0.04597701149425287
+INC,2024,2019,half_trend,503 - Equality: Positive,0.07887823918969984,0.08812260536398467
+INC,2024,2019,half_trend,504 - Welfare State Expansion,0.07635972772520466,0.07088122605363985
+INC,2024,2019,half_trend,505 - Welfare State Limitation,0.0,0.0019157088122605363
+INC,2024,2019,half_trend,506 - Education Expansion,0.04107220104326755,0.06321839080459771
+INC,2024,2019,half_trend,507 - Education Limitation,0.0008155276463872126,0.0019157088122605363
+INC,2024,2019,half_trend,601 - National Way of Life: Positive,0.009340577515142981,0.0019157088122605363
+INC,2024,2019,half_trend,602 - National Way of Life: Negative,0.002520537620138366,0.0
+INC,2024,2019,half_trend,603 - Traditional Morality: Positive,0.0,0.0
+INC,2024,2019,half_trend,604 - Traditional Morality: Negative,0.0008155276463872126,0.0019157088122605363
+INC,2024,2019,half_trend,605 - Law and Order: Positive,0.06783265170080571,0.04789272030651341
+INC,2024,2019,half_trend,606 - Civic Mindedness: Positive,0.014455607436396442,0.0038314176245210726
+INC,2024,2019,half_trend,607 - Multiculturalism: Positive,0.023130592822748864,0.02681992337164751
+INC,2024,2019,half_trend,608 - Multiculturalism: Negative,0.0,0.0
+INC,2024,2019,half_trend,701 - Labour Groups: Positive,0.01623659824676752,0.04980842911877394
+INC,2024,2019,half_trend,702 - Labour Groups: Negative,0.0,0.0
+INC,2024,2019,half_trend,703 - Agriculture and Farmers: Positive,0.05434048127274993,0.05938697318007663
+INC,2024,2019,half_trend,704 - Middle Class and Professional Groups,0.0,0.0
+INC,2024,2019,half_trend,705 - Underprivileged Minority Groups,0.0031881559045721223,0.005747126436781609
+INC,2024,2019,half_trend,706 - Non-economic Demographic Groups,0.008601030705375694,0.01532567049808429
+INC,2024,2019,tuned_trend,101 - Foreign Special Relationships: Positive,0.004555808656036446,0.005747126436781609
+INC,2024,2019,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+INC,2024,2019,tuned_trend,103 - Anti-Imperialism,0.0,0.0
+INC,2024,2019,tuned_trend,104 - Military: Positive,0.022779043280182234,0.022988505747126436
+INC,2024,2019,tuned_trend,105 - Military: Negative,0.002277904328018223,0.0
+INC,2024,2019,tuned_trend,106 - Peace,0.0,0.0038314176245210726
+INC,2024,2019,tuned_trend,107 - Internationalism: Positive,0.01366742596810934,0.013409961685823755
+INC,2024,2019,tuned_trend,108 - European Community/Union: Positive,0.0,0.0
+INC,2024,2019,tuned_trend,109 - Internationalism: Negative,0.0,0.0
+INC,2024,2019,tuned_trend,110 - European Community/Union: Negative,0.0,0.0
+INC,2024,2019,tuned_trend,201 - Freedom and Human Rights,0.0387243735763098,0.05555555555555555
+INC,2024,2019,tuned_trend,202 - Democracy,0.03986332574031891,0.040229885057471264
+INC,2024,2019,tuned_trend,203 - Constitutionalism: Positive,0.00683371298405467,0.009578544061302681
+INC,2024,2019,tuned_trend,204 - Constitutionalism: Negative,0.003416856492027335,0.009578544061302681
+INC,2024,2019,tuned_trend,301 - Federalism,0.04100227790432802,0.05555555555555555
+INC,2024,2019,tuned_trend,302 - Centralisation,0.0,0.0
+INC,2024,2019,tuned_trend,303 - Governmental and Administrative Efficiency,0.06378132118451026,0.034482758620689655
+INC,2024,2019,tuned_trend,304 - Political Corruption,0.0056947608200455585,0.009578544061302681
+INC,2024,2019,tuned_trend,305 - Political Authority,0.03416856492027335,0.007662835249042145
+INC,2024,2019,tuned_trend,401 - Free Market Economy,0.017084282460136675,0.01532567049808429
+INC,2024,2019,tuned_trend,402 - Incentives,0.04441913439635535,0.028735632183908046
+INC,2024,2019,tuned_trend,403 - Market Regulation,0.0193621867881549,0.03065134099616858
+INC,2024,2019,tuned_trend,404 - Economic Planning,0.002277904328018223,0.0038314176245210726
+INC,2024,2019,tuned_trend,405 - Corporatism/ Mixed Economy,0.0,0.0019157088122605363
+INC,2024,2019,tuned_trend,406 - Protectionism: Positive,0.002277904328018223,0.0019157088122605363
+INC,2024,2019,tuned_trend,407 - Protectionism: Negative,0.009111617312072893,0.011494252873563218
+INC,2024,2019,tuned_trend,408 - Economic Goals,0.0011389521640091116,0.0
+INC,2024,2019,tuned_trend,409 - Keynesian Demand Management,0.0011389521640091116,0.0
+INC,2024,2019,tuned_trend,410 - Economic Growth: Positive,0.02164009111617312,0.022988505747126436
+INC,2024,2019,tuned_trend,411 - Technology and Infrastructure,0.07289293849658314,0.06130268199233716
+INC,2024,2019,tuned_trend,412 - Controlled Economy,0.002277904328018223,0.0
+INC,2024,2019,tuned_trend,413 - Nationalisation,0.002277904328018223,0.0
+INC,2024,2019,tuned_trend,414 - Economic Orthodoxy,0.015945330296127564,0.0038314176245210726
+INC,2024,2019,tuned_trend,415 - Marxist Analysis: Positive,0.0,0.0
+INC,2024,2019,tuned_trend,416 - Anti-Growth Economy: Positive,0.003416856492027335,0.011494252873563218
+INC,2024,2019,tuned_trend,501 - Environmental Protection: Positive,0.05239179954441914,0.05363984674329502
+INC,2024,2019,tuned_trend,502 - Culture: Positive,0.030751708428246014,0.04597701149425287
+INC,2024,2019,tuned_trend,503 - Equality: Positive,0.07289293849658314,0.08812260536398467
+INC,2024,2019,tuned_trend,504 - Welfare State Expansion,0.08428246013667426,0.07088122605363985
+INC,2024,2019,tuned_trend,505 - Welfare State Limitation,0.0,0.0019157088122605363
+INC,2024,2019,tuned_trend,506 - Education Expansion,0.05239179954441914,0.06321839080459771
+INC,2024,2019,tuned_trend,507 - Education Limitation,0.0011389521640091116,0.0019157088122605363
+INC,2024,2019,tuned_trend,601 - National Way of Life: Positive,0.00683371298405467,0.0019157088122605363
+INC,2024,2019,tuned_trend,602 - National Way of Life: Negative,0.002277904328018223,0.0
+INC,2024,2019,tuned_trend,603 - Traditional Morality: Positive,0.0,0.0
+INC,2024,2019,tuned_trend,604 - Traditional Morality: Negative,0.0011389521640091116,0.0019157088122605363
+INC,2024,2019,tuned_trend,605 - Law and Order: Positive,0.06492027334851937,0.04789272030651341
+INC,2024,2019,tuned_trend,606 - Civic Mindedness: Positive,0.010250569476082005,0.0038314176245210726
+INC,2024,2019,tuned_trend,607 - Multiculturalism: Positive,0.02733485193621868,0.02681992337164751
+INC,2024,2019,tuned_trend,608 - Multiculturalism: Negative,0.0,0.0
+INC,2024,2019,tuned_trend,701 - Labour Groups: Positive,0.023917995444191344,0.04980842911877394
+INC,2024,2019,tuned_trend,702 - Labour Groups: Negative,0.0,0.0
+INC,2024,2019,tuned_trend,703 - Agriculture and Farmers: Positive,0.05353075170842825,0.05938697318007663
+INC,2024,2019,tuned_trend,704 - Middle Class and Professional Groups,0.0,0.0
+INC,2024,2019,tuned_trend,705 - Underprivileged Minority Groups,0.0056947608200455585,0.005747126436781609
+INC,2024,2019,tuned_trend,706 - Non-economic Demographic Groups,0.018223234624145785,0.01532567049808429
+INC,2029,2024,persistence,101 - Foreign Special Relationships: Positive,0.00574712643678161,
+INC,2029,2024,persistence,102 - Foreign Special Relationships: Negative,0.0,
+INC,2029,2024,persistence,103 - Anti-Imperialism,0.0,
+INC,2029,2024,persistence,104 - Military: Positive,0.02298850574712644,
+INC,2029,2024,persistence,105 - Military: Negative,0.0,
+INC,2029,2024,persistence,106 - Peace,0.003831417624521073,
+INC,2029,2024,persistence,107 - Internationalism: Positive,0.013409961685823757,
+INC,2029,2024,persistence,108 - European Community/Union: Positive,0.0,
+INC,2029,2024,persistence,109 - Internationalism: Negative,0.0,
+INC,2029,2024,persistence,110 - European Community/Union: Negative,0.0,
+INC,2029,2024,persistence,201 - Freedom and Human Rights,0.05555555555555556,
+INC,2029,2024,persistence,202 - Democracy,0.04022988505747127,
+INC,2029,2024,persistence,203 - Constitutionalism: Positive,0.009578544061302683,
+INC,2029,2024,persistence,204 - Constitutionalism: Negative,0.009578544061302683,
+INC,2029,2024,persistence,301 - Federalism,0.05555555555555556,
+INC,2029,2024,persistence,302 - Centralisation,0.0,
+INC,2029,2024,persistence,303 - Governmental and Administrative Efficiency,0.03448275862068966,
+INC,2029,2024,persistence,304 - Political Corruption,0.009578544061302683,
+INC,2029,2024,persistence,305 - Political Authority,0.007662835249042146,
+INC,2029,2024,persistence,401 - Free Market Economy,0.015325670498084292,
+INC,2029,2024,persistence,402 - Incentives,0.02873563218390805,
+INC,2029,2024,persistence,403 - Market Regulation,0.030651340996168584,
+INC,2029,2024,persistence,404 - Economic Planning,0.003831417624521073,
+INC,2029,2024,persistence,405 - Corporatism/ Mixed Economy,0.0019157088122605365,
+INC,2029,2024,persistence,406 - Protectionism: Positive,0.0019157088122605365,
+INC,2029,2024,persistence,407 - Protectionism: Negative,0.01149425287356322,
+INC,2029,2024,persistence,408 - Economic Goals,0.0,
+INC,2029,2024,persistence,409 - Keynesian Demand Management,0.0,
+INC,2029,2024,persistence,410 - Economic Growth: Positive,0.02298850574712644,
+INC,2029,2024,persistence,411 - Technology and Infrastructure,0.06130268199233717,
+INC,2029,2024,persistence,412 - Controlled Economy,0.0,
+INC,2029,2024,persistence,413 - Nationalisation,0.0,
+INC,2029,2024,persistence,414 - Economic Orthodoxy,0.003831417624521073,
+INC,2029,2024,persistence,415 - Marxist Analysis: Positive,0.0,
+INC,2029,2024,persistence,416 - Anti-Growth Economy: Positive,0.01149425287356322,
+INC,2029,2024,persistence,501 - Environmental Protection: Positive,0.05363984674329503,
+INC,2029,2024,persistence,502 - Culture: Positive,0.04597701149425288,
+INC,2029,2024,persistence,503 - Equality: Positive,0.08812260536398468,
+INC,2029,2024,persistence,504 - Welfare State Expansion,0.07088122605363986,
+INC,2029,2024,persistence,505 - Welfare State Limitation,0.0019157088122605365,
+INC,2029,2024,persistence,506 - Education Expansion,0.06321839080459772,
+INC,2029,2024,persistence,507 - Education Limitation,0.0019157088122605365,
+INC,2029,2024,persistence,601 - National Way of Life: Positive,0.0019157088122605365,
+INC,2029,2024,persistence,602 - National Way of Life: Negative,0.0,
+INC,2029,2024,persistence,603 - Traditional Morality: Positive,0.0,
+INC,2029,2024,persistence,604 - Traditional Morality: Negative,0.0019157088122605365,
+INC,2029,2024,persistence,605 - Law and Order: Positive,0.04789272030651342,
+INC,2029,2024,persistence,606 - Civic Mindedness: Positive,0.003831417624521073,
+INC,2029,2024,persistence,607 - Multiculturalism: Positive,0.026819923371647514,
+INC,2029,2024,persistence,608 - Multiculturalism: Negative,0.0,
+INC,2029,2024,persistence,701 - Labour Groups: Positive,0.04980842911877395,
+INC,2029,2024,persistence,702 - Labour Groups: Negative,0.0,
+INC,2029,2024,persistence,703 - Agriculture and Farmers: Positive,0.05938697318007664,
+INC,2029,2024,persistence,704 - Middle Class and Professional Groups,0.0,
+INC,2029,2024,persistence,705 - Underprivileged Minority Groups,0.00574712643678161,
+INC,2029,2024,persistence,706 - Non-economic Demographic Groups,0.015325670498084292,
+INC,2029,2024,half_trend,101 - Foreign Special Relationships: Positive,0.006254881583279005,
+INC,2029,2024,half_trend,102 - Foreign Special Relationships: Negative,0.0,
+INC,2029,2024,half_trend,103 - Anti-Imperialism,0.0,
+INC,2029,2024,half_trend,104 - Military: Positive,0.02277319115150498,
+INC,2029,2024,half_trend,105 - Military: Negative,0.0,
+INC,2029,2024,half_trend,106 - Peace,0.0056674778432600275,
+INC,2029,2024,half_trend,107 - Internationalism: Positive,0.013097166906576987,
+INC,2029,2024,half_trend,108 - European Community/Union: Positive,0.0,
+INC,2029,2024,half_trend,109 - Internationalism: Negative,0.0,
+INC,2029,2024,half_trend,110 - European Community/Union: Negative,0.0,
+INC,2029,2024,half_trend,201 - Freedom and Human Rights,0.06308457968357659,
+INC,2029,2024,half_trend,202 - Democracy,0.039853084515133724,
+INC,2029,2024,half_trend,203 - Constitutionalism: Positive,0.010799191835733515,
+INC,2029,2024,half_trend,204 - Constitutionalism: Negative,0.012483943221941789,
+INC,2029,2024,half_trend,301 - Federalism,0.061961412092771076,
+INC,2029,2024,half_trend,302 - Centralisation,0.0,
+INC,2029,2024,half_trend,303 - Governmental and Administrative Efficiency,0.01955860804678574,
+INC,2029,2024,half_trend,304 - Political Corruption,0.011360775631136273,
+INC,2029,2024,half_trend,305 - Political Authority,0.0,
+INC,2029,2024,half_trend,401 - Free Market Economy,0.014246154441998723,
+INC,2029,2024,half_trend,402 - Incentives,0.020604315803742605,
+INC,2029,2024,half_trend,403 - Market Regulation,0.03579289822423331,
+INC,2029,2024,half_trend,404 - Economic Planning,0.004544310252454509,
+INC,2029,2024,half_trend,405 - Corporatism/ Mixed Economy,0.0028337389216300138,
+INC,2029,2024,half_trend,406 - Protectionism: Positive,0.0017105713308244955,
+INC,2029,2024,half_trend,407 - Protectionism: Negative,0.01250976316655801,
+INC,2029,2024,half_trend,408 - Economic Goals,0.0,
+INC,2029,2024,half_trend,409 - Keynesian Demand Management,0.0,
+INC,2029,2024,half_trend,410 - Economic Growth: Positive,0.023334774946907742,
+INC,2029,2024,half_trend,411 - Technology and Infrastructure,0.05473828258638386,
+INC,2029,2024,half_trend,412 - Controlled Economy,0.0,
+INC,2029,2024,half_trend,413 - Nationalisation,0.0,
+INC,2029,2024,half_trend,414 - Economic Orthodoxy,0.0,
+INC,2029,2024,half_trend,415 - Marxist Analysis: Positive,0.0,
+INC,2029,2024,half_trend,416 - Anti-Growth Economy: Positive,0.015317682143571805,
+INC,2029,2024,half_trend,501 - Environmental Protection: Positive,0.05351183521711347,
+INC,2029,2024,half_trend,502 - Culture: Positive,0.05284697164324584,
+INC,2029,2024,half_trend,503 - Equality: Positive,0.09441062748920404,
+INC,2029,2024,half_trend,504 - Welfare State Expansion,0.06329113924050633,
+INC,2029,2024,half_trend,505 - Welfare State Limitation,0.0028337389216300138,
+INC,2029,2024,half_trend,506 - Education Expansion,0.06768052982526354,
+INC,2029,2024,half_trend,507 - Education Limitation,0.0022721551262272544,
+INC,2029,2024,half_trend,601 - National Way of Life: Positive,0.0,
+INC,2029,2024,half_trend,602 - National Way of Life: Negative,0.0,
+INC,2029,2024,half_trend,603 - Traditional Morality: Positive,0.0,
+INC,2029,2024,half_trend,604 - Traditional Morality: Negative,0.0022721551262272544,
+INC,2029,2024,half_trend,605 - Law and Order: Positive,0.03883319670279308,
+INC,2029,2024,half_trend,606 - Civic Mindedness: Positive,0.000613223684635196,
+INC,2029,2024,half_trend,607 - Multiculturalism: Positive,0.026194333813153975,
+INC,2029,2024,half_trend,608 - Multiculturalism: Negative,0.0,
+INC,2029,2024,half_trend,701 - Labour Groups: Positive,0.06188395225892241,
+INC,2029,2024,half_trend,702 - Labour Groups: Negative,0.0,
+INC,2029,2024,half_trend,703 - Agriculture and Farmers: Positive,0.06145146818660075,
+INC,2029,2024,half_trend,704 - Middle Class and Professional Groups,0.0,
+INC,2029,2024,half_trend,705 - Underprivileged Minority Groups,0.005693297787876245,
+INC,2029,2024,half_trend,706 - Non-economic Demographic Groups,0.013684570646595964,
+INC,2029,2024,tuned_trend,101 - Foreign Special Relationships: Positive,0.00574712643678161,
+INC,2029,2024,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,
+INC,2029,2024,tuned_trend,103 - Anti-Imperialism,0.0,
+INC,2029,2024,tuned_trend,104 - Military: Positive,0.02298850574712644,
+INC,2029,2024,tuned_trend,105 - Military: Negative,0.0,
+INC,2029,2024,tuned_trend,106 - Peace,0.003831417624521073,
+INC,2029,2024,tuned_trend,107 - Internationalism: Positive,0.013409961685823757,
+INC,2029,2024,tuned_trend,108 - European Community/Union: Positive,0.0,
+INC,2029,2024,tuned_trend,109 - Internationalism: Negative,0.0,
+INC,2029,2024,tuned_trend,110 - European Community/Union: Negative,0.0,
+INC,2029,2024,tuned_trend,201 - Freedom and Human Rights,0.05555555555555556,
+INC,2029,2024,tuned_trend,202 - Democracy,0.04022988505747127,
+INC,2029,2024,tuned_trend,203 - Constitutionalism: Positive,0.009578544061302683,
+INC,2029,2024,tuned_trend,204 - Constitutionalism: Negative,0.009578544061302683,
+INC,2029,2024,tuned_trend,301 - Federalism,0.05555555555555556,
+INC,2029,2024,tuned_trend,302 - Centralisation,0.0,
+INC,2029,2024,tuned_trend,303 - Governmental and Administrative Efficiency,0.03448275862068966,
+INC,2029,2024,tuned_trend,304 - Political Corruption,0.009578544061302683,
+INC,2029,2024,tuned_trend,305 - Political Authority,0.007662835249042146,
+INC,2029,2024,tuned_trend,401 - Free Market Economy,0.015325670498084292,
+INC,2029,2024,tuned_trend,402 - Incentives,0.02873563218390805,
+INC,2029,2024,tuned_trend,403 - Market Regulation,0.030651340996168584,
+INC,2029,2024,tuned_trend,404 - Economic Planning,0.003831417624521073,
+INC,2029,2024,tuned_trend,405 - Corporatism/ Mixed Economy,0.0019157088122605365,
+INC,2029,2024,tuned_trend,406 - Protectionism: Positive,0.0019157088122605365,
+INC,2029,2024,tuned_trend,407 - Protectionism: Negative,0.01149425287356322,
+INC,2029,2024,tuned_trend,408 - Economic Goals,0.0,
+INC,2029,2024,tuned_trend,409 - Keynesian Demand Management,0.0,
+INC,2029,2024,tuned_trend,410 - Economic Growth: Positive,0.02298850574712644,
+INC,2029,2024,tuned_trend,411 - Technology and Infrastructure,0.06130268199233717,
+INC,2029,2024,tuned_trend,412 - Controlled Economy,0.0,
+INC,2029,2024,tuned_trend,413 - Nationalisation,0.0,
+INC,2029,2024,tuned_trend,414 - Economic Orthodoxy,0.003831417624521073,
+INC,2029,2024,tuned_trend,415 - Marxist Analysis: Positive,0.0,
+INC,2029,2024,tuned_trend,416 - Anti-Growth Economy: Positive,0.01149425287356322,
+INC,2029,2024,tuned_trend,501 - Environmental Protection: Positive,0.05363984674329503,
+INC,2029,2024,tuned_trend,502 - Culture: Positive,0.04597701149425288,
+INC,2029,2024,tuned_trend,503 - Equality: Positive,0.08812260536398468,
+INC,2029,2024,tuned_trend,504 - Welfare State Expansion,0.07088122605363986,
+INC,2029,2024,tuned_trend,505 - Welfare State Limitation,0.0019157088122605365,
+INC,2029,2024,tuned_trend,506 - Education Expansion,0.06321839080459772,
+INC,2029,2024,tuned_trend,507 - Education Limitation,0.0019157088122605365,
+INC,2029,2024,tuned_trend,601 - National Way of Life: Positive,0.0019157088122605365,
+INC,2029,2024,tuned_trend,602 - National Way of Life: Negative,0.0,
+INC,2029,2024,tuned_trend,603 - Traditional Morality: Positive,0.0,
+INC,2029,2024,tuned_trend,604 - Traditional Morality: Negative,0.0019157088122605365,
+INC,2029,2024,tuned_trend,605 - Law and Order: Positive,0.04789272030651342,
+INC,2029,2024,tuned_trend,606 - Civic Mindedness: Positive,0.003831417624521073,
+INC,2029,2024,tuned_trend,607 - Multiculturalism: Positive,0.026819923371647514,
+INC,2029,2024,tuned_trend,608 - Multiculturalism: Negative,0.0,
+INC,2029,2024,tuned_trend,701 - Labour Groups: Positive,0.04980842911877395,
+INC,2029,2024,tuned_trend,702 - Labour Groups: Negative,0.0,
+INC,2029,2024,tuned_trend,703 - Agriculture and Farmers: Positive,0.05938697318007664,
+INC,2029,2024,tuned_trend,704 - Middle Class and Professional Groups,0.0,
+INC,2029,2024,tuned_trend,705 - Underprivileged Minority Groups,0.00574712643678161,
+INC,2029,2024,tuned_trend,706 - Non-economic Demographic Groups,0.015325670498084292,
+TMC,2024,2019,persistence,101 - Foreign Special Relationships: Positive,0.0,0.0
+TMC,2024,2019,persistence,102 - Foreign Special Relationships: Negative,0.0,0.0
+TMC,2024,2019,persistence,103 - Anti-Imperialism,0.0,0.0
+TMC,2024,2019,persistence,104 - Military: Positive,0.012121212121212121,0.009917355371900827
+TMC,2024,2019,persistence,105 - Military: Negative,0.0,0.001652892561983471
+TMC,2024,2019,persistence,106 - Peace,0.00909090909090909,0.003305785123966942
+TMC,2024,2019,persistence,107 - Internationalism: Positive,0.012121212121212121,0.0
+TMC,2024,2019,persistence,108 - European Community/Union: Positive,0.0,0.0
+TMC,2024,2019,persistence,109 - Internationalism: Negative,0.0,0.0
+TMC,2024,2019,persistence,110 - European Community/Union: Negative,0.0,0.003305785123966942
+TMC,2024,2019,persistence,201 - Freedom and Human Rights,0.012121212121212121,0.01487603305785124
+TMC,2024,2019,persistence,202 - Democracy,0.03333333333333333,0.02809917355371901
+TMC,2024,2019,persistence,203 - Constitutionalism: Positive,0.006060606060606061,0.001652892561983471
+TMC,2024,2019,persistence,204 - Constitutionalism: Negative,0.0,0.001652892561983471
+TMC,2024,2019,persistence,301 - Federalism,0.02727272727272727,0.047933884297520664
+TMC,2024,2019,persistence,302 - Centralisation,0.0,0.0
+TMC,2024,2019,persistence,303 - Governmental and Administrative Efficiency,0.03333333333333333,0.047933884297520664
+TMC,2024,2019,persistence,304 - Political Corruption,0.00909090909090909,0.0049586776859504135
+TMC,2024,2019,persistence,305 - Political Authority,0.03333333333333333,0.01487603305785124
+TMC,2024,2019,persistence,401 - Free Market Economy,0.006060606060606061,0.001652892561983471
+TMC,2024,2019,persistence,402 - Incentives,0.021212121212121213,0.04628099173553719
+TMC,2024,2019,persistence,403 - Market Regulation,0.00909090909090909,0.001652892561983471
+TMC,2024,2019,persistence,404 - Economic Planning,0.0030303030303030303,0.0
+TMC,2024,2019,persistence,405 - Corporatism/ Mixed Economy,0.0030303030303030303,0.0
+TMC,2024,2019,persistence,406 - Protectionism: Positive,0.0,0.0
+TMC,2024,2019,persistence,407 - Protectionism: Negative,0.0,0.001652892561983471
+TMC,2024,2019,persistence,408 - Economic Goals,0.0,0.0
+TMC,2024,2019,persistence,409 - Keynesian Demand Management,0.0,0.0
+TMC,2024,2019,persistence,410 - Economic Growth: Positive,0.03939393939393939,0.047933884297520664
+TMC,2024,2019,persistence,411 - Technology and Infrastructure,0.11515151515151516,0.10743801652892562
+TMC,2024,2019,persistence,412 - Controlled Economy,0.0030303030303030303,0.01487603305785124
+TMC,2024,2019,persistence,413 - Nationalisation,0.006060606060606061,0.001652892561983471
+TMC,2024,2019,persistence,414 - Economic Orthodoxy,0.0030303030303030303,0.001652892561983471
+TMC,2024,2019,persistence,415 - Marxist Analysis: Positive,0.0,0.0
+TMC,2024,2019,persistence,416 - Anti-Growth Economy: Positive,0.012121212121212121,0.006611570247933884
+TMC,2024,2019,persistence,501 - Environmental Protection: Positive,0.03333333333333333,0.03966942148760331
+TMC,2024,2019,persistence,502 - Culture: Positive,0.015151515151515152,0.05950413223140496
+TMC,2024,2019,persistence,503 - Equality: Positive,0.048484848484848485,0.04628099173553719
+TMC,2024,2019,persistence,504 - Welfare State Expansion,0.1606060606060606,0.12231404958677686
+TMC,2024,2019,persistence,505 - Welfare State Limitation,0.0,0.0
+TMC,2024,2019,persistence,506 - Education Expansion,0.051515151515151514,0.09090909090909091
+TMC,2024,2019,persistence,507 - Education Limitation,0.0,0.0
+TMC,2024,2019,persistence,601 - National Way of Life: Positive,0.04242424242424243,0.013223140495867768
+TMC,2024,2019,persistence,602 - National Way of Life: Negative,0.006060606060606061,0.0
+TMC,2024,2019,persistence,603 - Traditional Morality: Positive,0.0030303030303030303,0.003305785123966942
+TMC,2024,2019,persistence,604 - Traditional Morality: Negative,0.0,0.0
+TMC,2024,2019,persistence,605 - Law and Order: Positive,0.03333333333333333,0.03305785123966942
+TMC,2024,2019,persistence,606 - Civic Mindedness: Positive,0.01818181818181818,0.003305785123966942
+TMC,2024,2019,persistence,607 - Multiculturalism: Positive,0.03333333333333333,0.05289256198347107
+TMC,2024,2019,persistence,608 - Multiculturalism: Negative,0.0,0.0
+TMC,2024,2019,persistence,701 - Labour Groups: Positive,0.030303030303030304,0.03471074380165289
+TMC,2024,2019,persistence,702 - Labour Groups: Negative,0.0,0.0
+TMC,2024,2019,persistence,703 - Agriculture and Farmers: Positive,0.09090909090909091,0.07603305785123966
+TMC,2024,2019,persistence,704 - Middle Class and Professional Groups,0.0,0.0
+TMC,2024,2019,persistence,705 - Underprivileged Minority Groups,0.0030303030303030303,0.001652892561983471
+TMC,2024,2019,persistence,706 - Non-economic Demographic Groups,0.021212121212121213,0.011570247933884297
+TMC,2024,2019,half_trend,101 - Foreign Special Relationships: Positive,0.0,0.0
+TMC,2024,2019,half_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+TMC,2024,2019,half_trend,103 - Anti-Imperialism,0.0,0.0
+TMC,2024,2019,half_trend,104 - Military: Positive,0.0025303999437688916,0.009917355371900827
+TMC,2024,2019,half_trend,105 - Military: Negative,0.0,0.001652892561983471
+TMC,2024,2019,half_trend,106 - Peace,0.005763688760806917,0.003305785123966942
+TMC,2024,2019,half_trend,107 - Internationalism: Positive,0.014128066352709637,0.0
+TMC,2024,2019,half_trend,108 - European Community/Union: Positive,0.0,0.0
+TMC,2024,2019,half_trend,109 - Internationalism: Negative,0.0,0.0
+TMC,2024,2019,half_trend,110 - European Community/Union: Negative,0.0,0.003305785123966942
+TMC,2024,2019,half_trend,201 - Freedom and Human Rights,0.014128066352709637,0.01487603305785124
+TMC,2024,2019,half_trend,202 - Democracy,0.034019821466226195,0.02809917355371901
+TMC,2024,2019,half_trend,203 - Constitutionalism: Positive,0.008996977577844944,0.001652892561983471
+TMC,2024,2019,half_trend,204 - Constitutionalism: Negative,0.0,0.001652892561983471
+TMC,2024,2019,half_trend,301 - Federalism,0.03275462149434175,0.047933884297520664
+TMC,2024,2019,half_trend,302 - Centralisation,0.0,0.0
+TMC,2024,2019,half_trend,303 - Governmental and Administrative Efficiency,0.030153932663245946,0.047933884297520664
+TMC,2024,2019,half_trend,304 - Political Corruption,0.0018977999578266673,0.0049586776859504135
+TMC,2024,2019,half_trend,305 - Political Authority,0.030153932663245946,0.01487603305785124
+TMC,2024,2019,half_trend,401 - Free Market Economy,0.005131088774864694,0.001652892561983471
+TMC,2024,2019,half_trend,402 - Incentives,0.01602586631053631,0.04628099173553719
+TMC,2024,2019,half_trend,403 - Market Regulation,0.009629577563787167,0.001652892561983471
+TMC,2024,2019,half_trend,404 - Economic Planning,0.0,0.0
+TMC,2024,2019,half_trend,405 - Corporatism/ Mixed Economy,0.004498488788922472,0.0
+TMC,2024,2019,half_trend,406 - Protectionism: Positive,0.0,0.0
+TMC,2024,2019,half_trend,407 - Protectionism: Negative,0.0,0.001652892561983471
+TMC,2024,2019,half_trend,408 - Economic Goals,0.0,0.0
+TMC,2024,2019,half_trend,409 - Keynesian Demand Management,0.0,0.0
+TMC,2024,2019,half_trend,410 - Economic Growth: Positive,0.05074857665003163,0.047933884297520664
+TMC,2024,2019,half_trend,411 - Technology and Infrastructure,0.10908835313136996,0.10743801652892562
+TMC,2024,2019,half_trend,412 - Controlled Economy,0.004498488788922472,0.01487603305785124
+TMC,2024,2019,half_trend,413 - Nationalisation,0.005131088774864694,0.001652892561983471
+TMC,2024,2019,half_trend,414 - Economic Orthodoxy,0.0006325999859422229,0.001652892561983471
+TMC,2024,2019,half_trend,415 - Marxist Analysis: Positive,0.0,0.0
+TMC,2024,2019,half_trend,416 - Anti-Growth Economy: Positive,0.014128066352709637,0.006611570247933884
+TMC,2024,2019,half_trend,501 - Environmental Protection: Positive,0.026288043860265696,0.03966942148760331
+TMC,2024,2019,half_trend,502 - Culture: Positive,0.010894777535671613,0.05950413223140496
+TMC,2024,2019,half_trend,503 - Equality: Positive,0.03331693259295706,0.04628099173553719
+TMC,2024,2019,half_trend,504 - Welfare State Expansion,0.19202924017712802,0.12231404958677686
+TMC,2024,2019,half_trend,505 - Welfare State Limitation,0.0,0.0
+TMC,2024,2019,half_trend,506 - Education Expansion,0.06101075419976103,0.09090909090909091
+TMC,2024,2019,half_trend,507 - Education Limitation,0.0,0.0
+TMC,2024,2019,half_trend,601 - National Way of Life: Positive,0.04751528783299362,0.013223140495867768
+TMC,2024,2019,half_trend,602 - National Way of Life: Negative,0.008996977577844944,0.0
+TMC,2024,2019,half_trend,603 - Traditional Morality: Positive,0.0,0.003305785123966942
+TMC,2024,2019,half_trend,604 - Traditional Morality: Negative,0.0,0.0
+TMC,2024,2019,half_trend,605 - Law and Order: Positive,0.034019821466226195,0.03305785123966942
+TMC,2024,2019,half_trend,606 - Civic Mindedness: Positive,0.026990932733534832,0.003305785123966942
+TMC,2024,2019,half_trend,607 - Multiculturalism: Positive,0.034019821466226195,0.05289256198347107
+TMC,2024,2019,half_trend,608 - Multiculturalism: Negative,0.0,0.0
+TMC,2024,2019,half_trend,701 - Labour Groups: Positive,0.033387221480283974,0.03471074380165289
+TMC,2024,2019,half_trend,702 - Labour Groups: Negative,0.0,0.0
+TMC,2024,2019,half_trend,703 - Agriculture and Farmers: Positive,0.08083222042595067,0.07603305785123966
+TMC,2024,2019,half_trend,704 - Middle Class and Professional Groups,0.0,0.0
+TMC,2024,2019,half_trend,705 - Underprivileged Minority Groups,0.0006325999859422229,0.001652892561983471
+TMC,2024,2019,half_trend,706 - Non-economic Demographic Groups,0.01602586631053631,0.011570247933884297
+TMC,2024,2019,tuned_trend,101 - Foreign Special Relationships: Positive,0.0,0.0
+TMC,2024,2019,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,0.0
+TMC,2024,2019,tuned_trend,103 - Anti-Imperialism,0.0,0.0
+TMC,2024,2019,tuned_trend,104 - Military: Positive,0.012121212121212121,0.009917355371900827
+TMC,2024,2019,tuned_trend,105 - Military: Negative,0.0,0.001652892561983471
+TMC,2024,2019,tuned_trend,106 - Peace,0.00909090909090909,0.003305785123966942
+TMC,2024,2019,tuned_trend,107 - Internationalism: Positive,0.012121212121212121,0.0
+TMC,2024,2019,tuned_trend,108 - European Community/Union: Positive,0.0,0.0
+TMC,2024,2019,tuned_trend,109 - Internationalism: Negative,0.0,0.0
+TMC,2024,2019,tuned_trend,110 - European Community/Union: Negative,0.0,0.003305785123966942
+TMC,2024,2019,tuned_trend,201 - Freedom and Human Rights,0.012121212121212121,0.01487603305785124
+TMC,2024,2019,tuned_trend,202 - Democracy,0.03333333333333333,0.02809917355371901
+TMC,2024,2019,tuned_trend,203 - Constitutionalism: Positive,0.006060606060606061,0.001652892561983471
+TMC,2024,2019,tuned_trend,204 - Constitutionalism: Negative,0.0,0.001652892561983471
+TMC,2024,2019,tuned_trend,301 - Federalism,0.02727272727272727,0.047933884297520664
+TMC,2024,2019,tuned_trend,302 - Centralisation,0.0,0.0
+TMC,2024,2019,tuned_trend,303 - Governmental and Administrative Efficiency,0.03333333333333333,0.047933884297520664
+TMC,2024,2019,tuned_trend,304 - Political Corruption,0.00909090909090909,0.0049586776859504135
+TMC,2024,2019,tuned_trend,305 - Political Authority,0.03333333333333333,0.01487603305785124
+TMC,2024,2019,tuned_trend,401 - Free Market Economy,0.006060606060606061,0.001652892561983471
+TMC,2024,2019,tuned_trend,402 - Incentives,0.021212121212121213,0.04628099173553719
+TMC,2024,2019,tuned_trend,403 - Market Regulation,0.00909090909090909,0.001652892561983471
+TMC,2024,2019,tuned_trend,404 - Economic Planning,0.0030303030303030303,0.0
+TMC,2024,2019,tuned_trend,405 - Corporatism/ Mixed Economy,0.0030303030303030303,0.0
+TMC,2024,2019,tuned_trend,406 - Protectionism: Positive,0.0,0.0
+TMC,2024,2019,tuned_trend,407 - Protectionism: Negative,0.0,0.001652892561983471
+TMC,2024,2019,tuned_trend,408 - Economic Goals,0.0,0.0
+TMC,2024,2019,tuned_trend,409 - Keynesian Demand Management,0.0,0.0
+TMC,2024,2019,tuned_trend,410 - Economic Growth: Positive,0.03939393939393939,0.047933884297520664
+TMC,2024,2019,tuned_trend,411 - Technology and Infrastructure,0.11515151515151516,0.10743801652892562
+TMC,2024,2019,tuned_trend,412 - Controlled Economy,0.0030303030303030303,0.01487603305785124
+TMC,2024,2019,tuned_trend,413 - Nationalisation,0.006060606060606061,0.001652892561983471
+TMC,2024,2019,tuned_trend,414 - Economic Orthodoxy,0.0030303030303030303,0.001652892561983471
+TMC,2024,2019,tuned_trend,415 - Marxist Analysis: Positive,0.0,0.0
+TMC,2024,2019,tuned_trend,416 - Anti-Growth Economy: Positive,0.012121212121212121,0.006611570247933884
+TMC,2024,2019,tuned_trend,501 - Environmental Protection: Positive,0.03333333333333333,0.03966942148760331
+TMC,2024,2019,tuned_trend,502 - Culture: Positive,0.015151515151515152,0.05950413223140496
+TMC,2024,2019,tuned_trend,503 - Equality: Positive,0.048484848484848485,0.04628099173553719
+TMC,2024,2019,tuned_trend,504 - Welfare State Expansion,0.1606060606060606,0.12231404958677686
+TMC,2024,2019,tuned_trend,505 - Welfare State Limitation,0.0,0.0
+TMC,2024,2019,tuned_trend,506 - Education Expansion,0.051515151515151514,0.09090909090909091
+TMC,2024,2019,tuned_trend,507 - Education Limitation,0.0,0.0
+TMC,2024,2019,tuned_trend,601 - National Way of Life: Positive,0.04242424242424243,0.013223140495867768
+TMC,2024,2019,tuned_trend,602 - National Way of Life: Negative,0.006060606060606061,0.0
+TMC,2024,2019,tuned_trend,603 - Traditional Morality: Positive,0.0030303030303030303,0.003305785123966942
+TMC,2024,2019,tuned_trend,604 - Traditional Morality: Negative,0.0,0.0
+TMC,2024,2019,tuned_trend,605 - Law and Order: Positive,0.03333333333333333,0.03305785123966942
+TMC,2024,2019,tuned_trend,606 - Civic Mindedness: Positive,0.01818181818181818,0.003305785123966942
+TMC,2024,2019,tuned_trend,607 - Multiculturalism: Positive,0.03333333333333333,0.05289256198347107
+TMC,2024,2019,tuned_trend,608 - Multiculturalism: Negative,0.0,0.0
+TMC,2024,2019,tuned_trend,701 - Labour Groups: Positive,0.030303030303030304,0.03471074380165289
+TMC,2024,2019,tuned_trend,702 - Labour Groups: Negative,0.0,0.0
+TMC,2024,2019,tuned_trend,703 - Agriculture and Farmers: Positive,0.09090909090909091,0.07603305785123966
+TMC,2024,2019,tuned_trend,704 - Middle Class and Professional Groups,0.0,0.0
+TMC,2024,2019,tuned_trend,705 - Underprivileged Minority Groups,0.0030303030303030303,0.001652892561983471
+TMC,2024,2019,tuned_trend,706 - Non-economic Demographic Groups,0.021212121212121213,0.011570247933884297
+TMC,2029,2024,persistence,101 - Foreign Special Relationships: Positive,0.0,
+TMC,2029,2024,persistence,102 - Foreign Special Relationships: Negative,0.0,
+TMC,2029,2024,persistence,103 - Anti-Imperialism,0.0,
+TMC,2029,2024,persistence,104 - Military: Positive,0.009917355371900827,
+TMC,2029,2024,persistence,105 - Military: Negative,0.001652892561983471,
+TMC,2029,2024,persistence,106 - Peace,0.003305785123966942,
+TMC,2029,2024,persistence,107 - Internationalism: Positive,0.0,
+TMC,2029,2024,persistence,108 - European Community/Union: Positive,0.0,
+TMC,2029,2024,persistence,109 - Internationalism: Negative,0.0,
+TMC,2029,2024,persistence,110 - European Community/Union: Negative,0.003305785123966942,
+TMC,2029,2024,persistence,201 - Freedom and Human Rights,0.01487603305785124,
+TMC,2029,2024,persistence,202 - Democracy,0.02809917355371901,
+TMC,2029,2024,persistence,203 - Constitutionalism: Positive,0.001652892561983471,
+TMC,2029,2024,persistence,204 - Constitutionalism: Negative,0.001652892561983471,
+TMC,2029,2024,persistence,301 - Federalism,0.047933884297520664,
+TMC,2029,2024,persistence,302 - Centralisation,0.0,
+TMC,2029,2024,persistence,303 - Governmental and Administrative Efficiency,0.047933884297520664,
+TMC,2029,2024,persistence,304 - Political Corruption,0.0049586776859504135,
+TMC,2029,2024,persistence,305 - Political Authority,0.01487603305785124,
+TMC,2029,2024,persistence,401 - Free Market Economy,0.001652892561983471,
+TMC,2029,2024,persistence,402 - Incentives,0.04628099173553719,
+TMC,2029,2024,persistence,403 - Market Regulation,0.001652892561983471,
+TMC,2029,2024,persistence,404 - Economic Planning,0.0,
+TMC,2029,2024,persistence,405 - Corporatism/ Mixed Economy,0.0,
+TMC,2029,2024,persistence,406 - Protectionism: Positive,0.0,
+TMC,2029,2024,persistence,407 - Protectionism: Negative,0.001652892561983471,
+TMC,2029,2024,persistence,408 - Economic Goals,0.0,
+TMC,2029,2024,persistence,409 - Keynesian Demand Management,0.0,
+TMC,2029,2024,persistence,410 - Economic Growth: Positive,0.047933884297520664,
+TMC,2029,2024,persistence,411 - Technology and Infrastructure,0.10743801652892562,
+TMC,2029,2024,persistence,412 - Controlled Economy,0.01487603305785124,
+TMC,2029,2024,persistence,413 - Nationalisation,0.001652892561983471,
+TMC,2029,2024,persistence,414 - Economic Orthodoxy,0.001652892561983471,
+TMC,2029,2024,persistence,415 - Marxist Analysis: Positive,0.0,
+TMC,2029,2024,persistence,416 - Anti-Growth Economy: Positive,0.006611570247933884,
+TMC,2029,2024,persistence,501 - Environmental Protection: Positive,0.03966942148760331,
+TMC,2029,2024,persistence,502 - Culture: Positive,0.05950413223140496,
+TMC,2029,2024,persistence,503 - Equality: Positive,0.04628099173553719,
+TMC,2029,2024,persistence,504 - Welfare State Expansion,0.12231404958677686,
+TMC,2029,2024,persistence,505 - Welfare State Limitation,0.0,
+TMC,2029,2024,persistence,506 - Education Expansion,0.09090909090909091,
+TMC,2029,2024,persistence,507 - Education Limitation,0.0,
+TMC,2029,2024,persistence,601 - National Way of Life: Positive,0.013223140495867768,
+TMC,2029,2024,persistence,602 - National Way of Life: Negative,0.0,
+TMC,2029,2024,persistence,603 - Traditional Morality: Positive,0.003305785123966942,
+TMC,2029,2024,persistence,604 - Traditional Morality: Negative,0.0,
+TMC,2029,2024,persistence,605 - Law and Order: Positive,0.03305785123966942,
+TMC,2029,2024,persistence,606 - Civic Mindedness: Positive,0.003305785123966942,
+TMC,2029,2024,persistence,607 - Multiculturalism: Positive,0.05289256198347107,
+TMC,2029,2024,persistence,608 - Multiculturalism: Negative,0.0,
+TMC,2029,2024,persistence,701 - Labour Groups: Positive,0.03471074380165289,
+TMC,2029,2024,persistence,702 - Labour Groups: Negative,0.0,
+TMC,2029,2024,persistence,703 - Agriculture and Farmers: Positive,0.07603305785123966,
+TMC,2029,2024,persistence,704 - Middle Class and Professional Groups,0.0,
+TMC,2029,2024,persistence,705 - Underprivileged Minority Groups,0.001652892561983471,
+TMC,2029,2024,persistence,706 - Non-economic Demographic Groups,0.011570247933884297,
+TMC,2029,2024,half_trend,101 - Foreign Special Relationships: Positive,0.0,
+TMC,2029,2024,half_trend,102 - Foreign Special Relationships: Negative,0.0,
+TMC,2029,2024,half_trend,103 - Anti-Imperialism,0.0,
+TMC,2029,2024,half_trend,104 - Military: Positive,0.008631153068105194,
+TMC,2029,2024,half_trend,105 - Military: Negative,0.0024275118004045853,
+TMC,2029,2024,half_trend,106 - Peace,0.0004045853000674311,
+TMC,2029,2024,half_trend,107 - Internationalism: Positive,0.0,
+TMC,2029,2024,half_trend,108 - European Community/Union: Positive,0.0,
+TMC,2029,2024,half_trend,109 - Internationalism: Negative,0.0,
+TMC,2029,2024,half_trend,110 - European Community/Union: Negative,0.004855023600809171,
+TMC,2029,2024,half_trend,201 - Freedom and Human Rights,0.015913688469318954,
+TMC,2029,2024,half_trend,202 - Democracy,0.024949426837491576,
+TMC,2029,2024,half_trend,203 - Constitutionalism: Positive,0.0,
+TMC,2029,2024,half_trend,204 - Constitutionalism: Negative,0.0024275118004045853,
+TMC,2029,2024,half_trend,301 - Federalism,0.057046527309507766,
+TMC,2029,2024,half_trend,302 - Centralisation,0.0,
+TMC,2029,2024,half_trend,303 - Governmental and Administrative Efficiency,0.05407956844234661,
+TMC,2029,2024,half_trend,304 - Political Corruption,0.0028320971004720174,
+TMC,2029,2024,half_trend,305 - Political Authority,0.005529332434254891,
+TMC,2029,2024,half_trend,401 - Free Market Economy,0.0,
+TMC,2029,2024,half_trend,402 - Incentives,0.05758597437626434,
+TMC,2029,2024,half_trend,403 - Market Regulation,0.0,
+TMC,2029,2024,half_trend,404 - Economic Planning,0.0,
+TMC,2029,2024,half_trend,405 - Corporatism/ Mixed Economy,0.0,
+TMC,2029,2024,half_trend,406 - Protectionism: Positive,0.0,
+TMC,2029,2024,half_trend,407 - Protectionism: Negative,0.0024275118004045853,
+TMC,2029,2024,half_trend,408 - Economic Goals,0.0,
+TMC,2029,2024,half_trend,409 - Keynesian Demand Management,0.0,
+TMC,2029,2024,half_trend,410 - Economic Growth: Positive,0.05111260957518545,
+TMC,2029,2024,half_trend,411 - Technology and Infrastructure,0.10141604855023603,
+TMC,2029,2024,half_trend,412 - Controlled Economy,0.020364126770060692,
+TMC,2029,2024,half_trend,413 - Nationalisation,0.0,
+TMC,2029,2024,half_trend,414 - Economic Orthodoxy,0.0009440323668240056,
+TMC,2029,2024,half_trend,415 - Marxist Analysis: Positive,0.0,
+TMC,2029,2024,half_trend,416 - Anti-Growth Economy: Positive,0.0037761294672960222,
+TMC,2029,2024,half_trend,501 - Environmental Protection: Positive,0.04194200944032368,
+TMC,2029,2024,half_trend,502 - Culture: Positive,0.07997302764666218,
+TMC,2029,2024,half_trend,503 - Equality: Positive,0.044234659474039116,
+TMC,2029,2024,half_trend,504 - Welfare State Expansion,0.10101146325016859,
+TMC,2029,2024,half_trend,505 - Welfare State Limitation,0.0,
+TMC,2029,2024,half_trend,506 - Education Expansion,0.10829399865138235,
+TMC,2029,2024,half_trend,507 - Education Limitation,0.0,
+TMC,2029,2024,half_trend,601 - National Way of Life: Positive,0.0,
+TMC,2029,2024,half_trend,602 - National Way of Life: Negative,0.0,
+TMC,2029,2024,half_trend,603 - Traditional Morality: Positive,0.0033715441672285914,
+TMC,2029,2024,half_trend,604 - Traditional Morality: Negative,0.0,
+TMC,2029,2024,half_trend,605 - Law and Order: Positive,0.032231962238705336,
+TMC,2029,2024,half_trend,606 - Civic Mindedness: Positive,0.0,
+TMC,2029,2024,half_trend,607 - Multiculturalism: Positive,0.061362103843560355,
+TMC,2029,2024,half_trend,608 - Multiculturalism: Negative,0.0,
+TMC,2029,2024,half_trend,701 - Labour Groups: Positive,0.036142953472690496,
+TMC,2029,2024,half_trend,702 - Labour Groups: Negative,0.0,
+TMC,2029,2024,half_trend,703 - Agriculture and Farmers: Positive,0.06716115981119353,
+TMC,2029,2024,half_trend,704 - Middle Class and Professional Groups,0.0,
+TMC,2029,2024,half_trend,705 - Underprivileged Minority Groups,0.0009440323668240056,
+TMC,2029,2024,half_trend,706 - Non-economic Demographic Groups,0.0066082265677680375,
+TMC,2029,2024,tuned_trend,101 - Foreign Special Relationships: Positive,0.0,
+TMC,2029,2024,tuned_trend,102 - Foreign Special Relationships: Negative,0.0,
+TMC,2029,2024,tuned_trend,103 - Anti-Imperialism,0.0,
+TMC,2029,2024,tuned_trend,104 - Military: Positive,0.009917355371900827,
+TMC,2029,2024,tuned_trend,105 - Military: Negative,0.001652892561983471,
+TMC,2029,2024,tuned_trend,106 - Peace,0.003305785123966942,
+TMC,2029,2024,tuned_trend,107 - Internationalism: Positive,0.0,
+TMC,2029,2024,tuned_trend,108 - European Community/Union: Positive,0.0,
+TMC,2029,2024,tuned_trend,109 - Internationalism: Negative,0.0,
+TMC,2029,2024,tuned_trend,110 - European Community/Union: Negative,0.003305785123966942,
+TMC,2029,2024,tuned_trend,201 - Freedom and Human Rights,0.01487603305785124,
+TMC,2029,2024,tuned_trend,202 - Democracy,0.02809917355371901,
+TMC,2029,2024,tuned_trend,203 - Constitutionalism: Positive,0.001652892561983471,
+TMC,2029,2024,tuned_trend,204 - Constitutionalism: Negative,0.001652892561983471,
+TMC,2029,2024,tuned_trend,301 - Federalism,0.047933884297520664,
+TMC,2029,2024,tuned_trend,302 - Centralisation,0.0,
+TMC,2029,2024,tuned_trend,303 - Governmental and Administrative Efficiency,0.047933884297520664,
+TMC,2029,2024,tuned_trend,304 - Political Corruption,0.0049586776859504135,
+TMC,2029,2024,tuned_trend,305 - Political Authority,0.01487603305785124,
+TMC,2029,2024,tuned_trend,401 - Free Market Economy,0.001652892561983471,
+TMC,2029,2024,tuned_trend,402 - Incentives,0.04628099173553719,
+TMC,2029,2024,tuned_trend,403 - Market Regulation,0.001652892561983471,
+TMC,2029,2024,tuned_trend,404 - Economic Planning,0.0,
+TMC,2029,2024,tuned_trend,405 - Corporatism/ Mixed Economy,0.0,
+TMC,2029,2024,tuned_trend,406 - Protectionism: Positive,0.0,
+TMC,2029,2024,tuned_trend,407 - Protectionism: Negative,0.001652892561983471,
+TMC,2029,2024,tuned_trend,408 - Economic Goals,0.0,
+TMC,2029,2024,tuned_trend,409 - Keynesian Demand Management,0.0,
+TMC,2029,2024,tuned_trend,410 - Economic Growth: Positive,0.047933884297520664,
+TMC,2029,2024,tuned_trend,411 - Technology and Infrastructure,0.10743801652892562,
+TMC,2029,2024,tuned_trend,412 - Controlled Economy,0.01487603305785124,
+TMC,2029,2024,tuned_trend,413 - Nationalisation,0.001652892561983471,
+TMC,2029,2024,tuned_trend,414 - Economic Orthodoxy,0.001652892561983471,
+TMC,2029,2024,tuned_trend,415 - Marxist Analysis: Positive,0.0,
+TMC,2029,2024,tuned_trend,416 - Anti-Growth Economy: Positive,0.006611570247933884,
+TMC,2029,2024,tuned_trend,501 - Environmental Protection: Positive,0.03966942148760331,
+TMC,2029,2024,tuned_trend,502 - Culture: Positive,0.05950413223140496,
+TMC,2029,2024,tuned_trend,503 - Equality: Positive,0.04628099173553719,
+TMC,2029,2024,tuned_trend,504 - Welfare State Expansion,0.12231404958677686,
+TMC,2029,2024,tuned_trend,505 - Welfare State Limitation,0.0,
+TMC,2029,2024,tuned_trend,506 - Education Expansion,0.09090909090909091,
+TMC,2029,2024,tuned_trend,507 - Education Limitation,0.0,
+TMC,2029,2024,tuned_trend,601 - National Way of Life: Positive,0.013223140495867768,
+TMC,2029,2024,tuned_trend,602 - National Way of Life: Negative,0.0,
+TMC,2029,2024,tuned_trend,603 - Traditional Morality: Positive,0.003305785123966942,
+TMC,2029,2024,tuned_trend,604 - Traditional Morality: Negative,0.0,
+TMC,2029,2024,tuned_trend,605 - Law and Order: Positive,0.03305785123966942,
+TMC,2029,2024,tuned_trend,606 - Civic Mindedness: Positive,0.003305785123966942,
+TMC,2029,2024,tuned_trend,607 - Multiculturalism: Positive,0.05289256198347107,
+TMC,2029,2024,tuned_trend,608 - Multiculturalism: Negative,0.0,
+TMC,2029,2024,tuned_trend,701 - Labour Groups: Positive,0.03471074380165289,
+TMC,2029,2024,tuned_trend,702 - Labour Groups: Negative,0.0,
+TMC,2029,2024,tuned_trend,703 - Agriculture and Farmers: Positive,0.07603305785123966,
+TMC,2029,2024,tuned_trend,704 - Middle Class and Professional Groups,0.0,
+TMC,2029,2024,tuned_trend,705 - Underprivileged Minority Groups,0.001652892561983471,
+TMC,2029,2024,tuned_trend,706 - Non-economic Demographic Groups,0.011570247933884297,

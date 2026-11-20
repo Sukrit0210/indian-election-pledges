@@ -1,0 +1,30 @@
+{
+  "non_pledge": {
+    "precision": 0.9132947976878613,
+    "recall": 0.9575757575757575,
+    "f1-score": 0.9349112426035503,
+    "support": 165.0
+  },
+  "pledge": {
+    "precision": 0.991128010139417,
+    "recall": 0.9811794228356336,
+    "f1-score": 0.9861286254728878,
+    "support": 797.0
+  },
+  "accuracy": 0.9771309771309772,
+  "macro avg": {
+    "precision": 0.9522114039136391,
+    "recall": 0.9693775902056956,
+    "f1-score": 0.9605199340382191,
+    "support": 962.0
+  },
+  "weighted avg": {
+    "precision": 0.977778238772986,
+    "recall": 0.9771309771309772,
+    "f1-score": 0.9773439392219101,
+    "support": 962.0
+  },
+  "train_weak_labels": 1906,
+  "held_out_weak_labels": 962,
+  "held_out_log_loss": 0.16444669191366426
+}

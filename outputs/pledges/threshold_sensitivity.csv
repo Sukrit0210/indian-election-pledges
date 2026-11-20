@@ -1,0 +1,64 @@
+﻿party,year,threshold,detected_pledges,first_topic,first_topic_share
+AIADMK,2009,0.4,303,703 - Agriculture and Farmers: Positive,0.10561056105610561
+AIADMK,2014,0.4,216,504 - Welfare State Expansion,0.12037037037037036
+AIADMK,2019,0.4,195,411 - Technology and Infrastructure,0.15897435897435896
+BJP,2009,0.4,562,411 - Technology and Infrastructure,0.10854092526690391
+BJP,2014,0.4,847,411 - Technology and Infrastructure,0.15938606847697756
+BJP,2019,0.4,606,411 - Technology and Infrastructure,0.15346534653465346
+BJP,2024,0.4,714,411 - Technology and Infrastructure,0.19467787114845939
+CPIM,2009,0.4,274,703 - Agriculture and Farmers: Positive,0.12408759124087591
+CPIM,2014,0.4,585,504 - Welfare State Expansion,0.12307692307692308
+CPIM,2019,0.4,693,504 - Welfare State Expansion,0.1038961038961039
+CPIM,2024,0.4,577,503 - Equality: Positive,0.08838821490467938
+DMK,2014,0.4,254,703 - Agriculture and Farmers: Positive,0.1732283464566929
+DMK,2019,0.4,368,411 - Technology and Infrastructure,0.13043478260869565
+DMK,2024,0.4,440,411 - Technology and Infrastructure,0.3
+INC,2009,0.4,231,504 - Welfare State Expansion,0.09523809523809523
+INC,2014,0.4,617,411 - Technology and Infrastructure,0.10210696920583469
+INC,2019,0.4,942,504 - Welfare State Expansion,0.08067940552016985
+INC,2024,0.4,539,503 - Equality: Positive,0.08534322820037106
+TMC,2014,0.4,141,411 - Technology and Infrastructure,0.12056737588652482
+TMC,2019,0.4,410,504 - Welfare State Expansion,0.17073170731707318
+TMC,2024,0.4,641,504 - Welfare State Expansion,0.11856474258970359
+AIADMK,2009,0.5,269,411 - Technology and Infrastructure,0.11152416356877323
+AIADMK,2014,0.5,187,301 - Federalism,0.11229946524064172
+AIADMK,2019,0.5,169,411 - Technology and Infrastructure,0.13609467455621302
+BJP,2009,0.5,526,411 - Technology and Infrastructure,0.11026615969581749
+BJP,2014,0.5,781,411 - Technology and Infrastructure,0.16005121638924455
+BJP,2019,0.5,559,411 - Technology and Infrastructure,0.1520572450805009
+BJP,2024,0.5,648,411 - Technology and Infrastructure,0.19753086419753085
+CPIM,2009,0.5,236,703 - Agriculture and Farmers: Positive,0.13559322033898305
+CPIM,2014,0.5,511,504 - Welfare State Expansion,0.12524461839530332
+CPIM,2019,0.5,610,504 - Welfare State Expansion,0.10163934426229508
+CPIM,2024,0.5,507,503 - Equality: Positive,0.08678500986193294
+DMK,2014,0.5,236,703 - Agriculture and Farmers: Positive,0.18220338983050846
+DMK,2019,0.5,353,411 - Technology and Infrastructure,0.11898016997167139
+DMK,2024,0.5,404,411 - Technology and Infrastructure,0.31435643564356436
+INC,2009,0.5,195,504 - Welfare State Expansion,0.11282051282051282
+INC,2014,0.5,561,411 - Technology and Infrastructure,0.10160427807486631
+INC,2019,0.5,878,504 - Welfare State Expansion,0.08428246013667426
+INC,2024,0.5,522,503 - Equality: Positive,0.08812260536398467
+TMC,2014,0.5,128,411 - Technology and Infrastructure,0.125
+TMC,2019,0.5,330,504 - Welfare State Expansion,0.1606060606060606
+TMC,2024,0.5,605,504 - Welfare State Expansion,0.12231404958677686
+AIADMK,2009,0.6,227,411 - Technology and Infrastructure,0.1145374449339207
+AIADMK,2014,0.6,152,504 - Welfare State Expansion,0.125
+AIADMK,2019,0.6,152,703 - Agriculture and Farmers: Positive,0.14473684210526316
+BJP,2009,0.6,481,411 - Technology and Infrastructure,0.10602910602910603
+BJP,2014,0.6,713,411 - Technology and Infrastructure,0.16549789621318373
+BJP,2019,0.6,512,411 - Technology and Infrastructure,0.16015625
+BJP,2024,0.6,578,411 - Technology and Infrastructure,0.19550173010380623
+CPIM,2009,0.6,187,703 - Agriculture and Farmers: Positive,0.1497326203208556
+CPIM,2014,0.6,429,504 - Welfare State Expansion,0.11888111888111888
+CPIM,2019,0.6,521,504 - Welfare State Expansion,0.1017274472168906
+CPIM,2024,0.6,445,703 - Agriculture and Farmers: Positive,0.09213483146067415
+DMK,2014,0.6,221,703 - Agriculture and Farmers: Positive,0.18552036199095023
+DMK,2019,0.6,325,703 - Agriculture and Farmers: Positive,0.11384615384615385
+DMK,2024,0.6,358,411 - Technology and Infrastructure,0.30726256983240224
+INC,2009,0.6,180,504 - Welfare State Expansion,0.1111111111111111
+INC,2014,0.6,508,504 - Welfare State Expansion,0.10826771653543307
+INC,2019,0.6,818,504 - Welfare State Expansion,0.08801955990220049
+INC,2024,0.6,489,503 - Equality: Positive,0.08588957055214724
+TMC,2014,0.6,116,411 - Technology and Infrastructure,0.12931034482758622
+TMC,2019,0.6,259,504 - Welfare State Expansion,0.138996138996139
+TMC,2024,0.6,564,504 - Welfare State Expansion,0.11702127659574468

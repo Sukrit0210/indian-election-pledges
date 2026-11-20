@@ -1,0 +1,31 @@
+﻿party,target_year,model,alpha,total_variation,common_top3,first,second,third
+BJP,2024,persistence,0.0,0.14890456944720512,3,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+BJP,2024,half_trend,0.5,0.19468919041480331,3,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+BJP,2024,tuned_trend,0.0,0.14890456944720512,3,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+BJP,2029,persistence,0.0,,,411 - Technology and Infrastructure,504 - Welfare State Expansion,703 - Agriculture and Farmers: Positive
+BJP,2029,half_trend,0.5,,,411 - Technology and Infrastructure,504 - Welfare State Expansion,703 - Agriculture and Farmers: Positive
+BJP,2029,tuned_trend,0.0,,,411 - Technology and Infrastructure,504 - Welfare State Expansion,703 - Agriculture and Farmers: Positive
+CPIM,2024,persistence,0.0,0.12409221715652989,3,504 - Welfare State Expansion,503 - Equality: Positive,703 - Agriculture and Farmers: Positive
+CPIM,2024,half_trend,0.5,0.134473609018736,3,504 - Welfare State Expansion,503 - Equality: Positive,703 - Agriculture and Farmers: Positive
+CPIM,2024,tuned_trend,0.0,0.12409221715652989,3,504 - Welfare State Expansion,503 - Equality: Positive,703 - Agriculture and Farmers: Positive
+CPIM,2029,persistence,0.0,,,503 - Equality: Positive,504 - Welfare State Expansion,703 - Agriculture and Farmers: Positive
+CPIM,2029,half_trend,0.5,,,503 - Equality: Positive,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+CPIM,2029,tuned_trend,0.0,,,503 - Equality: Positive,504 - Welfare State Expansion,703 - Agriculture and Farmers: Positive
+DMK,2024,persistence,0.0,0.29655288475023145,3,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+DMK,2024,half_trend,0.5,0.36174260989132306,3,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+DMK,2024,tuned_trend,0.0,0.29655288475023145,3,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+DMK,2029,persistence,0.0,,,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+DMK,2029,half_trend,0.5,,,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+DMK,2029,tuned_trend,0.0,,,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive,504 - Welfare State Expansion
+INC,2024,persistence,0.0,0.15413819286256644,2,504 - Welfare State Expansion,411 - Technology and Infrastructure,503 - Equality: Positive
+INC,2024,half_trend,0.5,0.16225901542320154,2,503 - Equality: Positive,504 - Welfare State Expansion,605 - Law and Order: Positive
+INC,2024,tuned_trend,0.0,0.15413819286256644,2,504 - Welfare State Expansion,411 - Technology and Infrastructure,503 - Equality: Positive
+INC,2029,persistence,0.0,,,503 - Equality: Positive,504 - Welfare State Expansion,506 - Education Expansion
+INC,2029,half_trend,0.5,,,503 - Equality: Positive,506 - Education Expansion,504 - Welfare State Expansion
+INC,2029,tuned_trend,0.0,,,503 - Equality: Positive,504 - Welfare State Expansion,506 - Education Expansion
+TMC,2024,persistence,0.0,0.20606060606060608,2,504 - Welfare State Expansion,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive
+TMC,2024,half_trend,0.5,0.22344790809234222,2,504 - Welfare State Expansion,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive
+TMC,2024,tuned_trend,0.0,0.20606060606060608,2,504 - Welfare State Expansion,411 - Technology and Infrastructure,703 - Agriculture and Farmers: Positive
+TMC,2029,persistence,0.0,,,504 - Welfare State Expansion,411 - Technology and Infrastructure,506 - Education Expansion
+TMC,2029,half_trend,0.5,,,506 - Education Expansion,411 - Technology and Infrastructure,504 - Welfare State Expansion
+TMC,2029,tuned_trend,0.0,,,504 - Welfare State Expansion,411 - Technology and Infrastructure,506 - Education Expansion
