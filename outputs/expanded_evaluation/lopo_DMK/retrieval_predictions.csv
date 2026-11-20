@@ -1,0 +1,16 @@
+﻿fold,party,year,query_id,method,first_rank,hit_at_5,passed_detector,filtered_hit_at_5
+lopo_DMK,DMK,2019,DMK-2019-p046-g002-q005,bm25,1,1,1,1
+lopo_DMK,DMK,2019,DMK-2019-p046-g002-q005,dense,1,1,1,1
+lopo_DMK,DMK,2019,DMK-2019-p046-g002-q005,fusion,1,1,1,1
+lopo_DMK,DMK,2019,DMK-2019-p042-g003-q003,bm25,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p042-g003-q003,dense,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p042-g003-q003,fusion,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p053-g001-q001,bm25,1,1,1,1
+lopo_DMK,DMK,2019,DMK-2019-p053-g001-q001,dense,1,1,1,1
+lopo_DMK,DMK,2019,DMK-2019-p053-g001-q001,fusion,1,1,1,1
+lopo_DMK,DMK,2019,DMK-2019-p053-g002-q001,bm25,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p053-g002-q001,dense,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p053-g002-q001,fusion,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p054-g002-q002,bm25,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p054-g002-q002,dense,1,1,0,0
+lopo_DMK,DMK,2019,DMK-2019-p054-g002-q002,fusion,1,1,0,0

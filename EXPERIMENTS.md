@@ -1,6 +1,6 @@
 # Follow-up experiments
 
-Set up the project with the [README instructions](README.md#scripts). The default launcher includes the three follow-up experiments. From saved stage 10 outputs, run `py -3.14 run_all.py --start 11`. The commands below can rerun individual experiments.
+Set up the project with the [README instructions](README.md#scripts). The default launcher includes both sets of follow-up experiments. From saved stage 10 outputs, use `py -3.14 run_all.py --start 11 --stop 13` to run the original reranker and baseline comparisons. With those outputs already present, use `py -3.14 run_all.py --start 14` for the expanded evaluation.
 
 ## Audit the saved run
 
@@ -28,7 +28,7 @@ python src/13_compare_baselines.py --method nli
 python src/13_compare_baselines.py --method both
 ```
 
-The second command scores both frozen baselines. To compare them against the screened and mixed-revision MiniLM checkpoints after training, run `py -3.14 run_all.py --start 13`. The script compares the archived rules and cross-encoder with a frozen DeBERTa NLI model and a zero-shot Qwen prompt with greedy decoding and a limit of eight generated tokens. DeBERTa scores the three relation descriptions as entailment hypotheses. Qwen receives the same definitions and returns one label. Invalid replies count as abstentions. Both use the same text pairs. The code records the output label, coverage, macro-F1, revision precision and recall, and raw confusion counts. Each model also scores 16 controlled comparisons. The controls test known changes to examples constructed for this purpose. See [controlled pairs](data/review/controlled_pairs.csv).
+The second command scores both frozen baselines. To compare them against the screened and mixed-revision MiniLM checkpoints after training, run `py -3.14 run_all.py --start 13 --stop 13`. The script compares the archived rules and cross-encoder with a frozen DeBERTa NLI model and a zero-shot Qwen prompt with greedy decoding and a limit of eight generated tokens. DeBERTa scores the three relation descriptions as entailment hypotheses. Qwen receives the same definitions and returns one label. Invalid replies count as abstentions. Both use the same text pairs. The code records the output label, coverage, macro-F1, revision precision and recall, and raw confusion counts. Each model also scores 16 controlled comparisons. The controls test known changes to examples constructed for this purpose. See [controlled pairs](data/review/controlled_pairs.csv).
 
 The model revisions are `MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli@0e2603d5d3d3ef9b2910814b34eebe1a2101da65` and `Qwen/Qwen2.5-1.5B-Instruct@989aa79`. The complete model IDs and checksums for the original pipeline are in [models.json](data/models.json).
 
@@ -44,3 +44,27 @@ python src/13_compare_baselines.py --method both --checkpoint legacy=.cache/lega
 All four variants reuse the original PyTorch trainer and initialize from the same pinned checkpoint. `legacy_edits` uses the original weak and synthetic labeling scheme on the guarded historical split. `safe_quantities` keeps the original synthetic quantity strategy with calendar years and decimal amounts excluded and removes earlier rule-labeled revisions. `safe_plus_historical` adds naturally occurring historical text pairs where an aligned amount, age, deadline, or legal action differs under a conservative pattern rule. Each candidate includes the original text and PDF page for both sides. These remain weak labels. `mixed_revisions` adds controlled phrase edits for beneficiaries, scope, deadlines, and policy instruments. The trainer screens the candidate pairs against both sides of the pilot, test, and control examples by statement ID, normalized text, and close wording. Its audit files record the exclusions.
 
 The saved follow-up run includes the retrieval reranker, the mixed-revision variant, and the frozen baselines. See the [report](REPORT.md#follow-up-experiments) for the results and the [comparison table](outputs/baseline_comparison/metrics.csv) for the full set of model scores.
+
+## Run the expanded evaluation
+
+From the project folder in PowerShell, run both new stages:
+
+```powershell
+py -3.14 run_all.py --start 14
+```
+
+To check the generated datasets before training, run stage 14 on its own:
+
+```powershell
+py -3.14 run_all.py --start 14 --stop 14
+```
+
+Review the [fold inventory](outputs/expanded_evaluation/folds.csv), [dataset counts](outputs/expanded_evaluation/dataset_counts.csv) and [temporal training mix](outputs/expanded_evaluation/temporal/training_mix.csv). The [revision candidate table](outputs/expanded_evaluation/revision_candidates.csv) contains uncertain examples with text spans. Then fit the eight models:
+
+```powershell
+py -3.14 run_all.py --start 15
+```
+
+Stage 15 runs the main temporal split, the strict temporal split, and six held-out-party folds. It also scores the main temporal panels with frozen Qwen and DeBERTa. MiniLM starts each fold with a new three-class classifier and trains it for five epochs. The run ends after saving the TMC checkpoint and writing the final tables. [Progress file](outputs/expanded_evaluation/run_progress.csv)
+
+Use the [comparison metrics](outputs/expanded_evaluation/comparison_metrics.csv) for full-panel and category-level results, the [detector summary](outputs/expanded_evaluation/detector_summary.csv) for agreement with weak pledge labels, and the [retrieval summary](outputs/expanded_evaluation/retrieval_summary.csv) for exact-text matches with and without the filter. In the comparison table, `macro_f1` is filled only when all three classes have reference support. `macro_f1_available_labels` averages over the listed `labels_scored`. See the [expanded results](REPORT.md#expanded-temporal-and-held-out-party-evaluation) for interpretation.

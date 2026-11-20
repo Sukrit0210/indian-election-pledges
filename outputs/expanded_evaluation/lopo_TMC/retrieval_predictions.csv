@@ -1,0 +1,4 @@
+﻿fold,party,year,query_id,method,first_rank,hit_at_5,passed_detector,filtered_hit_at_5
+lopo_TMC,TMC,2019,TMC-2019-p036-b002-i002-q001,bm25,1,1,1,1
+lopo_TMC,TMC,2019,TMC-2019-p036-b002-i002-q001,dense,1,1,1,1
+lopo_TMC,TMC,2019,TMC-2019-p036-b002-i002-q001,fusion,1,1,1,1

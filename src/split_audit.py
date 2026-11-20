@@ -1,5 +1,5 @@
 """Keep evaluation statements and close wording out of relation training."""
-from collections import Counter
+from collections import Counter, defaultdict
 from functools import lru_cache
 import re
 
@@ -17,16 +17,35 @@ def shingles(text):
 
 
 class Holdout:
-    def __init__(self):
+    def __init__(self, extra_pairs=(), extra_queries=(), sources=None):
         self.ids = set()
         self.texts = set()
-        for filename in ("pilot_reference.csv", "test_reference.csv", "controlled_pairs.csv"):
-            for row in read(REVIEW / filename):
-                for side in ("earlier", "later"):
-                    if row.get(side + "_id"):
-                        self.ids.add(row[side + "_id"])
-                    self.texts.add(surface(row[side + "_text"]))
-        self.reference_shingles = [shingles(t) for t in self.texts if len(t.split()) >= 5]
+        self.reference_files = ["pilot_reference.csv", "test_reference.csv", "controlled_pairs.csv"]
+        for filename in self.reference_files:
+            self._add_pairs(read(REVIEW / filename))
+        if extra_pairs:
+            self.reference_files.extend(["natural_pairs.csv", "controlled_pairs.csv (expanded)"])
+            self._add_pairs(extra_pairs)
+        if extra_queries:
+            self.reference_files.append("retrieval_queries.csv")
+        for query in extra_queries:
+            self.ids.add(query["later_id"])
+            self.ids.update(query["earlier_ids"].split("|"))
+            self.texts.add(query["normalized_text"])
+        if sources:
+            self.texts.update(surface(sources[sid]["text"]) for sid in self.ids if sid in sources)
+        self.reference_shingles = [shingles(t) for t in sorted(self.texts) if len(t.split()) >= 5]
+        self.by_shingle = defaultdict(list)
+        for index, reference in enumerate(self.reference_shingles):
+            for gram in reference:
+                self.by_shingle[gram].append(index)
+
+    def _add_pairs(self, pairs):
+        for row in pairs:
+            for side in ("earlier", "later"):
+                if row.get(side + "_id"):
+                    self.ids.add(row[side + "_id"])
+                self.texts.add(surface(row[side + "_text"]))
 
     @lru_cache(maxsize=32768)
     def text_match(self, text):
@@ -35,11 +54,10 @@ class Holdout:
             return "exact_text"
         if len(normalized.split()) >= 5:
             candidate = shingles(normalized)
-            for reference in self.reference_shingles:
-                # The size ratio bounds the highest possible Jaccard similarity.
-                if min(len(candidate), len(reference)) < 0.8 * max(len(candidate), len(reference)):
-                    continue
-                if len(candidate & reference) >= 0.8 * len(candidate | reference):
+            overlaps = Counter(index for gram in candidate for index in self.by_shingle.get(gram, ()))
+            for index, shared in overlaps.items():
+                union = len(candidate) + len(self.reference_shingles[index]) - shared
+                if shared >= 0.8 * union:
                     return "similar_text"
         return ""
 
@@ -64,7 +82,7 @@ class Holdout:
             candidates=len(examples), retained=len(kept), excluded=len(excluded),
             by_id=counts["statement_id"], by_exact_text=counts["exact_text"],
             by_similar_text=counts["similar_text"], remaining_matches=remaining,
-            reference_files="pilot_reference.csv,test_reference.csv,controlled_pairs.csv",
+            reference_files=",".join(self.reference_files),
             similarity="word trigram Jaccard >= 0.80, minimum 5 tokens",
         )])
         if remaining or len({r["label"] for r in kept}) != 3:

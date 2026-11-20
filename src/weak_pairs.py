@@ -7,7 +7,7 @@ from collections import defaultdict
 from relations import MEASURE, rule
 
 
-def training_examples(pool, statements, safe_quantities=False):
+def training_examples(pool, statements, safe_quantities=False, quantity_limit=500):
     rng = random.Random(88)
     groups = defaultdict(list)
     for row in pool:
@@ -95,7 +95,7 @@ def training_examples(pool, statements, safe_quantities=False):
         )
         if (
             sum(e["origin"] == "controlled_quantity_edit" for e in training_examples)
-            >= 500
+            >= quantity_limit
         ):
             break
     rng.shuffle(training_examples)

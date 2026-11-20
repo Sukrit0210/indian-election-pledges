@@ -13,7 +13,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from weak_pairs import training_examples
 
 
-def run(base, checkpoint, examples=None, output=OUT / "training_pairs.csv"):
+def run(base, checkpoint, examples=None, output=OUT / "training_pairs.csv", holdout=None):
     torch.manual_seed(88)
     np.random.seed(88)
     torch.set_num_threads(4)
@@ -21,7 +21,8 @@ def run(base, checkpoint, examples=None, output=OUT / "training_pairs.csv"):
         statements = {r["statement_id"]: r for r in read(DATA / "quasi_sentences.csv")}
         pool = read(OUT / "retrieval_pool.csv")
         examples = training_examples(pool, statements)
-    training_pairs = Holdout().screen(list(examples), output)
+    holdout = holdout if holdout is not None else Holdout()
+    training_pairs = holdout.screen(list(examples), output)
     write(output, training_pairs)
     print(
         Counter((pair["origin"], pair["label"]) for pair in training_pairs), flush=True

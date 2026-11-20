@@ -1,0 +1,9 @@
+﻿fold,train_labels,test_statements,weak_labelled,agreeing
+temporal,1748,4020,962,936
+strict_temporal,949,4020,962,934
+lopo_AIADMK,1684,1296,188,184
+lopo_BJP,1339,3795,750,712
+lopo_CPIM,1692,3005,285,274
+lopo_DMK,1611,1635,424,412
+lopo_INC,1309,3315,766,749
+lopo_TMC,1690,2330,455,438

@@ -102,9 +102,32 @@ The mixed variant retained **1,883 training pairs** from 1,889 candidates. Its 4
 
 The mixed variant improved macro-F1 on the pilot panel. Its score was slightly lower on the test panel, where both MiniLM variants missed all three reference revisions. Qwen and DeBERTa found some revisions by assigning the revised label more often. On the constructed controls, Qwen found all six revisions while assigning the label to 14 of 16 pairs. [Model metrics](outputs/baseline_comparison/metrics.csv) · [Results by control category](outputs/baseline_comparison/control_results.csv)
 
+### Expanded temporal and held-out-party evaluation
+
+The main temporal split trains on eligible statements through 2019 and tests 2019 to 2024 pairs. The strict version trains through 2014 and evaluates the same test pairs. The six leave-one-party-out folds train separate detectors, TF-IDF vectorizers, and cross-encoders on eligible historical statements from the other parties. The eligibility check excludes evaluation IDs, normalized text, and wording over the trigram similarity threshold. The temporal MiniLM trained on 1,363 pairs, including 315 constructed revisions. Of the revised pairs, 245 changed beneficiary, scope, deadline, or obligation and 70 changed quantities. All eight folds finished and their fitted training audits show zero matches under the implemented checks. [Fold inventory](outputs/expanded_evaluation/folds.csv) · [Run status](outputs/expanded_evaluation/run_progress.csv) · [Temporal training mix](outputs/expanded_evaluation/temporal/training_mix.csv) · [Temporal training audit](outputs/expanded_evaluation/temporal/fitted_training_pairs_split_audit.csv)
+
+| Evaluation split | Pairs from original text | Weakly labelled pairs | Uncertain pairs | Constructed controls | Exact-text retrieval queries |
+|---|---:|---:|---:|---:|---:|
+| Temporal and strict temporal, shared test data | 275 | 66 | 209 | 250 | 14 |
+| Six held-out-party folds, pooled | 320 | 84 | 236 | 780 | 67 |
+
+The temporal MiniLM matched all 66 weak labels, and the held-out-party models matched 81 of 84. The rules assigned only `same` and `different` among the scored pairs, so these results do not measure recall on natural revisions. The audit also exported 51 possible changes across election transitions, including 17 for 2019 to 2024. Each retains its uncertain status and proposed text spans. A separate set of 60 queries has five exported retrieval candidates per query and no relevance judgments. [Dataset counts](outputs/expanded_evaluation/dataset_counts.csv) · [Candidate spans](outputs/expanded_evaluation/revision_candidates.csv) · [Unlabelled retrieval sample](outputs/expanded_evaluation/unlabelled_retrieval_sample.csv)
+
+| Split | Method | Controls | Macro-F1 | Constructed revisions identified |
+|---|---|---:|---:|---:|
+| Temporal | Screened MiniLM | 250 | 0.844 | 59/111 |
+| Temporal | Qwen | 250 | 0.497 | 37/111 |
+| Temporal | DeBERTa | 250 | 0.295 | 62/111 |
+| Strict temporal | Screened MiniLM | 250 | 0.800 | 49/111 |
+| Held-out parties, pooled | Screened MiniLM | 780 | 0.910 | 263/359 |
+
+On the temporal controls, MiniLM identified 30/30 beneficiary edits, 19/30 deadline edits, 10/30 scope edits, and 0/21 obligation edits. The strict model matched the beneficiary, deadline and obligation counts, and found 0/30 scope edits. DeBERTa found slightly more revisions overall but assigned `revised` to 138 of 250 pairs. MiniLM assigned that label to 59 pairs, all of which were constructed revisions. These tests use controlled edits with different wording for training and evaluation. They measure behavior on the edit templates. [Comparison metrics and category breakdown](outputs/expanded_evaluation/comparison_metrics.csv)
+
+The temporal detector agreed with 936 of 962 weak labels on the 4,020 statements from 2024. BM25, dense search, and rank fusion each retrieved all 14 temporal exact-text matches in their top five before applying the pledge filter. Each recovered 13 after filtering. The same methods each recovered 67 of 67 exact-text matches across the held-out-party folds before filtering and 49 after it. These matches are defined by normalized text, and support is uneven across parties. AIADMK has zero exact-text queries in this set. [Detector results](outputs/expanded_evaluation/detector_summary.csv) · [Exact-text retrieval results](outputs/expanded_evaluation/retrieval_summary.csv)
+
 ## 14. Limitations
 
-The relation test has three scored natural revisions and uses judgments from a language model. Its scores describe agreement on those examples. The main training set represents revisions through synthetic changes to quantities. The split check can miss paraphrases even when it finds zero matches by ID, exact text, and the defined similarity threshold. The forecast has few election cycles per party, and OCR and missing English editions limit source coverage.
+The original 35-pair relation test has three scored revisions using judgments from a language model. The expanded natural panels have zero revisions with decisive weak labels, so their agreement scores apply to repeated or different commitments. The expanded controlled panels test four revision types, and performance can depend on their wording. The split check can miss paraphrases even when it finds zero matches by ID, exact text, and the defined similarity threshold. The forecast has few election cycles per party, and OCR and missing English editions limit source coverage.
 
 ## 15. Future Improvements
 
@@ -112,7 +135,7 @@ A subsequent study should build an independently human-annotated benchmark of na
 
 ## 16. Conclusion
 
-In the saved challenge, filtering later statements reduced how often search recovered an earlier match. The screened five-epoch model agreed with 30 of 35 test reference decisions, but found none of the three revisions at the working cutoff. The aggregate score reflects a panel dominated by pairs labelled different. The 2024 backtest favours carrying the previous election’s topic shares forward among the tested approaches. The 2029 values remain exploratory forecasts of model-assigned topic shares.
+In the saved challenge, filtering later statements reduced how often search recovered an earlier match. The original screened five-epoch model agreed with 30 of 35 test reference decisions and found zero of the three revisions at the working cutoff. The expanded model detected 59 of 111 constructed temporal revisions, with results ranging from all beneficiary edits to zero obligation edits. Its performance on natural revisions remains undetermined. The 2024 backtest favours carrying the previous election’s topic shares forward among the tested approaches. The 2029 values remain exploratory forecasts of model-assigned topic shares.
 
 ## 17. References
 

@@ -21,6 +21,8 @@ STEPS = [
     "12_retrieval_checks.py",
     "14_training_ablation.py",
     "13_compare_baselines.py",
+    "15_build_evaluation.py",
+    "16_evaluate_splits.py",
 ]
 STEP_ARGUMENTS = {
     "14_training_ablation.py": ("--variant", "mixed_revisions"),
@@ -72,7 +74,7 @@ def project_python():
     return str(python)
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, epilog="Stages 11–13 run retrieval checks, mixed-revision training, and baseline comparisons in that order.")
+    parser = argparse.ArgumentParser(description=__doc__, epilog="Stages 14–15 build and evaluate the temporal and leave-one-party-out datasets.")
     parser.add_argument(
         "--passages",
         type=Path,

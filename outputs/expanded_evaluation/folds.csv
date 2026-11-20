@@ -1,0 +1,9 @@
+﻿fold,held_party,training_year_max,natural_pairs,controlled_pairs,exact_queries
+temporal,,2019,275,250,14
+strict_temporal,,2014,275,250,14
+lopo_AIADMK,AIADMK,2019,34,88,0
+lopo_BJP,BJP,2019,66,143,13
+lopo_CPIM,CPIM,2019,66,115,39
+lopo_DMK,DMK,2019,44,142,5
+lopo_INC,INC,2019,66,159,9
+lopo_TMC,TMC,2019,44,133,1

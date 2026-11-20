@@ -87,6 +87,18 @@ def weak_label(row, parent):
     return (int(pos) if pos != neg else -1), "|".join(votes) or "no_vote"
 
 
+def fit_detector(rows, embeddings, weak_labels, train):
+    texts = [row["text"] for row in rows]
+    vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=2, sublinear_tf=True)
+    vectorizer.fit(texts[i] for i in train)
+    features = hstack(
+        [vectorizer.transform(texts), csr_matrix(embeddings)], format="csr"
+    )
+    model = LogisticRegression(class_weight="balanced", max_iter=600, random_state=19)
+    model.fit(features[train], weak_labels[train])
+    return vectorizer, model, model.predict_proba(features)[:, 1]
+
+
 def run(vectors):
     rows = read(DATA / "quasi_sentences.csv")
     parent = {
@@ -100,15 +112,7 @@ def run(vectors):
     weak_labels = np.array([label for label, _ in labels])
     years = np.array([int(row["year"]) for row in rows])
     train = np.flatnonzero((weak_labels >= 0) & (years <= 2019))
-    texts = [row["text"] for row in rows]
-    vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=2, sublinear_tf=True)
-    vectorizer.fit(texts[i] for i in train)
-    features = hstack(
-        [vectorizer.transform(texts), csr_matrix(embeddings)], format="csr"
-    )
-    model = LogisticRegression(class_weight="balanced", max_iter=600, random_state=19)
-    model.fit(features[train], weak_labels[train])
-    probabilities = model.predict_proba(features)[:, 1]
+    vectorizer, model, probabilities = fit_detector(rows, embeddings, weak_labels, train)
     OUT.mkdir(parents=True, exist_ok=True)
     joblib.dump(
         {

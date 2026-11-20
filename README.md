@@ -31,7 +31,7 @@ Copy `master_passages.csv` from the sentiment project’s `data/processed/` fold
 py -3.14 run_all.py
 ```
 
-The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2.10.0 with CUDA 12.6, checks the GPU, and runs stages 01–13. The first run needs internet access for the packages and model files. If the CSV is stored elsewhere, use `py -3.14 run_all.py --passages "PATH_TO_MASTER_PASSAGES.csv"`.
+The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2.10.0 with CUDA 12.6, checks the GPU, and runs stages 01–15. The first run needs internet access for the packages and model files. If the CSV is stored elsewhere, use `py -3.14 run_all.py --passages "PATH_TO_MASTER_PASSAGES.csv"`.
 
 To run scripts individually after setup, select `.venv314\Scripts\python.exe` in VS Code and follow the order below. When running stage 01 directly with your copied dataset, pass its path explicitly:
 
@@ -39,9 +39,9 @@ To run scripts individually after setup, select `.venv314\Scripts\python.exe` in
 & .\.venv314\Scripts\python.exe src/01_build_quasi_sentences.py --passages data/processed/master_passages.csv
 ```
 
-After stages 01–06 have completed, `py -3.14 run_all.py --start 7` retrains and reruns comparison, evaluation, and plotting. To regenerate evaluation and plots from existing predictions, close any open output CSVs and use `py -3.14 run_all.py --start 9 --stop 10`.
+After stages 01–06 have completed, `py -3.14 run_all.py --start 7 --stop 10` retrains and reruns the original comparison, evaluation, and plotting stages. To regenerate evaluation and plots from existing predictions, close any open output CSVs and use `py -3.14 run_all.py --start 9 --stop 10`.
 
-If stages 01–10 have already completed, run `py -3.14 run_all.py --start 11` to run the retrieval reranker, train the mixed-revision variant, and compare both MiniLM checkpoints with DeBERTa and Qwen. The baseline models download on first use. Use `--stop 10` when you only need the main pipeline.
+To rerun the reranker, mixed-revision model, and original baseline comparison, use `py -3.14 run_all.py --start 11 --stop 13`. The baseline models download on first use. To build and run the expanded evaluation from saved stages 1–13, use `py -3.14 run_all.py --start 14`. Add `--stop 14` to inspect the datasets first, then run `py -3.14 run_all.py --start 15` to train and score the eight splits. The run ends after the TMC fold. [Detailed commands and outputs](EXPERIMENTS.md#run-the-expanded-evaluation)
 
 ## What Each Script Does
 
@@ -99,6 +99,14 @@ For future independent evaluation, [make_review_form.py](src/make_review_form.py
 
 [13_compare_baselines.py](src/13_compare_baselines.py) evaluates the screened and mixed-revision MiniLM checkpoints alongside frozen DeBERTa and Qwen baselines. It reports reference-panel scores and results by control category.
 
+### 14. Build the Expanded Evaluation Datasets
+
+[15_build_evaluation.py](src/15_build_evaluation.py) freezes candidate pairs from original manifesto text, constructed controls, and exact-repeat retrieval queries. It screens the training data against each fold’s test examples. [Fold inventory](outputs/expanded_evaluation/folds.csv) · [Dataset counts](outputs/expanded_evaluation/dataset_counts.csv)
+
+### 15. Fit and Score the Eight Splits
+
+[16_evaluate_splits.py](src/16_evaluate_splits.py) refits the detector and MiniLM for the temporal split, the stricter temporal split, and each of the six held-out-party folds. It scores the same temporal panels with Qwen and DeBERTa. [Run progress](outputs/expanded_evaluation/run_progress.csv) · [Comparison metrics](outputs/expanded_evaluation/comparison_metrics.csv)
+
 ## Dataset
 
 The project uses **21 English manifestos** from BJP, Congress, CPI(M), AIADMK, DMK, and TMC, from the 2009, 2014, 2019, and 2024 Lok Sabha elections. It splits **9,572 passages** into **15,376 candidate quasi-sentences**. Five parties have 2024 editions in the corpus. [Source inventory](data/sources.csv) · [Edition notes](data/edition_notes.md)
@@ -116,6 +124,8 @@ Each row contains `statement_id`, `passage_id`, `document_id`, `party`, `year`, 
 | Topic forecasting | Carrying forward the previous election’s topic shares gave lower error than extending half the recent trend in the 2024 backtest. Mean total variation distance was 0.186 versus 0.215. |
 
 The reranker matched hybrid retrieval's hit counts on both query sets. On the 35-pair test panel, the screened MiniLM scored 0.592 macro-F1, the mixed-revision MiniLM scored 0.586, Qwen scored 0.560, and DeBERTa scored 0.313. DeBERTa identified two of the three reference revisions but predicted revised on 16 pairs. [Retrieval checks](outputs/retrieval_checks/summary.csv) · [Model comparison](outputs/baseline_comparison/metrics.csv) · [Detailed results and figures](REPORT.md)
+
+On the **250 constructed temporal controls**, MiniLM scored **0.844 macro-F1** and found **59 of 111 revisions**. It found all 30 beneficiary changes and zero of the 21 obligation changes. The strict temporal model scored **0.800 macro-F1**. Across the six held-out-party folds, the pooled score was **0.910** on **780 controls**. The 275 temporal pairs from original text contained 66 weak labels, all `same` or `different`, and 209 uncertain cases. These pairs lack reference labels for evaluating natural revision recall. [Expanded metrics](outputs/expanded_evaluation/comparison_metrics.csv) · [Dataset counts](outputs/expanded_evaluation/dataset_counts.csv)
 
 ## Limitations
 

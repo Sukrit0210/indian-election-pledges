@@ -7,11 +7,10 @@ from common import DATA, OUT, OUTPUTS, VECTORS, fingerprint, key, read, write
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-def run():
+def run(detected_only=True, output=OUT / "retrieval_pool.csv"):
     rows = read(DATA / "quasi_sentences.csv")
-    lookup = {
-        row["statement_id"]: row for row in read(OUTPUTS / "pledges/pledge_scores.csv")
-    }
+    detected = ({row["statement_id"] for row in read(OUTPUTS / "pledges/pledge_scores.csv")
+                 if row["prediction"] == "pledge"} if detected_only else None)
     with np.load(VECTORS) as vectors:
         if str(vectors["fingerprint"]) != fingerprint(rows):
             raise ValueError("Run step 02 again after changing the statements.")
@@ -27,7 +26,7 @@ def run():
         later_indices = [
             later_index
             for later_index in indices
-            if lookup[rows[later_index]["statement_id"]]["prediction"] == "pledge"
+            if detected is None or rows[later_index]["statement_id"] in detected
         ]
         if not later_indices:
             continue
@@ -83,8 +82,10 @@ def run():
                         bm25=round(float(keyword_scores[query_index, position]), 5),
                     )
                 )
-    write(OUT / "retrieval_pool.csv", records)
+    if output is not None:
+        write(output, records)
     print(len(records), "pooled pairs")
+    return records
 
 
 if __name__ == "__main__":
