@@ -1,6 +1,7 @@
 """Score frozen relation baselines against the exploratory panels and controls."""
 import argparse
 from collections import Counter
+from copy import deepcopy
 import json
 from pathlib import Path
 import re
@@ -65,6 +66,15 @@ def llm(cases, device):
     tokenizer = AutoTokenizer.from_pretrained(repo, **args)
     dtype = torch.float16 if device == "cuda" else torch.float32
     model = AutoModelForCausalLM.from_pretrained(repo, torch_dtype=dtype, **args).to(device).eval()
+    generation = deepcopy(model.generation_config)
+    generation.update(
+        do_sample=False,
+        temperature=None,
+        top_p=None,
+        top_k=None,
+        max_new_tokens=8,
+        pad_token_id=tokenizer.eos_token_id,
+    )
     instructions = "\n".join(f"{label}: {description}" for label, description in DEFINITIONS.items())
     prompt = "Compare two manifesto statements. Answer with exactly one label.\n" + instructions
     predictions = []
@@ -74,7 +84,7 @@ def llm(cases, device):
                 [{"role": "system", "content": prompt}, {"role": "user", "content": pair}],
                 tokenize=True, add_generation_prompt=True, return_tensors="pt", return_dict=True,
             ).to(device)
-            reply = model.generate(**ids, max_new_tokens=8, do_sample=False, pad_token_id=tokenizer.eos_token_id)
+            reply = model.generate(**ids, generation_config=generation)
             answer = tokenizer.decode(reply[0, ids.input_ids.shape[1]:], skip_special_tokens=True).strip().lower()
             match = re.fullmatch(r'\s*(same|revised|different)[.\s]*', answer)
             predictions.append(match.group(1) if match else "unclear")
@@ -153,6 +163,16 @@ def main():
     write(DEST / "predictions.csv", rows)
     write(DEST / "metrics.csv", metrics)
     write(DEST / "confusion_counts.csv", confusion)
+    control_groups = {}
+    for row in rows:
+        if row["split"] == "controls":
+            control_groups.setdefault((row["category"], row["method"]), []).append(row)
+    write(DEST / "control_results.csv", [
+        dict(category=category, method=method, cases=len(group),
+             correct=sum(r["prediction"] == r["reference"] for r in group),
+             abstentions=sum(r["prediction"] == "unclear" for r in group))
+        for (category, method), group in sorted(control_groups.items())
+    ])
     DEST.mkdir(parents=True, exist_ok=True)
     (DEST / "models.json").write_text(json.dumps({"nli": NLI_MODEL, "llm": LLM_MODEL}, indent=2) + "\n")
 

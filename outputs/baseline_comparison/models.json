@@ -1,0 +1,10 @@
+{
+  "nli": [
+    "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "0e2603d5d3d3ef9b2910814b34eebe1a2101da65"
+  ],
+  "llm": [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "989aa79"
+  ]
+}

@@ -31,7 +31,7 @@ Copy `master_passages.csv` from the sentiment project’s `data/processed/` fold
 py -3.14 run_all.py
 ```
 
-The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2.10.0 with CUDA 12.6, checks the GPU, and runs stages 01–10. The first run needs internet access for the packages and model files. If the CSV is stored elsewhere, use `py -3.14 run_all.py --passages "PATH_TO_MASTER_PASSAGES.csv"`.
+The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2.10.0 with CUDA 12.6, checks the GPU, and runs stages 01–13. The first run needs internet access for the packages and model files. If the CSV is stored elsewhere, use `py -3.14 run_all.py --passages "PATH_TO_MASTER_PASSAGES.csv"`.
 
 To run scripts individually after setup, select `.venv314\Scripts\python.exe` in VS Code and follow the order below. When running stage 01 directly with your copied dataset, pass its path explicitly:
 
@@ -39,7 +39,9 @@ To run scripts individually after setup, select `.venv314\Scripts\python.exe` in
 & .\.venv314\Scripts\python.exe src/01_build_quasi_sentences.py --passages data/processed/master_passages.csv
 ```
 
-After stages 01–06 have completed, `py -3.14 run_all.py --start 7` retrains and reruns comparison, evaluation, and plotting. To regenerate evaluation and plots from existing predictions, close any open output CSVs and use `py -3.14 run_all.py --start 9`.
+After stages 01–06 have completed, `py -3.14 run_all.py --start 7` retrains and reruns comparison, evaluation, and plotting. To regenerate evaluation and plots from existing predictions, close any open output CSVs and use `py -3.14 run_all.py --start 9 --stop 10`.
+
+If stages 01–10 have already completed, run `py -3.14 run_all.py --start 11` to run the retrieval reranker, train the mixed-revision variant, and compare both MiniLM checkpoints with DeBERTa and Qwen. The baseline models download on first use. Use `--stop 10` when you only need the main pipeline.
 
 ## What Each Script Does
 
@@ -69,7 +71,7 @@ After stages 01–06 have completed, `py -3.14 run_all.py --start 7` retrains an
 
 ### 7. Train the Comparison Model
 
-[07_train_cross_encoder.py](src/07_train_cross_encoder.py) prepares historical training pairs and controlled quantity edits, then fine-tunes MiniLM in PyTorch with AdamW and cross-entropy. The current setting is **five fixed epochs**, and the progress message uses that count. The checkpoint is saved to `.cache/trained_cross_encoder/`. [Training pairs](outputs/comparison/training_pairs.csv)
+[07_train_cross_encoder.py](src/07_train_cross_encoder.py) prepares historical training pairs and controlled quantity edits, then fine-tunes MiniLM in PyTorch with AdamW and cross-entropy. The trainer runs for **five fixed epochs**. It screens both sides of each candidate pair against the pilot, test, and constructed control sets by statement ID, normalized text, and similar wording. The checkpoint is saved to `.cache/trained_cross_encoder/`. [Retained pairs](outputs/comparison/training_pairs.csv) · [Split audit](outputs/comparison/training_pairs_split_audit.csv)
 
 ### 8. Compare Pledges
 
@@ -83,7 +85,19 @@ For future independent evaluation, [make_review_form.py](src/make_review_form.py
 
 ### 10. Make the Plots
 
-[10_make_plots.py](src/10_make_plots.py) generates figures for [corpus coverage](outputs/figures/01_coverage.png), [retrieval](outputs/figures/03_retrieval.png), [relationship decisions](outputs/figures/04_relations.png), [revision evidence](outputs/figures/05_revision_audit.png), and the [forecast backtest](outputs/figures/06_forecast.png). The optional scripts and their commands are documented separately. [Follow-up experiments](EXPERIMENTS.md)
+[10_make_plots.py](src/10_make_plots.py) generates figures for [corpus coverage](outputs/figures/01_coverage.png), [retrieval](outputs/figures/03_retrieval.png), [relationship decisions](outputs/figures/04_relations.png), [revision evidence](outputs/figures/05_revision_audit.png), and the [forecast backtest](outputs/figures/06_forecast.png). The next three stages run the follow-up experiments. [Follow-up experiments](EXPERIMENTS.md)
+
+### 11. Check Retrieval and Reranking
+
+[12_retrieval_checks.py](src/12_retrieval_checks.py) tests search rankings against the exploratory reference matches and exact-text controls, adding a MiniLM reranker.
+
+### 12. Train on Mixed Revisions
+
+[14_training_ablation.py](src/14_training_ablation.py) runs the `mixed_revisions` variant. It combines historical candidates with edits to quantities, beneficiaries, scope, deadlines, and policy instruments.
+
+### 13. Compare Models
+
+[13_compare_baselines.py](src/13_compare_baselines.py) evaluates the screened and mixed-revision MiniLM checkpoints alongside frozen DeBERTa and Qwen baselines. It reports reference-panel scores and results by control category.
 
 ## Dataset
 
@@ -97,20 +111,21 @@ Each row contains `statement_id`, `passage_id`, `document_id`, `party`, `year`, 
 |---|---|
 | Pledge detection | The classifier agreed with 97.7% of the 962 statements that received a weak label in 2024. |
 | Retrieval | Hybrid search recovered 4 of 7 earlier reference matches in its top five with the pledge filter and 6 of 7 without it. |
-| Pledge comparison | The five-epoch cross-encoder agreed with 31 of 35 scored reference pairs. Macro-F1 was 0.726 and revision F1 was 0.400. |
+| Training overlap | The split check excluded 92 of 2,063 candidate pairs. No retained pair matched the evaluation sets under the implemented checks. |
+| Pledge comparison | The five-epoch cross-encoder agreed with 30 of 35 scored reference pairs (macro-F1 0.592). It identified zero of the three test revisions. |
 | Topic forecasting | Carrying forward the previous election’s topic shares gave lower error than extending half the recent trend in the 2024 backtest. Mean total variation distance was 0.186 versus 0.215. |
 
-The [reference folder](reference/) holds saved results from earlier runs. The metrics above come from the completed five-epoch run in `outputs/`. [Detailed results and figures](REPORT.md)
+The reranker matched hybrid retrieval's hit counts on both query sets. On the 35-pair test panel, the screened MiniLM scored 0.592 macro-F1, the mixed-revision MiniLM scored 0.586, Qwen scored 0.560, and DeBERTa scored 0.313. DeBERTa identified two of the three reference revisions but predicted revised on 16 pairs. [Retrieval checks](outputs/retrieval_checks/summary.csv) · [Model comparison](outputs/baseline_comparison/metrics.csv) · [Detailed results and figures](REPORT.md)
 
 ## Limitations
 
 - The classifier learns from rule labels and the pair evaluation uses language-model-reviewed examples. An independently annotated sample is needed to measure accuracy on natural pledges.
-- The comparison panel contains only three scored examples of natural revisions. Training revisions were generated by changing quantities, so they cover a limited set of changes.
+- The test panel contains only three scored examples of natural revisions. The main trainer learns revisions from controlled quantity edits. The overlap check catches matching IDs and sufficiently similar wording, and can miss paraphrases.
 - The search challenge is small. The forecast uses a short election history and estimates topic shares among detected pledges.
 
 ## Conclusion
 
-Searching without the pledge filter recovered more earlier matches on the challenge. The comparison model found one reviewed revision, with highlights that missed the change in the obligation. Carrying forward the earlier topic shares was the strongest tested forecasting baseline in 2024. [Full analysis](REPORT.md)
+Searching without the pledge filter recovered more earlier matches on the challenge. After overlap screening, the comparison model matched 30 reference decisions but missed all three test revisions. Carrying forward the earlier topic shares gave the lowest error in the 2024 backtest. [Full analysis](REPORT.md)
 
 ## References
 

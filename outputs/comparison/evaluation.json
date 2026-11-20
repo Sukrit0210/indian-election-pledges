@@ -32,16 +32,16 @@
       {
         "method": "cross_encoder",
         "scored": 37,
-        "abstentions": 3,
-        "macro_f1": 0.5707602339181287,
-        "correct": 30,
+        "abstentions": 1,
+        "macro_f1": 0.7103448275862069,
+        "correct": 32,
         "f1_same": 0.8,
-        "f1_revised": 0.0,
-        "f1_different": 0.9122807017543859
+        "f1_revised": 0.4,
+        "f1_different": 0.9310344827586207
       }
     ],
     "reference_revisions": 4,
-    "correct_revision_labels": 0,
+    "correct_revision_labels": 1,
     "both_spans_overlap": 0,
     "mean_evidence_f1": 0.0
   },
@@ -78,18 +78,18 @@
       {
         "method": "cross_encoder",
         "scored": 35,
-        "abstentions": 0,
-        "macro_f1": 0.7255765199161426,
-        "correct": 31,
+        "abstentions": 1,
+        "macro_f1": 0.5922431865828093,
+        "correct": 30,
         "f1_same": 0.8333333333333334,
-        "f1_revised": 0.4,
+        "f1_revised": 0.0,
         "f1_different": 0.9433962264150944
       }
     ],
     "reference_revisions": 3,
-    "correct_revision_labels": 1,
-    "both_spans_overlap": 1,
-    "mean_evidence_f1": 0.07037037037037037
+    "correct_revision_labels": 0,
+    "both_spans_overlap": 0,
+    "mean_evidence_f1": 0.0
   },
   "retrieval": {
     "queries": 11,

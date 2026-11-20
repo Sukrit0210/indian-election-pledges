@@ -10,7 +10,7 @@ from relations import MEASURE, norm, words
 from weak_pairs import training_examples
 
 DEST = OUTPUTS / "training_ablation"
-VARIANTS = ("legacy_edits", "safe_quantities", "safe_plus_historical")
+VARIANTS = ("legacy_edits", "safe_quantities", "safe_plus_historical", "mixed_revisions")
 LEGAL_ACTION = re.compile(r"\b(enact|repeal|amend|implement)\b", re.I)
 
 
@@ -68,6 +68,32 @@ def mine(pool, statements, pledge_votes):
     return found
 
 
+def qualitative_edits(statements, pledge_votes):
+    """Construct one controlled change per eligible historical weak pledge."""
+    replacements = [
+        ("beneficiary", "for all farmers", "for small and marginal farmers"),
+        ("beneficiary", "for all students", "for students from low-income households"),
+        ("scope", "in every district", "in every rural district"),
+        ("scope", "in all schools", "in all government schools"),
+        ("deadline", "within one year", "within three years"),
+        ("instrument", "we will encourage", "we will require"),
+    ]
+    counts = Counter()
+    for sid, row in sorted(statements.items()):
+        text = row["text"]
+        if sid not in pledge_votes or not 6 <= len(text.split()) <= 65:
+            continue
+        for kind, before, after in replacements:
+            pattern = r"\b" + re.escape(before) + r"\b"
+            if counts[kind] >= 80 or len(re.findall(pattern, text, flags=re.I)) != 1:
+                continue
+            edited = re.sub(pattern, after, text, count=1, flags=re.I)
+            counts[kind] += 1
+            yield dict(label="revised", earlier_text=text, later_text=edited,
+                       origin="controlled_" + kind, source_a=sid, source_b=sid)
+            break
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--variant", choices=(*VARIANTS, "all"), default="all")
@@ -96,19 +122,26 @@ def main():
         examples = training_examples(pool, statements, safe_quantities=safe)
         if safe:
             examples = [r for r in examples if not (r["origin"] == "historical_rule" and r["label"] == "revised")]
-        if name == "safe_plus_historical":
+        if name in ("safe_plus_historical", "mixed_revisions"):
             seen = {(r["earlier_text"], r["later_text"]) for r in examples}
             examples.extend({field: row[field] for field in fields} for row in mined
                             if (row["earlier_text"], row["later_text"]) not in seen)
+        if name == "mixed_revisions":
+            seen = {(r["earlier_text"], r["later_text"]) for r in examples}
+            for row in qualitative_edits(statements, pledge_votes):
+                key = (row["earlier_text"], row["later_text"])
+                if key not in seen:
+                    examples.append(row)
+                    seen.add(key)
         examples = [r for r in examples if surface(r["earlier_text"]) not in excluded_text
                     and surface(r["later_text"]) not in excluded_text]
-        counts = Counter((r["label"], r["origin"]) for r in examples)
+        pairs_file = DEST / f"{name}_training_pairs.csv"
+        train(model_dir("comparison"), CACHE / name, examples, pairs_file)
+        counts = Counter((r["label"], r["origin"]) for r in read(pairs_file))
         count_rows.extend(dict(variant=name, label=label, origin=origin, count=count)
                           for (label, origin), count in sorted(counts.items()))
         write(DEST / "training_counts.csv", count_rows)
-        if len({r["label"] for r in examples}) != 3:
-            raise ValueError(f"{name} has no examples for at least one label")
-        train(model_dir("comparison"), CACHE / name, examples, DEST / f"{name}_training_pairs.csv")
+
 
 
 if __name__ == "__main__":

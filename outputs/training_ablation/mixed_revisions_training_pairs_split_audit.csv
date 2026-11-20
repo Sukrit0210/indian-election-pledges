@@ -1,0 +1,2 @@
+﻿candidates,retained,excluded,by_id,by_exact_text,by_similar_text,remaining_matches,reference_files,similarity
+1889,1883,6,0,0,6,0,"pilot_reference.csv,test_reference.csv,controlled_pairs.csv","word trigram Jaccard >= 0.80, minimum 5 tokens"

@@ -1,0 +1,17 @@
+﻿benchmark,method,mode,queries,hits_at_5,hit_rate_at_5
+exploratory_reference,bm25,all_queries,7,5,0.7142857142857143
+exploratory_reference,bm25,pledge_filter,7,3,0.42857142857142855
+exploratory_reference,dense,all_queries,7,6,0.8571428571428571
+exploratory_reference,dense,pledge_filter,7,4,0.5714285714285714
+exploratory_reference,fusion,all_queries,7,6,0.8571428571428571
+exploratory_reference,fusion,pledge_filter,7,4,0.5714285714285714
+exploratory_reference,reranker,all_queries,7,6,0.8571428571428571
+exploratory_reference,reranker,pledge_filter,7,4,0.5714285714285714
+exact_text_control,bm25,all_queries,14,14,1.0
+exact_text_control,bm25,pledge_filter,14,13,0.9285714285714286
+exact_text_control,dense,all_queries,14,14,1.0
+exact_text_control,dense,pledge_filter,14,13,0.9285714285714286
+exact_text_control,fusion,all_queries,14,14,1.0
+exact_text_control,fusion,pledge_filter,14,13,0.9285714285714286
+exact_text_control,reranker,all_queries,14,14,1.0
+exact_text_control,reranker,pledge_filter,14,13,0.9285714285714286

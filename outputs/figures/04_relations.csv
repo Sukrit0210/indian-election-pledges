@@ -1,4 +1,4 @@
-reference,same,revised,different
-same,5,1,1
-revised,0,1,2
-different,0,0,25
+reference,same,revised,different,unclear
+same,5,1,1,0
+revised,0,0,2,1
+different,0,0,25,0

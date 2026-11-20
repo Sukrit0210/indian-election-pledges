@@ -18,7 +18,18 @@ STEPS = [
     "08_compare_pledges.py",
     "09_evaluate.py",
     "10_make_plots.py",
+    "12_retrieval_checks.py",
+    "14_training_ablation.py",
+    "13_compare_baselines.py",
 ]
+STEP_ARGUMENTS = {
+    "14_training_ablation.py": ("--variant", "mixed_revisions"),
+    "13_compare_baselines.py": (
+        "--method", "both",
+        "--checkpoint", "guarded=.cache/trained_cross_encoder",
+        "--checkpoint", "mixed=.cache/mixed_revisions",
+    ),
+}
 
 def project_python():
     if sys.version_info[:2] != (3, 14):
@@ -61,14 +72,14 @@ def project_python():
     return str(python)
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, epilog="Stages 11–13 run retrieval checks, mixed-revision training, and baseline comparisons in that order.")
     parser.add_argument(
         "--passages",
         type=Path,
         default=ROOT / "data" / "processed" / "master_passages.csv",
     )
-    parser.add_argument("--start", type=int, default=1, choices=range(1, 11))
-    parser.add_argument("--stop", type=int, default=10, choices=range(1, 11))
+    parser.add_argument("--start", type=int, default=1, choices=range(1, len(STEPS) + 1))
+    parser.add_argument("--stop", type=int, default=len(STEPS), choices=range(1, len(STEPS) + 1))
     args = parser.parse_args()
 
     if args.start > args.stop:
@@ -78,7 +89,7 @@ def main():
 
     for number in range(args.start, args.stop + 1):
         script = STEPS[number - 1]
-        command = [python, str(ROOT / "src" / script)]
+        command = [python, str(ROOT / "src" / script), *STEP_ARGUMENTS.get(script, ())]
 
         if number == 1:
             command.extend(["--passages", str(args.passages.resolve())])

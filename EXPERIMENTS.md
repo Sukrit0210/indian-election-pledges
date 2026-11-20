@@ -1,6 +1,6 @@
 # Follow-up experiments
 
-Use the Python environment and repository requirements described in the [setup guide](README.md#input-and-setup). A CUDA-enabled PyTorch installation is recommended for the new transformer comparisons. The separate scripts make it possible to run one experiment at a time. These commands also work in a writable cloud notebook environment with model downloads enabled.
+Set up the project with the [README instructions](README.md#scripts). The default launcher includes the three follow-up experiments. From saved stage 10 outputs, run `py -3.14 run_all.py --start 11`. The commands below can rerun individual experiments.
 
 ## Audit the saved run
 
@@ -28,7 +28,7 @@ python src/13_compare_baselines.py --method nli
 python src/13_compare_baselines.py --method both
 ```
 
-The second command scores both baselines and writes one comparison table. The script compares the archived rules and cross-encoder with a frozen DeBERTa NLI model and a greedy zero-shot Qwen prompt. DeBERTa scores the three relation descriptions as entailment hypotheses. Qwen receives the same definitions and returns one label. Invalid replies count as abstentions. Both use the same text pairs. The code records the output label, coverage, macro-F1, revision precision and recall, and raw confusion counts. Each model also scores 16 controlled comparisons. The controls test known changes to examples constructed for this purpose. See [controlled pairs](data/review/controlled_pairs.csv).
+The second command scores both frozen baselines. To compare them against the screened and mixed-revision MiniLM checkpoints after training, run `py -3.14 run_all.py --start 13`. The script compares the archived rules and cross-encoder with a frozen DeBERTa NLI model and a zero-shot Qwen prompt with greedy decoding and a limit of eight generated tokens. DeBERTa scores the three relation descriptions as entailment hypotheses. Qwen receives the same definitions and returns one label. Invalid replies count as abstentions. Both use the same text pairs. The code records the output label, coverage, macro-F1, revision precision and recall, and raw confusion counts. Each model also scores 16 controlled comparisons. The controls test known changes to examples constructed for this purpose. See [controlled pairs](data/review/controlled_pairs.csv).
 
 The model revisions are `MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli@0e2603d5d3d3ef9b2910814b34eebe1a2101da65` and `Qwen/Qwen2.5-1.5B-Instruct@989aa79`. The complete model IDs and checksums for the original pipeline are in [models.json](data/models.json).
 
@@ -38,9 +38,9 @@ The model revisions are `MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli@0e2603d5d3
 python run_all.py --stop 6
 python src/14_training_ablation.py --mine-only
 python src/14_training_ablation.py --variant all
-python src/13_compare_baselines.py --method both --checkpoint legacy=.cache/legacy_edits --checkpoint safe=.cache/safe_quantities --checkpoint historical=.cache/safe_plus_historical
+python src/13_compare_baselines.py --method both --checkpoint legacy=.cache/legacy_edits --checkpoint safe=.cache/safe_quantities --checkpoint historical=.cache/safe_plus_historical --checkpoint mixed=.cache/mixed_revisions
 ```
 
-All three variants reuse the original PyTorch trainer and initialize from the same pinned checkpoint. `legacy_edits` uses the original weak and synthetic labeling scheme on the guarded historical split. `safe_quantities` keeps the original synthetic quantity strategy with calendar years and decimal amounts excluded and removes earlier rule-labeled revisions. `safe_plus_historical` adds naturally occurring historical text pairs where an aligned amount, age, deadline, or legal action differs under a conservative pattern rule. Each candidate includes the original text and PDF page for both sides. These remain weak labels. All three variants exclude the exact source statements and text from the pilot and test panels before training. The archived released model predates this safeguard.
+All four variants reuse the original PyTorch trainer and initialize from the same pinned checkpoint. `legacy_edits` uses the original weak and synthetic labeling scheme on the guarded historical split. `safe_quantities` keeps the original synthetic quantity strategy with calendar years and decimal amounts excluded and removes earlier rule-labeled revisions. `safe_plus_historical` adds naturally occurring historical text pairs where an aligned amount, age, deadline, or legal action differs under a conservative pattern rule. Each candidate includes the original text and PDF page for both sides. These remain weak labels. `mixed_revisions` adds controlled phrase edits for beneficiaries, scope, deadlines, and policy instruments. The trainer screens the candidate pairs against both sides of the pilot, test, and control examples by statement ID, normalized text, and close wording. Its audit files record the exclusions.
 
-The new baselines, reranker scores and training variants require a fresh model run. The numerical results in [REPORT.md](REPORT.md) come from the saved run and retrospective audits.
+The saved follow-up run includes the retrieval reranker, the mixed-revision variant, and the frozen baselines. See the [report](REPORT.md#follow-up-experiments) for the results and the [comparison table](outputs/baseline_comparison/metrics.csv) for the full set of model scores.

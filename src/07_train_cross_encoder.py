@@ -2,12 +2,11 @@
 
 import random
 from collections import Counter
-import re
-from sklearn.metrics import f1_score
+from split_audit import Holdout
 
 import numpy as np
 import torch
-from common import CHECKPOINT, DATA, OUT, REVIEW, read, write
+from common import CHECKPOINT, DATA, OUT, read, write
 from model_files import model_dir
 from pair_model import LABELS, batch_outputs
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -22,7 +21,7 @@ def run(base, checkpoint, examples=None, output=OUT / "training_pairs.csv"):
         statements = {r["statement_id"]: r for r in read(DATA / "quasi_sentences.csv")}
         pool = read(OUT / "retrieval_pool.csv")
         examples = training_examples(pool, statements)
-    training_pairs = list(examples)
+    training_pairs = Holdout().screen(list(examples), output)
     write(output, training_pairs)
     print(
         Counter((pair["origin"], pair["label"]) for pair in training_pairs), flush=True
